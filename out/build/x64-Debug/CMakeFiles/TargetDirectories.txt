@@ -1,3 +1,0 @@
-E:/ShelterCore/out/build/x64-Debug/CMakeFiles/Project_Kursovai.dir
-E:/ShelterCore/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-E:/ShelterCore/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
