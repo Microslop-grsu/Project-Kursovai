@@ -9,17 +9,16 @@ Exotic::Exotic(const std::string& name, int age, double weight, double requiredT
 Exotic::~Exotic() {}
 
 std::string Exotic::makeSound() const {
-    return "Strange exotic sound!";
+    return "exotic sound";
 }
 
 std::string Exotic::getDiet() const {
-    return "Specialized exotic diet";
+    return "exotic diet";
 }
 
 std::string Exotic::getCareInstructions() const {
     std::stringstream ss;
     ss << "temperature " << requiredTemperature << "C. ";
-    ss << "****";
     return ss.str();
 }
 
