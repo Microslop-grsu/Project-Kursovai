@@ -1,13 +1,14 @@
-#include "Exotic.h"
+#include "Cat.h"
 #include <iostream>
+using namespace std;
 
 int main() {
-    Exotic exotic("cmo", 3, 25.5, false);
+    Cat cat("Luna", 2, 4.2, "hairless");
 
-    exotic.printInfo();
-    std::cout << exotic.makeSound() << std::endl;
-    std::cout << exotic.getDiet() << std::endl;
-    std::cout << exotic.getCareInstructions() << std::endl;
+    cat.printInfo();
+    std::cout << cat.makeSound() << std::endl;
+    std::cout << cat.getDiet() << std::endl;
+    std::cout << cat.getCareInstructions() << std::endl;
 
     return 0;
 }
