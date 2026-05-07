@@ -15,4 +15,4 @@ public:
 
 private:
     double wingSpan; // в сантиметрах
-}
+};
