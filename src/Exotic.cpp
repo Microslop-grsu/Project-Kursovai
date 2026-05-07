@@ -35,3 +35,6 @@ void Exotic::printInfo() const {
         << " | temp: " << requiredTemperature << "C"
         << std::endl;
 }
+void Exotic::setRequiredTemperature(double temp) {
+    requiredTemperature = temp;
+}
