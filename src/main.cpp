@@ -1,14 +1,13 @@
-#include "Cat.h"
+#include "Bird.h"
 #include <iostream>
-using namespace std;
 
 int main() {
-    Cat cat("Luna", 2, 4.2, "hairless");
+    Bird bird("Kesha", 1, 0.5, 30.0);
 
-    cat.printInfo();
-    std::cout << cat.makeSound() << std::endl;
-    std::cout << cat.getDiet() << std::endl;
-    std::cout << cat.getCareInstructions() << std::endl;
+    bird.printInfo();
+    std::cout << bird.makeSound() << std::endl;
+    std::cout << bird.getDiet() << std::endl;
+    std::cout << bird.getCareInstructions() << std::endl;
 
     return 0;
 }
