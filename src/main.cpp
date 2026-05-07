@@ -1,13 +1,23 @@
-#include "Bird.h"
 #include <iostream>
+#include <vector>
+#include "Exotic.h"
+#include "Dog.h"
+#include "Cat.h"
+#include "Bird.h"
+
+#include "DataLoader.h"
 
 int main() {
-    Bird bird("Kesha", 1, 0.5, 30.0);
+    std::vector<Pet*> pets;
 
-    bird.printInfo();
-    std::cout << bird.makeSound() << std::endl;
-    std::cout << bird.getDiet() << std::endl;
-    std::cout << bird.getCareInstructions() << std::endl;
+    if (DataLoader::loadFromFile("pets.txt", pets)) {
+        for (Pet* pet : pets) {
+            pet->printInfo();
+            delete pet;
+        }
+    } else {
+        std::cout << "File not found!" << std::endl;
+    }
 
     return 0;
 }
