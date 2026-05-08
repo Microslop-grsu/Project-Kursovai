@@ -1,0 +1,35 @@
+#include "Cat.h"
+#include <iostream>
+
+Cat::Cat(const std::string& name, int age, double weight, const std::string& furType)
+    : Pet(name, age, weight), furType(furType) {
+}
+
+Cat::~Cat() {}
+
+std::string Cat::makeSound() const {
+    return "Meow!";
+}
+
+std::string Cat::getDiet() const {
+    return "Wet or dry cat food, 2-3 times a day";
+}
+
+std::string Cat::getCareInstructions() const {
+    if (furType == "long") {
+        return "Daily brushing required. Regular vet checkups.";
+    }
+    else if (furType == "hairless") {
+        return "Weekly bath required. Keep warm, sensitive to cold.";
+    }
+    return "Brush once a week. Standard vet checkups.";
+}
+
+std::string Cat::getFurType() const {
+    return furType;
+}
+
+void Cat::printInfo() const {
+    Pet::printInfo();
+    std::cout << "[Cat] furType: " << furType << std::endl;
+}
