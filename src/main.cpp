@@ -1,6 +1,10 @@
 #include <iostream>
+#include <vector>
+#include "Exotic.h"
+#include "Dog.h"
+#include "Cat.h"
+#include "Bird.h"
 
 int main() {
-    std::cout << "Final Fix" << std::endl;
     return 0;
 }

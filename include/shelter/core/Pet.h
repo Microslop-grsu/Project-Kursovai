@@ -7,7 +7,6 @@ public:
 
     virtual ~Pet();
 
-    // ������ ����������� ������ � ������ ��� ��������� ���
     virtual std::string makeSound() const = 0;
 
     virtual std::string getDiet() const = 0;
