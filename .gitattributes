@@ -1,8 +1,8 @@
 # Автоматическая конвертация UTF-16 <-> UTF-8
-*.cpp   text working-tree-encoding=UTF-8
-*.h     text working-tree-encoding=UTF-8
-*.hpp   text working-tree-encoding=UTF-8
-*.cc    text working-tree-encoding=UTF-8
+*.cpp   text
+*.h     text
+*.hpp   text
+*.cc    text
 
 # Visual Studio проектные файлы (должны оставаться в UTF-16)
 *.vcxproj    text working-tree-encoding=UTF-16
