@@ -3,17 +3,17 @@ project(Project_Kursovai)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Project_Kursovai
+add_executable(Shelter
         "src/main.cpp"
-        "src/Pet.h"
-        "src/Pet.cpp"
-        "src/Dog.h"
-        "src/Dog.cpp"
-        "src/Cat.h"
-        "src/Cat.cpp"
-        "src/Bird.cpp"
-        "src/Dataloader.cpp"
-        "src/Dataloader.h"
-        "src/Exotic.cpp"
-        "src/Exotic.h"
+        "include/shelter/core/Pet.h"
+        "src/core/Pet.cpp"
+        "include/shelter/core/Dog.h"
+        "src/core/Dog.cpp"
+        "include/shelter/core/Cat.h"
+        "src/core/Cat.cpp"
+        "src/core/Bird.cpp"
+        "src/utils/DataLoader.cpp"
+        "include/shelter/utils/DataLoader.h"
+        "src/core/Exotic.cpp"
+        "include/shelter/core/Exotic.h"
         )

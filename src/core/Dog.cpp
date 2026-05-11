@@ -1,4 +1,4 @@
-#include "Dog.h"
+#include "../../include/shelter/core/Dog.h"
 #include <iostream>
 
 Dog::Dog(const std::string& name, int age, double weight, bool knowsCommands)
