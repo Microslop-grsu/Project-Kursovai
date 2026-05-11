@@ -1,5 +1,11 @@
-*.cpp text
-*.h text
-*.hpp text
-
+# Считать все файлы текстовыми и приводить к LF автоматически
 * text=auto eol=lf
+
+# Явно указать кодировку для исходников, чтобы Гит не пытался их "угадывать"
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
+
+# Запретить любые рабочие кодировки, кроме UTF-8
+*.cpp working-tree-encoding=UTF-8
+*.h working-tree-encoding=UTF-8
