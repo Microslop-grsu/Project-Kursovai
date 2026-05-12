@@ -1,4 +1,4 @@
-#include "Bird.h"
+#include "../../include/shelter/core/Bird.h"
 #include <iostream>
 
 Bird::Bird(const std::string& name, int age, double weight, double wingSpan)

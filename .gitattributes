@@ -1,25 +1,11 @@
-# Автоматическая конвертация UTF-16 <-> UTF-8
-*.cpp   text working-tree-encoding=UTF-8
-*.h     text working-tree-encoding=UTF-8
-*.hpp   text working-tree-encoding=UTF-8
-*.cc    text working-tree-encoding=UTF-8
+# Считать все файлы текстовыми и приводить к LF автоматически
+* text=auto eol=lf
 
-# Visual Studio проектные файлы (должны оставаться в UTF-16)
-*.vcxproj    text working-tree-encoding=UTF-16
-*.vcxproj.filters text working-tree-encoding=UTF-16
-*.sln        text working-tree-encoding=UTF-16
+# Явно указать кодировку для исходников, чтобы Гит не пытался их "угадывать"
+*.cpp text eol=lf
+*.h text eol=lf
+*.hpp text eol=lf
 
-# Всегда LF для кросс-платформенности
-*.cpp        text eol=lf
-*.h          text eol=lf
-*.hpp        text eol=lf
-*.cc         text eol=lf
-*.txt        text eol=lf
-*.md         text eol=lf
-
-# Двоичные файлы
-*.png        binary
-*.jpg        binary
-*.ico        binary
-*.lib        binary
-*.dll        binary
+# Запретить любые рабочие кодировки, кроме UTF-8
+*.cpp working-tree-encoding=UTF-8
+*.h working-tree-encoding=UTF-8

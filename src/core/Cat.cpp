@@ -1,4 +1,4 @@
-#include "Cat.h"
+#include "../../include/shelter/core/Cat.h"
 #include <iostream>
 
 Cat::Cat(const std::string& name, int age, double weight, const std::string& furType)
