@@ -16,4 +16,6 @@ add_executable(Shelter
         "include/shelter/utils/DataLoader.h"
         "src/core/Exotic.cpp"
         "include/shelter/core/Exotic.h"
-        )
+        include/shelter/utils/Logger.h
+        src/utils/Logger.cpp
+)
