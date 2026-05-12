@@ -1,0 +1,3 @@
+2026-05-12 15:29:04 [ERROR] Data - DataLoader::loadFromFile() failed
+2026-05-12 15:30:02 [ERROR] DATA - DataLoader::loadFromFile() failed
+2026-05-12 15:30:18 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
