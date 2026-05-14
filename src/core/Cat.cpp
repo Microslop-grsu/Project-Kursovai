@@ -1,8 +1,8 @@
 #include "../../include/shelter/core/Cat.h"
 #include <iostream>
 
-Cat::Cat(const std::string& name, int age, double weight, const std::string& furType)
-    : Pet(name, age, weight), furType(furType) {
+Cat::Cat(short id, const std::string& name, int age, double weight, const std::string& furType)
+    : Pet(id, name, age, weight), furType(furType) {
 }
 
 Cat::~Cat() {}
@@ -30,6 +30,8 @@ std::string Cat::getFurType() const {
 }
 
 void Cat::printInfo() const {
-    std::cout << "[Cat] ";
+    std::cout
+        << id << " "
+        << "[Cat] ";
     Pet::printInfo();
 }

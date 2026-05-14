@@ -2,33 +2,27 @@
 #include <iostream>
 #include <sstream>
 
-Exotic::Exotic(const std::string &name, int age, double weight, double requiredTemperature, double humidity)
-    : Pet(name, age, weight), requiredTemperature(requiredTemperature), humidity(humidity)
-{
-}
+Exotic::Exotic(short id, const std::string& name, int age, double weight, double requiredTemperature, double humidity)
+    : Pet(id, name, age, weight), requiredTemperature(requiredTemperature), humidity(humidity) {}
 
 Exotic::~Exotic() {}
 
-std::string Exotic::makeSound() const
-{
+std::string Exotic::makeSound() const {
     return "exotic sound";
 }
 
-std::string Exotic::getDiet() const
-{
+std::string Exotic::getDiet() const {
     return "exotic diet";
 }
 
-std::string Exotic::getCareInstructions() const
-{
+std::string Exotic::getCareInstructions() const {
     std::stringstream ss;
     ss << "temperature " << requiredTemperature << "C, humidity "
        << MIN_HUMIDITY << "-" << MAX_HUMIDITY << "%.";
     return ss.str();
 }
 
-double Exotic::getRequiredTemperature() const
-{
+double Exotic::getRequiredTemperature() const {
     return requiredTemperature;
 }
 
@@ -58,7 +52,9 @@ void Exotic::checkHumidity(Logger &logger) const
 
 
 void Exotic::printInfo() const {
-    std::cout << "[Exotic] ";
+    std::cout
+        << id << " "
+        << "[Exotic] ";
     Pet::printInfo();
 
 }

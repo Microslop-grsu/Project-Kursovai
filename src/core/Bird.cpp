@@ -1,8 +1,8 @@
 #include "../../include/shelter/core/Bird.h"
 #include <iostream>
 
-Bird::Bird(const std::string& name, int age, double weight, double wingSpan)
-    : Pet(name, age, weight), wingSpan(wingSpan) {
+Bird::Bird(short id, const std::string& name, int age, double weight, double wingSpan)
+    : Pet(id, name, age, weight), wingSpan(wingSpan) {
 }
 
 Bird::~Bird() {}
@@ -27,6 +27,8 @@ double Bird::getWingSpan() const {
 }
 
 void Bird::printInfo() const {
-    std::cout << "[Bird] ";
+    std::cout
+        << id << " "
+        << "[Bird] ";
     Pet::printInfo();
 }

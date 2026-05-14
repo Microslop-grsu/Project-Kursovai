@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <memory>
 #include "../include/shelter/utils/DataLoader.h"
 #include "../include/shelter/utils/Logger.h"
 #include "../include/shelter/core/MedicalRecord.h"
@@ -21,54 +22,17 @@ short menu() {
     return ans;
 }
 
-void printPet(const std::vector<Pet*> pets) {
-    for (auto pet : pets) {
-        pet->printInfo();
-    }
-}
-
-void delete_buffer(std::vector<Pet*> pets) {
-    for (auto pet : pets) {
-        delete pet;
-    }
-    std::cout << std::endl;
-}
-
-int main()
-{
+int main() {
     Logger logger("../data/events.logs");
+    DataLoader loader;
+    PetRepository repo;
+
     std::vector<Pet *> pets;
     FeedingMonitor monitor;
 
     short answer = 0;
 
-    // 1. Загружаем питомцев
-    if (DataLoader::loadFromFile("../data/pets.json", pets))
-    {
-        logger.debug("DATA", "DataLoader::loadFromFile() succeeded");
-
-        // Регистрируем кормление и выводим информацию
-        for (Pet *pet : pets)
-        {
-            monitor.feed(pet->getName());
-            pet->printInfo();
-        }
-
-        // Проверка влажности для экзотических животных
-        for (Pet *pet : pets)
-        {
-            Exotic *exotic = dynamic_cast<Exotic *>(pet);
-            if (exotic)
-            {
-                exotic->checkHumidity(logger);
-            }
-        }
-    }
-    else
-    {
-        logger.error("DATA", "DataLoader::loadFromFile() failed");
-    if (DataLoader::loadFromFile("../data/pets.json", pets)) {
-        logger.debug("DATA", "DataLoader::loadFromFile() succeeded");
+    loader.loadFromFile("../data/pets.json", repo);
 
     } else {
         std::cout << "File not found!" << std::endl;
@@ -87,10 +51,16 @@ int main()
     bool exit = false;
     do {
         answer = menu();
-        logger.debug("MENU", "Menu answer: " + std::to_string(answer));
         switch (answer) {
-            case 1: printPet(pets); break;
-            case 0: exit = true; delete_buffer(pets); break;
+            case 1:
+
+                logger.debug("MENU", "Показать список животных");
+                break;
+            case 0:
+                exit = true;
+
+                logger.debug("DATA", "pets deleted");
+                break;
         }
     }   while (!exit);
 
@@ -98,3 +68,4 @@ int main()
 
     return 0;
 }
+

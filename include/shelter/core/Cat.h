@@ -3,9 +3,11 @@
 
 class Cat : public Pet {
 public:
-    Cat(const std::string& name, int age, double weight, const std::string& furType);
+    Cat(short id, const std::string& name, int age, double weight, const std::string& furType);
     virtual ~Cat();
 
+    std::string getType() const override { return "Cat"; }
+    nlohmann::json toJson() const override;
     std::string makeSound()           const override;
     std::string getDiet()             const override;
     std::string getCareInstructions() const override;

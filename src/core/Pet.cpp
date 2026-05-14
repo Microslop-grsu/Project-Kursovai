@@ -1,12 +1,13 @@
 #include "../../include/shelter/core/Pet.h"
 #include <iostream>
 
-Pet::Pet(const std::string& name, int age, double weight)
-    : name(name), age(age), weight(weight), isHungry(false) {
+Pet::Pet(short id, const std::string& name, int age, double weight)
+    : id(id), name(name), age(age), weight(weight), isHungry(false) {
 }
 
 Pet::~Pet() {}
 
+short Pet::getId() const {return id;}
 std::string Pet::getName()     const { return name; }
 int         Pet::getAge()      const { return age; }
 double      Pet::getWeight()   const { return weight; }
@@ -17,7 +18,8 @@ void Pet::setIsHungry(bool hungry) {
 }
 
 void Pet::printInfo() const {
-    std::cout << name
+    std::cout
+        << name
         << " | age: " << age
         << " | hungry: " << (isHungry ? "YES" : "no")
         << std::endl;

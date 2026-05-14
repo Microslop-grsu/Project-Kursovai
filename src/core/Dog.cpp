@@ -1,8 +1,8 @@
 #include "../../include/shelter/core/Dog.h"
 #include <iostream>
 
-Dog::Dog(const std::string& name, int age, double weight, bool knowsCommands)
-    : Pet(name, age, weight), knowsCommands(knowsCommands) {
+Dog::Dog(short id, const std::string& name, int age, double weight, bool knowsCommands)
+    : Pet(id,name, age, weight), knowsCommands(knowsCommands) {
 }
 
 Dog::~Dog() {}
@@ -27,7 +27,9 @@ bool Dog::getKnowsCommands() const {
 }
 
 void Dog::printInfo() const {
-    std::cout << "[Dog] ";
+    std::cout
+        << id << " "
+        << "[Dog] ";
     Pet::printInfo();
            //<< "[Dog] knowsCommands: " << (knowsCommands ? "yes" : "no")
 }
