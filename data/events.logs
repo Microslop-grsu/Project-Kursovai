@@ -27,6 +27,9 @@
 2026-05-14 17:43:58 [DEBUG] MENU - Показать список животных
 2026-05-14 17:44:03 [DEBUG] MENU - Показать список животных
 2026-05-14 17:44:04 [DEBUG] DATA - pets deleted
+2026-05-14 20:28:24 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-14 20:28:27 [DEBUG] MENU - Показать список животных
+2026-05-14 20:28:32 [DEBUG] DATA - pets deleted
 2026-05-15 12:25:10 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
 2026-05-15 12:25:10 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
 2026-05-15 12:25:10 [WARNING] VACCINE - Обнаружены просроченные прививки!

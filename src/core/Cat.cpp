@@ -25,6 +25,12 @@ std::string Cat::getCareInstructions() const {
     return "Brush once a week. Standard vet checkups.";
 }
 
+nlohmann::json Cat::toJson() const {
+    nlohmann::json j = Pet::toJson();
+    j["fyrType"] = furType;
+    return j.dump();
+}
+
 std::string Cat::getFurType() const {
     return furType;
 }

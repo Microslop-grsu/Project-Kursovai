@@ -41,7 +41,7 @@ bool DataLoader::loadFromFile(const std::string& path,
             return false;
         }
     }
-    currentFilePath = path;
+    std::string currentFilePath = path;
     std::string msg = "Loaded " + std::to_string(repo.size()) + " pets from " + path;
     logger.debug("DATA", msg);
     return true;

@@ -17,6 +17,14 @@ void Pet::setIsHungry(bool hungry) {
     isHungry = hungry;
 }
 
+nlohmann::json Pet::toJson() const {
+    nlohmann::json j;
+    j["id"] = id;
+    j["name"] = name;
+    j["age"] = age;
+    return j.dump();
+}
+
 void Pet::printInfo() const {
     std::cout
         << name

@@ -40,4 +40,8 @@ add_executable(Shelter
         include/shelter/utils/Logger.h
         src/utils/Logger.cpp
         include/shelter/utils/json.hpp
+        include/shelter/utils/PetFactory.h
+        src/utils/PetFactory.cpp
+        include/shelter/utils/PetRepository.h
+        src/utils/PetRepository.cpp
 )

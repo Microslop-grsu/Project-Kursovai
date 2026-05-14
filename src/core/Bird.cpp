@@ -22,6 +22,12 @@ std::string Bird::getCareInstructions() const {
     return "Standard cage suitable (wingspan " + std::to_string(wingSpan) + "cm). Social interaction important.";
 }
 
+nlohmann::json Bird::toJson() const {
+    nlohmann::json j = Pet::toJson();
+    j["wingSpan"] = wingSpan;
+    return j.dump();
+}
+
 double Bird::getWingSpan() const {
     return wingSpan;
 }

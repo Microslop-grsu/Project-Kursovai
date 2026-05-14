@@ -22,6 +22,12 @@ std::string Exotic::getCareInstructions() const {
     return ss.str();
 }
 
+nlohmann::json Exotic::toJson() const {
+    nlohmann::json j = Pet::toJson();
+    j["temperature"] = requiredTemperature;
+    return j.dump();
+}
+
 double Exotic::getRequiredTemperature() const {
     return requiredTemperature;
 }

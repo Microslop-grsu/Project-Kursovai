@@ -7,6 +7,12 @@ Dog::Dog(short id, const std::string& name, int age, double weight, bool knowsCo
 
 Dog::~Dog() {}
 
+nlohmann::json Dog::toJson() const {
+    nlohmann::json j = Pet::toJson();
+    j["hasCommands"] = knowsCommands;
+    return j.dump();
+}
+
 std::string Dog::makeSound() const {
     return "Woof!";
 }
