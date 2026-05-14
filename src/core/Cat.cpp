@@ -30,6 +30,6 @@ std::string Cat::getFurType() const {
 }
 
 void Cat::printInfo() const {
+    std::cout << "[Cat] ";
     Pet::printInfo();
-    std::cout << "[Cat] furType: " << furType << std::endl;
 }

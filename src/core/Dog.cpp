@@ -17,7 +17,7 @@ std::string Dog::getDiet() const {
 
 std::string Dog::getCareInstructions() const {
     if (knowsCommands) {
-        return "Daily walks required. Knows commands Ч keep up training sessions.";
+        return "Daily walks required. Knows commands keep up training sessions.";
     }
     return "Daily walks required. Needs basic obedience training.";
 }
@@ -27,7 +27,7 @@ bool Dog::getKnowsCommands() const {
 }
 
 void Dog::printInfo() const {
-    Pet::printInfo();  // вызываем базовый вывод
-    std::cout << "[Dog] knowsCommands: " << (knowsCommands ? "yes" : "no")
-        << std::endl;
+    std::cout << "[Dog] ";
+    Pet::printInfo();
+           //<< "[Dog] knowsCommands: " << (knowsCommands ? "yes" : "no")
 }

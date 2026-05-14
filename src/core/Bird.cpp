@@ -27,6 +27,6 @@ double Bird::getWingSpan() const {
 }
 
 void Bird::printInfo() const {
+    std::cout << "[Bird] ";
     Pet::printInfo();
-    std::cout << "[Bird] wingSpan: " << wingSpan << "cm" << std::endl;
 }

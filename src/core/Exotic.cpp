@@ -1,5 +1,4 @@
 #include "../../include/shelter/core/Exotic.h"
-#include "../../include/shelter/utils/Logger.h"
 #include <iostream>
 #include <sstream>
 
@@ -57,13 +56,12 @@ void Exotic::checkHumidity(Logger &logger) const
     }
 }
 
-void Exotic::printInfo() const
-{
-    std::cout << "[Exotic] " << name
-              << " | age: " << age
-              << " | weight: " << weight << "kg"
-              << " | hungry: " << (isHungry ? "YES" : "no")
-              << " | temp: " << requiredTemperature << "C"
-              << " | humidity: " << humidity << "%"
-              << std::endl;
+
+void Exotic::printInfo() const {
+    std::cout << "[Exotic] ";
+    Pet::printInfo();
+
+}
+void Exotic::setRequiredTemperature(double temp) {
+    requiredTemperature = temp;
 }

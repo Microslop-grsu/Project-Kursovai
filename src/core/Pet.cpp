@@ -17,9 +17,8 @@ void Pet::setIsHungry(bool hungry) {
 }
 
 void Pet::printInfo() const {
-    std::cout << "[Pet] " << name
+    std::cout << name
         << " | age: " << age
-        << " | weight: " << weight << "kg"
         << " | hungry: " << (isHungry ? "YES" : "no")
         << std::endl;
 }
