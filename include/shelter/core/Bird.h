@@ -14,5 +14,5 @@ public:
     void printInfo()     const override;
 
 private:
-    double wingSpan; // в сантиметрах
+    double wingSpan;
 };

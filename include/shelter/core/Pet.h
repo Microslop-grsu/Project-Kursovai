@@ -13,7 +13,6 @@ public:
 
     virtual std::string getCareInstructions() const = 0;
 
-    // �������
     std::string getName() const;
 
     int getAge() const;
@@ -22,10 +21,10 @@ public:
 
     bool getIsHungry() const;
 
-    // ������ ��� ��������� ������ (Care Manager ����� ������������)
+
     void setIsHungry(bool hungry);
 
-    // ������� ����� � ���
+
     virtual void printInfo() const;
 
 protected:
