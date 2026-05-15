@@ -1,0 +1,39 @@
+{
+  "pets": [
+    {
+      "type": "Exotic",
+      "name": "Iggy",
+      "age": 2,
+      "weight": 1.5,
+      "temperature": 30.0
+    },
+    {
+      "type": "Dog",
+      "name": "Rex",
+      "age": 3,
+      "weight": 15.0,
+      "hasCommands": true
+    },
+    {
+      "type": "Cat",
+      "name": "Murka",
+      "age": 2,
+      "weight": 4.2,
+      "furType": "Siamese"
+    },
+    {
+      "type": "Bird",
+      "name": "Kesha",
+      "age": 1,
+      "weight": 0.3,
+      "wingSpan": 25.0
+    },
+    {
+      "type": "Cat",
+      "name": "Sphynx",
+      "age": 2,
+      "weight": 3.5,
+      "furType": "hairless"
+    }
+  ]
+}

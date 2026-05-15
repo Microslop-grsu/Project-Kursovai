@@ -14,5 +14,5 @@ public:
     void printInfo()         const override;
 
 private:
-    std::string furType; // например: "short", "long", "hairless"
+    std::string furType;
 };

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(Project_Kursovai)
+project(ShelterCore)
 
 set(CMAKE_CXX_STANDARD 17)
 
@@ -12,10 +12,12 @@ add_executable(Shelter
         "include/shelter/core/Cat.h"
         "src/core/Cat.cpp"
         "src/core/Bird.cpp"
+        "include/shelter/core/Bird.h"
         "src/utils/DataLoader.cpp"
         "include/shelter/utils/DataLoader.h"
         "src/core/Exotic.cpp"
         "include/shelter/core/Exotic.h"
         include/shelter/utils/Logger.h
         src/utils/Logger.cpp
+        include/shelter/utils/json.hpp
 )
