@@ -32,3 +32,11 @@ void Pet::printInfo() const {
         << " | hungry: " << (isHungry ? "YES" : "no")
         << std::endl;
 }
+void Pet::printDetailInfo() const {
+    std::cout
+        << "Id - " << id << std::endl
+        << "Тип    : " << getType() << std::endl
+        << "Кличка : " << name << std::endl
+        << "Возраст: " << age << std::endl
+        << "Вес    : " << weight << "кг"<< std::endl;
+}

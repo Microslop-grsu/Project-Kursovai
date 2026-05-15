@@ -41,3 +41,9 @@ void Cat::printInfo() const {
         << "[Cat] ";
     Pet::printInfo();
 }
+
+void Cat::printDetailInfo() const {
+    Pet::printDetailInfo();
+    std::cout
+    << "Тип шерсти: " << furType << std::endl;
+}

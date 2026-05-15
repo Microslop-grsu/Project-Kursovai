@@ -22,6 +22,7 @@ public:
     void setHumidity(double hum);
     void checkHumidity(Logger &logger) const; // генерация Warning
     void printInfo() const override;
+    void printDetailInfo() const override;
 
 private:
     double requiredTemperature;

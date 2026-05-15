@@ -14,6 +14,7 @@ public:
 
     std::string getFurType() const;
     void printInfo()         const override;
+    void printDetailInfo() const override;
 
 private:
     std::string furType;

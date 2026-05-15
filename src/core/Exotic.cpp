@@ -64,6 +64,13 @@ void Exotic::printInfo() const {
     Pet::printInfo();
 
 }
+
+void Exotic::printDetailInfo() const {
+    Pet::printDetailInfo();
+    std::cout
+    << "Условия климата: " << requiredTemperature << "C" << std::endl;
+}
+
 void Exotic::setRequiredTemperature(double temp) {
     requiredTemperature = temp;
 }

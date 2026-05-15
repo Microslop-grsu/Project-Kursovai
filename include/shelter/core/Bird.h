@@ -14,6 +14,7 @@ public:
 
     double getWingSpan() const;
     void printInfo()     const override;
+    void printDetailInfo() const override;
 
 private:
     double wingSpan;

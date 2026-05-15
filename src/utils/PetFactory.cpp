@@ -17,7 +17,7 @@ std::unique_ptr<Pet> PetFactory::createFromJson(const nlohmann::json& jsonData) 
         return std::make_unique<Dog>(id, name, age, weight, hasCommands);
     }
     else if (type == "Cat") {
-        std::string breed = jsonData.value("breed", "Unknown");
+        std::string breed = jsonData.value("furType", "Unknown");
         return std::make_unique<Cat>(id, name, age, weight, breed);
     }
     else if (type == "Bird") {

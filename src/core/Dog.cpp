@@ -37,5 +37,10 @@ void Dog::printInfo() const {
         << id << " "
         << "[Dog] ";
     Pet::printInfo();
-           //<< "[Dog] knowsCommands: " << (knowsCommands ? "yes" : "no")
+}
+
+void Dog::printDetailInfo() const {
+    Pet::printDetailInfo();
+    std::cout
+    << "Знает команды: " << (knowsCommands ? "да" : "нет") << std::endl;
 }

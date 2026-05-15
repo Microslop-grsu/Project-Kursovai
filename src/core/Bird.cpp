@@ -38,3 +38,9 @@ void Bird::printInfo() const {
         << "[Bird] ";
     Pet::printInfo();
 }
+
+void Bird::printDetailInfo() const {
+    Pet::printDetailInfo();
+    std::cout
+    << "Размах крыльев: " << wingSpan << "см" << std::endl;
+}

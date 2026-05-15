@@ -17,6 +17,8 @@ public:
 
     void printInfo() const override;
 
+    void printDetailInfo() const override;
+
 private:
     bool knowsCommands;
 };
