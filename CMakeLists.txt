@@ -17,7 +17,11 @@ add_executable(Shelter
         "include/shelter/utils/DataLoader.h"
         "src/core/Exotic.cpp"
         "include/shelter/core/Exotic.h"
-        include/shelter/utils/Logger.h
-        src/utils/Logger.cpp
-        include/shelter/utils/json.hpp
+        "include/shelter/utils/Logger.h"
+        "src/utils/Logger.cpp"
+        "include/shelter/utils/json.hpp"
+        "include/shelter/core/MedicalRecord.h"
+        "src/core/MedicalRecord.cpp"
+        include/shelter/core/FeedingMonitor.h
+        src/core/FeedingMonitor.cpp
 )

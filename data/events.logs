@@ -6,3 +6,21 @@
 2026-05-14 13:01:49 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
 2026-05-14 13:02:06 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
 2026-05-14 13:02:37 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 12:25:10 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 12:25:10 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 12:25:10 [WARNING] VACCINE - Обнаружены просроченные прививки!
+2026-05-15 12:26:15 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 12:26:15 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 12:26:15 [WARNING] VACCINE - Обнаружены просроченные прививки!
+2026-05-15 12:31:28 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 12:31:28 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 12:31:28 [WARNING] VACCINE - Expired vaccinations found!
+2026-05-15 13:13:35 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 13:13:35 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 13:13:35 [WARNING] VACCINE - Expired vaccinations found!
+2026-05-15 13:41:13 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 13:41:13 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 13:41:13 [WARNING] VACCINE - Expired vaccinations found!
+2026-05-15 13:58:54 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 13:58:54 [DEBUG] DATA - DataLoader::loadFromFile() succeeded
+2026-05-15 13:58:54 [WARNING] VACCINE - Expired vaccinations found!
