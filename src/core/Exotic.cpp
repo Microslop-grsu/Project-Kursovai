@@ -1,39 +1,69 @@
 #include "../../include/shelter/core/Exotic.h"
+#include "../../include/shelter/utils/Logger.h"
 #include <iostream>
 #include <sstream>
 
-Exotic::Exotic(const std::string& name, int age, double weight, double requiredTemperature)
-    : Pet(name, age, weight), requiredTemperature(requiredTemperature) {
+Exotic::Exotic(const std::string &name, int age, double weight, double requiredTemperature, double humidity)
+    : Pet(name, age, weight), requiredTemperature(requiredTemperature), humidity(humidity)
+{
 }
 
 Exotic::~Exotic() {}
 
-std::string Exotic::makeSound() const {
+std::string Exotic::makeSound() const
+{
     return "exotic sound";
 }
 
-std::string Exotic::getDiet() const {
+std::string Exotic::getDiet() const
+{
     return "exotic diet";
 }
 
-std::string Exotic::getCareInstructions() const {
+std::string Exotic::getCareInstructions() const
+{
     std::stringstream ss;
-    ss << "temperature " << requiredTemperature << "C. ";
+    ss << "temperature " << requiredTemperature << "C, humidity "
+       << MIN_HUMIDITY << "-" << MAX_HUMIDITY << "%.";
     return ss.str();
 }
 
-double Exotic::getRequiredTemperature() const {
+double Exotic::getRequiredTemperature() const
+{
     return requiredTemperature;
 }
 
-void Exotic::printInfo() const {
-    std::cout << "[Exotic] " << name
-        << " | age: " << age
-        << " | weight: " << weight << "kg"
-        << " | hungry: " << (isHungry ? "YES" : "no")
-        << " | temp: " << requiredTemperature << "C"
-        << std::endl;
-}
-void Exotic::setRequiredTemperature(double temp) {
+void Exotic::setRequiredTemperature(double temp)
+{
     requiredTemperature = temp;
+}
+
+double Exotic::getHumidity() const
+{
+    return humidity;
+}
+
+void Exotic::setHumidity(double hum)
+{
+    humidity = hum;
+}
+
+void Exotic::checkHumidity(Logger &logger) const
+{
+    if (humidity < MIN_HUMIDITY || humidity > MAX_HUMIDITY)
+    {
+        std::string msg = "Exotic animal " + name + " has critical humidity: " + std::to_string(humidity) + "% (normal range: " + std::to_string(MIN_HUMIDITY) + "-" + std::to_string(MAX_HUMIDITY) + "%)";
+        logger.warning("HUMIDITY", msg);
+    }
+}
+
+void Exotic::printInfo() const
+{
+    std::cout << "[Exotic] " << name
+              << " | age: " << age
+              << " | weight: " << weight << "kg"
+              << " | hungry: " << (isHungry ? "YES" : "no")
+              << " | temp: " << requiredTemperature << "C"
+              << " | humidity: " << humidity << "%"
+              << std::endl;
 }
