@@ -1,4 +1,4 @@
-#include "../../include/shelter/core/FeedingMonitor.h"
+#include "../../include/shelter/services/FeedingMonitor.h"
 #include "../../include/shelter/utils/Logger.h"
 #include "../../include/shelter/core/Pet.h"
 #include <vector> // добавлено

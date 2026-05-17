@@ -20,9 +20,11 @@ void Pet::setIsHungry(bool hungry) {
 nlohmann::json Pet::toJson() const {
     nlohmann::json j;
     j["id"] = id;
+    j["type"] = getType();
     j["name"] = name;
     j["age"] = age;
-    return j.dump();
+    j["weight"] = weight;
+    return j;
 }
 
 void Pet::printInfo() const {

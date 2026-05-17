@@ -1,4 +1,5 @@
 #include "../../include/shelter/core/Exotic.h"
+#include "../../include/shelter/utils/Logger.h"
 #include <iostream>
 #include <sstream>
 
@@ -25,7 +26,8 @@ std::string Exotic::getCareInstructions() const {
 nlohmann::json Exotic::toJson() const {
     nlohmann::json j = Pet::toJson();
     j["temperature"] = requiredTemperature;
-    return j.dump();
+    j["humidity"] = humidity;
+    return j;
 }
 
 double Exotic::getRequiredTemperature() const {
@@ -68,9 +70,6 @@ void Exotic::printInfo() const {
 void Exotic::printDetailInfo() const {
     Pet::printDetailInfo();
     std::cout
-    << "Условия климата: " << requiredTemperature << "C" << std::endl;
-}
-
-void Exotic::setRequiredTemperature(double temp) {
-    requiredTemperature = temp;
+    << "Условия климата: " << requiredTemperature << "C" << std::endl
+    << "Влажность       : " << humidity << "%" << std::endl;
 }

@@ -1,17 +1,18 @@
-#include "../../include/shelter/utils/DataLoader.h"
+#include "../../include/shelter/storage/DataLoader.h"
 #include "../../include/shelter/utils/Logger.h"
-#include "../../include/shelter/utils/json.hpp"
+#include "../../include/shelter/storage/json.hpp"
 #include "../../include/shelter/core/Exotic.h"
 #include "../../include/shelter/core/Dog.h"
 #include "../../include/shelter/core/Cat.h"
 #include "../../include/shelter/core/Bird.h"
+#include "../../include/shelter/storage/PetFactory.h"
 #include <fstream>
 
 using json = nlohmann::json;
 Logger logger("../data/events.logs");
 
 bool DataLoader::loadFromFile(const std::string& path,
-                              std::vector<Pet*>& outPets) {
+                              PetRepository& repo) {
     std::ifstream file(path);
     if (!file.is_open()) {
         logger.error("FILE", "File not found");
@@ -41,17 +42,17 @@ bool DataLoader::loadFromFile(const std::string& path,
             return false;
         }
     }
-    std::string currentFilePath = path;
     std::string msg = "Loaded " + std::to_string(repo.size()) + " pets from " + path;
     logger.debug("DATA", msg);
     return true;
 }
 
 bool DataLoader::saveToFile(const std::string &path, const PetRepository &repo) {
-    json data = json::array();
+    json data;
+    data["pets"] = json::array();
 
     for (const auto& pet : repo.getAll()) {
-        data.push_back(pet->toJson());
+        data["pets"].push_back(pet->toJson());
     }
 
     std::ofstream file(path);

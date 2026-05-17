@@ -30,3 +30,73 @@
 2026-05-14 20:28:24 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
 2026-05-14 20:28:27 [DEBUG] MENU - Показать список животных
 2026-05-14 20:28:32 [DEBUG] DATA - pets deleted
+2026-05-17 15:31:53 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 15:31:53 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 15:31:53 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 15:31:53 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 15:31:53 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 15:31:53 [WARNING] FEEDING - Animal Sphynx has never been fed!
+2026-05-17 15:33:09 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 15:33:09 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 15:33:09 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 15:33:09 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 15:33:09 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 15:33:09 [WARNING] FEEDING - Animal Sphynx has never been fed!
+2026-05-17 15:33:12 [DEBUG] MENU - Показать список животных
+2026-05-17 15:33:21 [DEBUG] MENU - Показал детальную информацию о id - 1
+2026-05-17 15:36:16 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 15:36:16 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 15:36:16 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 15:36:16 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 15:36:16 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 15:36:16 [WARNING] FEEDING - Animal Sphynx has never been fed!
+2026-05-17 15:36:23 [DEBUG] MENU - Показать список животных
+2026-05-17 15:36:32 [DEBUG] MENU - Показал детальную информацию о id - 1
+2026-05-17 15:36:52 [DEBUG] MENU - Показал детальную информацию о id - 2
+2026-05-17 15:36:56 [DEBUG] MENU - Показать список животных
+2026-05-17 15:37:01 [DEBUG] MENU - Показал детальную информацию о id - 3
+2026-05-17 15:37:26 [DEBUG] MENU - Поиск по критериям
+2026-05-17 15:37:26 [DEBUG] DATA - pets deleted
+2026-05-17 15:37:54 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 15:37:54 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 15:37:54 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 15:37:54 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 15:37:54 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 15:37:54 [WARNING] FEEDING - Animal Sphynx has never been fed!
+2026-05-17 15:38:15 [DEBUG] MENU - Поиск по критериям
+2026-05-17 15:39:27 [DEBUG] DATA - pets deleted
+2026-05-17 15:49:46 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 15:49:46 [INFO] MEDICAL - Added vaccination for pet ID: 1
+2026-05-17 15:49:46 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 15:49:46 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 15:49:46 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 15:49:46 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 15:49:46 [WARNING] FEEDING - Animal Sphynx has never been fed!
+2026-05-17 16:03:08 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 16:03:08 [INFO] MEDICAL - Added vaccination for pet ID: 1
+2026-05-17 16:03:08 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 16:03:08 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 16:03:08 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 16:03:08 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 16:03:08 [WARNING] FEEDING - Animal Sphynx has never been fed!
+2026-05-17 16:04:46 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 16:04:46 [INFO] MEDICAL - Added vaccination for pet ID: 1
+2026-05-17 16:04:46 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 16:04:46 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 16:04:46 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 16:04:46 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 16:04:46 [WARNING] FEEDING - Animal Sphynx has never been fed!
+2026-05-17 16:08:04 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 16:08:04 [INFO] MEDICAL - Added vaccination for pet ID: 1
+2026-05-17 16:08:04 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 16:08:04 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 16:08:04 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 16:08:04 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 16:08:04 [WARNING] FEEDING - Animal Sphynx has never been fed!
+2026-05-17 16:10:44 [DEBUG] DATA - Loaded 5 pets from ../data/pets.json
+2026-05-17 16:10:44 [INFO] MEDICAL - Added vaccination for pet ID: 1
+2026-05-17 16:10:44 [WARNING] FEEDING - Animal Iggy has never been fed!
+2026-05-17 16:10:44 [WARNING] FEEDING - Animal Rex has never been fed!
+2026-05-17 16:10:44 [WARNING] FEEDING - Animal Murka has never been fed!
+2026-05-17 16:10:44 [WARNING] FEEDING - Animal Kesha has never been fed!
+2026-05-17 16:10:44 [WARNING] FEEDING - Animal Sphynx has never been fed!

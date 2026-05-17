@@ -25,7 +25,7 @@ std::string Bird::getCareInstructions() const {
 nlohmann::json Bird::toJson() const {
     nlohmann::json j = Pet::toJson();
     j["wingSpan"] = wingSpan;
-    return j.dump();
+    return j;
 }
 
 double Bird::getWingSpan() const {

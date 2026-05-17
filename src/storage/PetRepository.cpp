@@ -1,4 +1,4 @@
-#include "../../include/shelter/utils/PetRepository.h"
+#include "../../include/shelter/storage/PetRepository.h"
 #include <algorithm>
 
 void PetRepository::add(std::unique_ptr<Pet> pet) {
@@ -13,7 +13,7 @@ void PetRepository::addRaw(Pet* pet) {
     }
 }
 
-Pet* PetRepository::findByID(short id) {
+Pet* PetRepository::findByID(short id) const {
     auto it = std::find_if(pets.begin(), pets.end(),
             [id](const std::unique_ptr<Pet>& pet) {
                 return pet->getId() == id;
@@ -40,7 +40,7 @@ bool PetRepository::remove(short id) {
 
 const std::vector<std::unique_ptr<Pet>>& PetRepository::getAll() const {return pets;}
 
-std::vector<Pet*> PetRepository::findByCriteria(const SearchCriteria& crit) {
+std::vector<Pet*> PetRepository::findByCriteria(const SearchCriteria& crit) const {
     std::vector<Pet*> result;
     for (const auto& pet : pets) {
         bool matches = true;

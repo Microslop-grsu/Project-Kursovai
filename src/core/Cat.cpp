@@ -27,8 +27,8 @@ std::string Cat::getCareInstructions() const {
 
 nlohmann::json Cat::toJson() const {
     nlohmann::json j = Pet::toJson();
-    j["fyrType"] = furType;
-    return j.dump();
+    j["furType"] = furType;
+    return j;
 }
 
 std::string Cat::getFurType() const {

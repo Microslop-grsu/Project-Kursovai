@@ -1,5 +1,5 @@
-#include "../../include/shelter/utils/PetFactory.h"
-#include "../../include/shelter/utils/json.hpp"
+#include "../../include/shelter/storage/PetFactory.h"
+#include "../../include/shelter/storage/json.hpp"
 #include "../../include/shelter/core/Dog.h"
 #include "../../include/shelter/core/Cat.h"
 #include "../../include/shelter/core/Bird.h"

@@ -11,14 +11,15 @@ public:
 
     virtual ~Exotic();
 
-    std::string getType() const override { return "Bird"; }
+    std::string getType() const override { return "Exotic"; }
     nlohmann::json toJson() const override;
     std::string makeSound() const override;
     std::string getDiet() const override;
     std::string getCareInstructions() const override;
 
     double getRequiredTemperature() const;
-    void setRequiredTemperature(double temp);double getHumidity() const;
+    void setRequiredTemperature(double temp);
+    double getHumidity() const;
     void setHumidity(double hum);
     void checkHumidity(Logger &logger) const; // генерация Warning
     void printInfo() const override;

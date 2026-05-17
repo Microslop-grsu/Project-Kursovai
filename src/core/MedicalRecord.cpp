@@ -24,9 +24,9 @@ bool MedicalRecord::isDateExpired(const std::string &dateStr)
     return vaccineDate < now;
 }
 
-void MedicalRecord::addVaccination(const std::string &petName, const std::string &vaccineName, const std::string &date, bool isActive)
+void MedicalRecord::addVaccination(short petId, const std::string &vaccineName, const std::string &date, bool isActive)
 {
-    records.emplace_back(petName, vaccineName, date, isActive);
+    records.emplace_back(petId, vaccineName, date, isActive);
 }
 
 bool MedicalRecord::hasExpired() const

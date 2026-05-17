@@ -10,7 +10,7 @@ Dog::~Dog() {}
 nlohmann::json Dog::toJson() const {
     nlohmann::json j = Pet::toJson();
     j["hasCommands"] = knowsCommands;
-    return j.dump();
+    return j;
 }
 
 std::string Dog::makeSound() const {

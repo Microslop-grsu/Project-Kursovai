@@ -29,8 +29,8 @@ public:
         int max_weight = -1;
     };
 
-    std::vector<Pet*> findByCriteria(const SearchCriteria& crit);
-    Pet* findByID(short id);
+    std::vector<Pet*> findByCriteria(const SearchCriteria& crit) const;
+    Pet* findByID(short id) const;
 };
 
 
