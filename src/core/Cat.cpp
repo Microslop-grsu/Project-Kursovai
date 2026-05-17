@@ -1,8 +1,8 @@
 #include "../../include/shelter/core/Cat.h"
 #include <iostream>
 
-Cat::Cat(const std::string& name, int age, double weight, const std::string& furType)
-    : Pet(name, age, weight), furType(furType) {
+Cat::Cat(short id, const std::string& name, int age, double weight, const std::string& furType)
+    : Pet(id, name, age, weight), furType(furType) {
 }
 
 Cat::~Cat() {}
@@ -25,11 +25,25 @@ std::string Cat::getCareInstructions() const {
     return "Brush once a week. Standard vet checkups.";
 }
 
+nlohmann::json Cat::toJson() const {
+    nlohmann::json j = Pet::toJson();
+    j["furType"] = furType;
+    return j;
+}
+
 std::string Cat::getFurType() const {
     return furType;
 }
 
 void Cat::printInfo() const {
+    std::cout
+        << id << " "
+        << "[Cat] ";
     Pet::printInfo();
-    std::cout << "[Cat] furType: " << furType << std::endl;
+}
+
+void Cat::printDetailInfo() const {
+    Pet::printDetailInfo();
+    std::cout
+    << "Тип шерсти: " << furType << std::endl;
 }

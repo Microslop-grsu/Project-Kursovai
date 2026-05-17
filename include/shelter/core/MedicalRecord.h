@@ -7,21 +7,20 @@
 // Структура для хранения одной записи о прививке
 struct VaccinationEntry
 {
-    std::string petName;
+    short petId;
     std::string vaccineName;
     std::string date; // Формат: YYYY-MM-DD
     bool isActive;
 
-    // Конструктор для удобного создания записей
-    VaccinationEntry(const std::string &name, const std::string &vaccine, const std::string &dateStr, bool active = true)
-        : petName(name), vaccineName(vaccine), date(dateStr), isActive(active) {}
+    VaccinationEntry(short id, const std::string &vaccine, const std::string &dateStr, bool active = true)
+        : petId(id), vaccineName(vaccine), date(dateStr), isActive(active) {}
 };
 
 class MedicalRecord
 {
 public:
     // Добавить новую прививку
-    void addVaccination(const std::string &petName, const std::string &vaccineName, const std::string &date, bool isActive = true);
+    void addVaccination(short petId, const std::string &vaccineName, const std::string &date, bool isActive = true);
 
     // Проверить, есть ли просроченные прививки
     bool hasExpired() const;

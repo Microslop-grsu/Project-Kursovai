@@ -1,11 +1,17 @@
 #include "../../include/shelter/core/Dog.h"
 #include <iostream>
 
-Dog::Dog(const std::string& name, int age, double weight, bool knowsCommands)
-    : Pet(name, age, weight), knowsCommands(knowsCommands) {
+Dog::Dog(short id, const std::string& name, int age, double weight, bool knowsCommands)
+    : Pet(id,name, age, weight), knowsCommands(knowsCommands) {
 }
 
 Dog::~Dog() {}
+
+nlohmann::json Dog::toJson() const {
+    nlohmann::json j = Pet::toJson();
+    j["hasCommands"] = knowsCommands;
+    return j;
+}
 
 std::string Dog::makeSound() const {
     return "Woof!";
@@ -17,7 +23,7 @@ std::string Dog::getDiet() const {
 
 std::string Dog::getCareInstructions() const {
     if (knowsCommands) {
-        return "Daily walks required. Knows commands — keep up training sessions.";
+        return "Daily walks required. Knows commands keep up training sessions.";
     }
     return "Daily walks required. Needs basic obedience training.";
 }
@@ -27,7 +33,14 @@ bool Dog::getKnowsCommands() const {
 }
 
 void Dog::printInfo() const {
-    Pet::printInfo();  // вызываем базовый вывод
-    std::cout << "[Dog] knowsCommands: " << (knowsCommands ? "yes" : "no")
-        << std::endl;
+    std::cout
+        << id << " "
+        << "[Dog] ";
+    Pet::printInfo();
+}
+
+void Dog::printDetailInfo() const {
+    Pet::printDetailInfo();
+    std::cout
+    << "Р—РЅР°РµС‚ РєРѕРјР°РЅРґС‹: " << (knowsCommands ? "РґР°" : "РЅРµС‚") << std::endl;
 }

@@ -3,33 +3,34 @@
 #include <iostream>
 #include <sstream>
 
-Exotic::Exotic(const std::string &name, int age, double weight, double requiredTemperature, double humidity)
-    : Pet(name, age, weight), requiredTemperature(requiredTemperature), humidity(humidity)
-{
-}
+Exotic::Exotic(short id, const std::string& name, int age, double weight, double requiredTemperature, double humidity)
+    : Pet(id, name, age, weight), requiredTemperature(requiredTemperature), humidity(humidity) {}
 
 Exotic::~Exotic() {}
 
-std::string Exotic::makeSound() const
-{
+std::string Exotic::makeSound() const {
     return "exotic sound";
 }
 
-std::string Exotic::getDiet() const
-{
+std::string Exotic::getDiet() const {
     return "exotic diet";
 }
 
-std::string Exotic::getCareInstructions() const
-{
+std::string Exotic::getCareInstructions() const {
     std::stringstream ss;
     ss << "temperature " << requiredTemperature << "C, humidity "
        << MIN_HUMIDITY << "-" << MAX_HUMIDITY << "%.";
     return ss.str();
 }
 
-double Exotic::getRequiredTemperature() const
-{
+nlohmann::json Exotic::toJson() const {
+    nlohmann::json j = Pet::toJson();
+    j["temperature"] = requiredTemperature;
+    j["humidity"] = humidity;
+    return j;
+}
+
+double Exotic::getRequiredTemperature() const {
     return requiredTemperature;
 }
 
@@ -57,13 +58,18 @@ void Exotic::checkHumidity(Logger &logger) const
     }
 }
 
-void Exotic::printInfo() const
-{
-    std::cout << "[Exotic] " << name
-              << " | age: " << age
-              << " | weight: " << weight << "kg"
-              << " | hungry: " << (isHungry ? "YES" : "no")
-              << " | temp: " << requiredTemperature << "C"
-              << " | humidity: " << humidity << "%"
-              << std::endl;
+
+void Exotic::printInfo() const {
+    std::cout
+        << id << " "
+        << "[Exotic] ";
+    Pet::printInfo();
+
+}
+
+void Exotic::printDetailInfo() const {
+    Pet::printDetailInfo();
+    std::cout
+    << "Условия климата: " << requiredTemperature << "C" << std::endl
+    << "Влажность       : " << humidity << "%" << std::endl;
 }
