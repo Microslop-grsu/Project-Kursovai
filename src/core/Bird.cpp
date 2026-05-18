@@ -1,8 +1,8 @@
-#include "Bird.h"
+#include "../../include/shelter/core/Bird.h"
 #include <iostream>
 
-Bird::Bird(const std::string& name, int age, double weight, double wingSpan)
-    : Pet(name, age, weight), wingSpan(wingSpan) {
+Bird::Bird(short id, const std::string& name, int age, double weight, double wingSpan)
+    : Pet(id, name, age, weight), wingSpan(wingSpan) {
 }
 
 Bird::~Bird() {}
@@ -22,11 +22,25 @@ std::string Bird::getCareInstructions() const {
     return "Standard cage suitable (wingspan " + std::to_string(wingSpan) + "cm). Social interaction important.";
 }
 
+nlohmann::json Bird::toJson() const {
+    nlohmann::json j = Pet::toJson();
+    j["wingSpan"] = wingSpan;
+    return j;
+}
+
 double Bird::getWingSpan() const {
     return wingSpan;
 }
 
 void Bird::printInfo() const {
+    std::cout
+        << id << " "
+        << "[Bird] ";
     Pet::printInfo();
-    std::cout << "[Bird] wingSpan: " << wingSpan << "cm" << std::endl;
+}
+
+void Bird::printDetailInfo() const {
+    Pet::printDetailInfo();
+    std::cout
+    << "Размах крыльев: " << wingSpan << "см" << std::endl;
 }

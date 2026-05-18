@@ -3,18 +3,21 @@
 
 class Dog : public Pet {
 public:
-    Dog(const std::string& name, int age, double weight, bool knowsCommands);
+    Dog(short id, const std::string& name, int age, double weight, bool knowsCommands);
     virtual ~Dog();
 
-    // Переопределяем чистые виртуальные методы из Pet
+    std::string getType() const override { return "Dog"; }
+    nlohmann::json toJson() const override;
     std::string makeSound()          const override;
     std::string getDiet()            const override;
     std::string getCareInstructions() const override;
 
-    // Геттер для уникального поля
+
     bool getKnowsCommands() const;
 
     void printInfo() const override;
+
+    void printDetailInfo() const override;
 
 private:
     bool knowsCommands;
