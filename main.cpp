@@ -1,7 +1,10 @@
 #include "shelter/services/ShelterManager.h"
 #include "shelter/ui/ConsoleView.h"
+#include <windows.h>
 
 int main() {
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
     ShelterManager manager("../data/events.logs");
 
     if (!manager.loadData("../data/pets.json")) {

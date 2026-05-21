@@ -75,3 +75,21 @@ const std::vector<VaccinationEntry> &MedicalRecord::getAllRecords() const
 {
     return records;
 }
+void MedicalRecord::addHealthIssue(const std::string &issue)
+{
+    for (const auto &h : healthIssues)
+        if (h == issue) return;
+    healthIssues.push_back(issue);
+}
+
+bool MedicalRecord::hasHealthIssue(const std::string &issue) const
+{
+    for (const auto &h : healthIssues)
+        if (h == issue) return true;
+    return false;
+}
+
+const std::vector<std::string> &MedicalRecord::getHealthIssues() const
+{
+    return healthIssues;
+}

@@ -19,6 +19,7 @@ add_executable(Shelter
         src/storage/PetRepository.cpp
         src/services/ShelterManager.cpp
         src/ui/ConsoleView.cpp
+        src/services/DietCalculator.cpp
         include/shelter/core/Pet.h
         include/shelter/core/Dog.h
         include/shelter/core/Cat.h
@@ -33,6 +34,7 @@ add_executable(Shelter
         include/shelter/storage/PetRepository.h
         include/shelter/services/ShelterManager.h
         include/shelter/ui/ConsoleView.h
+        include/shelter/services/DietCalculator.h
 )
 
 target_include_directories(Shelter PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
