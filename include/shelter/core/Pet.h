@@ -2,9 +2,15 @@
 #include <string>
 #include "../storage/json.hpp"
 
+// Уровень активности животного
+enum class ActivityLevel {
+    LOW, NORMAL, HIGH
+};
+
 class Pet {
 public:
-    Pet(short id, const std::string &name, int age, double weight);
+    Pet(short id, const std::string &name, int age, double weight,
+        ActivityLevel activity = ActivityLevel::NORMAL);
 
     virtual ~Pet();
 
@@ -21,8 +27,12 @@ public:
     int getAge() const;
     double getWeight() const;
     bool getIsHungry() const;
+    ActivityLevel getActivityLevel() const;
 
     void setIsHungry(bool hungry);
+    void setActivityLevel(ActivityLevel level);
+
+    static std::string activityToString(ActivityLevel level);
 
 protected:
     short id;
@@ -30,4 +40,5 @@ protected:
     int age;
     double weight;
     bool isHungry;
+    ActivityLevel activityLevel;
 };

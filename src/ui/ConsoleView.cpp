@@ -43,6 +43,17 @@ void ConsoleView::showPetDetails() {
     if (pet) {
         pet->printDetailInfo();
         printVaccinations(id);
+        const auto& issues = manager.getMedicalRecord().getHealthIssues();
+        if (!issues.empty()) {
+            std::cout << "Болезни:\n";
+            for (const auto& issue : issues)
+                std::cout << "- " << issue << "\n";
+        } else {
+            std::cout << "Болезни: нет\n";
+        }
+
+        std::cout << "Суточная норма: " << DietCalculator::calculateDailyGrams(*pet, manager.getMedicalRecord()) << " г\n";
+
     } else {
         std::cout << "Не найден\n";
     }
