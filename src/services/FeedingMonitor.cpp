@@ -4,23 +4,30 @@
 #include "../../include/shelter/core/Pet.h"
 #include "../../include/shelter/core/MedicalRecord.h"
 #include <ctime>
+#include <string>
 
-void FeedingMonitor::feed(const std::string &petName, double gramsGiven)
+namespace {
+std::string petLabel(const Pet& pet) {
+    return pet.getName() + " (#" + std::to_string(pet.getId()) + ")";
+}
+}
+
+void FeedingMonitor::feed(short petId, double gramsGiven)
 {
     std::time_t now = std::time(nullptr);
-    lastMeal[petName] = now;
+    lastMeal[petId] = now;
 
-    auto it = dayStart.find(petName);
+    auto it = dayStart.find(petId);
     if (it == dayStart.end()) {
-        dayStart[petName]      = now;
-        dailyConsumed[petName] = 0.0;
+        dayStart[petId] = now;
+        dailyConsumed[petId] = 0.0;
     } else {
         if (std::difftime(now, it->second) >= 86400.0) {
-            dailyConsumed[petName] = 0.0;
-            dayStart[petName]      = now;
+            dailyConsumed[petId] = 0.0;
+            dayStart[petId] = now;
         }
     }
-    dailyConsumed[petName] += gramsGiven;
+    dailyConsumed[petId] += gramsGiven;
 }
 
 void FeedingMonitor::checkStarvation(Logger &logger, const std::vector<Pet *> &pets)
@@ -30,15 +37,16 @@ void FeedingMonitor::checkStarvation(Logger &logger, const std::vector<Pet *> &p
 
     for (Pet *pet : pets) {
         if (!pet) continue;
-        std::string name = pet->getName();
+        const short petId = pet->getId();
+        const std::string label = petLabel(*pet);
 
-        auto it = lastMeal.find(name);
+        auto it = lastMeal.find(petId);
         if (it == lastMeal.end()) {
-            logger.warning("FEEDING", "Animal " + name + " has never been fed!");
+            logger.warning("FEEDING", "Animal " + label + " has never been fed!");
             continue;
         }
         if (std::difftime(now, it->second) >= thresholdSeconds) {
-            std::string msg = "Animal " + name + " has not been fed for over " +
+            std::string msg = "Animal " + label + " has not been fed for over " +
                               std::to_string(HUNGER_THRESHOLD_HOURS) +
                               " hours! Last feeding: " + std::ctime(&it->second);
             if (!msg.empty() && msg.back() == '\n') msg.pop_back();
@@ -52,9 +60,10 @@ void FeedingMonitor::checkOverfeeding(Logger &logger, const std::vector<Pet *> &
 {
     for (Pet *pet : pets) {
         if (!pet) continue;
-        std::string name = pet->getName();
+        const short petId = pet->getId();
+        const std::string label = petLabel(*pet);
 
-        auto it = dailyConsumed.find(name);
+        auto it = dailyConsumed.find(petId);
         if (it == dailyConsumed.end()) continue; // ни разу не кормили сегодня
 
         double consumed = it->second;
@@ -62,7 +71,7 @@ void FeedingMonitor::checkOverfeeding(Logger &logger, const std::vector<Pet *> &
 
         if (consumed > norm * 1.20) {  // превышение более чем на 20%
             int over = static_cast<int>((consumed / norm - 1.0) * 100);
-            std::string msg = "Animal " + name + " is overfed! "
+            std::string msg = "Animal " + label + " is overfed! "
                 + "Consumed: " + std::to_string(static_cast<int>(consumed)) + " g, "
                 + "Daily norm: " + std::to_string(static_cast<int>(norm)) + " g "
                 + "(" + std::to_string(over) + "% over)";
@@ -76,12 +85,12 @@ void FeedingMonitor::resetDailyCounters() {
     dayStart.clear();
 }
 
-std::time_t FeedingMonitor::getLastFeedingTime(const std::string &petName) const {
-    auto it = lastMeal.find(petName);
+std::time_t FeedingMonitor::getLastFeedingTime(short petId) const {
+    auto it = lastMeal.find(petId);
     return (it != lastMeal.end()) ? it->second : 0;
 }
 
-double FeedingMonitor::getDailyConsumed(const std::string &petName) const {
-    auto it = dailyConsumed.find(petName);
+double FeedingMonitor::getDailyConsumed(short petId) const {
+    auto it = dailyConsumed.find(petId);
     return (it != dailyConsumed.end()) ? it->second : 0.0;
 }

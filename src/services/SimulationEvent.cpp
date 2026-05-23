@@ -9,6 +9,15 @@ std::string formatWeight(double weight) {
     stream << std::fixed << std::setprecision(1) << weight;
     return stream.str();
 }
+
+std::string formatPetIdentity(const std::string& petName, int petId) {
+    std::ostringstream stream;
+    stream << petName;
+    if (petId >= 0) {
+        stream << " (#" << petId << ")";
+    }
+    return stream.str();
+}
 }
 
 std::string eventTypeToString(EventType type) {
@@ -89,7 +98,9 @@ const std::string& AnimalAdoptedEvent::getPetName() const {
 
 std::string AnimalAdoptedEvent::toString() const {
     std::ostringstream stream;
-    stream << eventTypeToString(getType()) << ": " << petName << " found a new home";
+    stream << eventTypeToString(getType()) << ": "
+           << formatPetIdentity(petName, getPetId())
+           << " found a new home";
     if (!getDescription().empty()) {
         stream << " (" << getDescription() << ")";
     }
@@ -116,7 +127,8 @@ const std::string& VaccinationEvent::getDate() const {
 
 std::string VaccinationEvent::toString() const {
     std::ostringstream stream;
-    stream << eventTypeToString(getType()) << ": " << petName
+    stream << eventTypeToString(getType()) << ": "
+           << formatPetIdentity(petName, getPetId())
            << " received " << vaccineName
            << " on " << date;
     if (!getDescription().empty()) {
@@ -134,7 +146,8 @@ const std::string& VetCheckEvent::getPetName() const {
 
 std::string VetCheckEvent::toString() const {
     std::ostringstream stream;
-    stream << eventTypeToString(getType()) << ": " << petName;
+    stream << eventTypeToString(getType()) << ": "
+           << formatPetIdentity(petName, getPetId());
     if (!getDescription().empty()) {
         stream << " - " << getDescription();
     }
@@ -150,7 +163,8 @@ FeedingEvent::FeedingEvent(int petId, std::string petName, double grams, int pre
 
 std::string FeedingEvent::toString() const {
     std::ostringstream stream;
-    stream << eventTypeToString(getType()) << ": " << petName
+    stream << eventTypeToString(getType()) << ": "
+           << formatPetIdentity(petName, getPetId())
            << " (" << previousHunger << " -> " << newHunger
            << ", " << std::fixed << std::setprecision(1) << grams << "g)";
     return stream.str();
@@ -165,7 +179,8 @@ HealthUpdateEvent::HealthUpdateEvent(int petId, std::string petName, int previou
 
 std::string HealthUpdateEvent::toString() const {
     std::ostringstream stream;
-    stream << eventTypeToString(getType()) << ": " << petName
+    stream << eventTypeToString(getType()) << ": "
+           << formatPetIdentity(petName, getPetId())
            << " (" << previousHealth << " -> " << newHealth << ")";
     if (!reason.empty()) {
         stream << " - " << reason;

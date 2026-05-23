@@ -79,14 +79,30 @@ void ShelterManager::checkHungryPets() {
 }
 
 void ShelterManager::feedPet(const std::string& petName, double grams) {
-    monitor.feed(petName, grams);
+    short firstMatchId = -1;
+    int matches = 0;
     for (Pet* pet : getAllPets()) {
         if (pet && pet->getName() == petName) {
-            pet->setHungerLevel(std::min(pet->getHungerLevel(), 10));
-            break;
+            if (firstMatchId < 0) {
+                firstMatchId = pet->getId();
+            }
+            ++matches;
         }
     }
-    logger.info("FEEDING", "Fed " + petName + " with " + std::to_string(static_cast<int>(grams)) + " g");
+
+    if (firstMatchId < 0) {
+        logger.warning("FEEDING", "Attempted to feed a missing pet named " + petName);
+        return;
+    }
+
+    if (matches > 1) {
+        logger.warning(
+            "FEEDING",
+            "Multiple pets named " + petName + " were found. Feeding the first match by ID."
+        );
+    }
+
+    feedPet(firstMatchId, grams);
 }
 
 void ShelterManager::feedPet(short petId, double grams) {
@@ -96,7 +112,13 @@ void ShelterManager::feedPet(short petId, double grams) {
         return;
     }
 
-    feedPet(pet->getName(), grams);
+    monitor.feed(petId, grams);
+    pet->setHungerLevel(std::min(pet->getHungerLevel(), 10));
+    logger.info(
+        "FEEDING",
+        "Fed " + pet->getName() + " (#" + std::to_string(petId) + ") with "
+        + std::to_string(static_cast<int>(grams)) + " g"
+    );
 }
 
 void ShelterManager::printDietInfo(short petId) const {
