@@ -28,9 +28,16 @@ public:
     double getWeight() const;
     bool getIsHungry() const;
     ActivityLevel getActivityLevel() const;
+    int getHungerLevel() const;
+    int getHealthLevel() const;
 
     void setIsHungry(bool hungry);
     void setActivityLevel(ActivityLevel level);
+    void setHungerLevel(int hunger);
+    void setHealthLevel(int health);
+    void increaseHunger(int amount = 1);
+    void decreaseHunger(int amount);
+    void changeHealth(int delta);
 
     static std::string activityToString(ActivityLevel level);
 
@@ -41,4 +48,9 @@ protected:
     double weight;
     bool isHungry;
     ActivityLevel activityLevel;
+    int hungerLevel;
+    int healthLevel;
+
+private:
+    void syncHungerFlag();
 };

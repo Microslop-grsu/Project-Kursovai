@@ -14,11 +14,13 @@ public:
     void add(std::unique_ptr<Pet> pet);
     bool remove(short id);
     const std::vector<std::unique_ptr<Pet>>& getAll() const;
+    std::vector<Pet*> getAllRaw() const;
 
     void clear();
     void addRaw(Pet* pet);
     size_t size() const {return pets.size();};
     bool isEmpty() const {return pets.empty();};
+    short getMaxId() const;
 
     struct SearchCriteria {
         std::string name;
