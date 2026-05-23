@@ -20,6 +20,8 @@ public:
                         const std::string &date, bool isActive = true);
     bool hasExpired() const;
     std::vector<VaccinationEntry> getExpiredVaccinations() const;
+    std::vector<VaccinationEntry> getRecordsForPet(short petId) const;
+    bool hasVaccinationForPet(short petId) const;
     void updateStatuses();
     const std::vector<VaccinationEntry> &getAllRecords() const;
 

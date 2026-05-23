@@ -20,6 +20,11 @@ add_executable(Shelter
         src/services/ShelterManager.cpp
         src/ui/ConsoleView.cpp
         src/services/DietCalculator.cpp
+        src/services/SimulationEvent.cpp
+        src/services/EventGenerator.cpp
+        src/services/VetInspector.cpp
+        src/services/EventProcessor.cpp
+        src/services/SimulationEngine.cpp
         include/shelter/core/Pet.h
         include/shelter/core/Dog.h
         include/shelter/core/Cat.h
@@ -35,7 +40,11 @@ add_executable(Shelter
         include/shelter/services/ShelterManager.h
         include/shelter/ui/ConsoleView.h
         include/shelter/services/DietCalculator.h
+        include/shelter/services/SimulationEvent.h
+        include/shelter/services/EventGenerator.h
+        include/shelter/services/VetInspector.h
+        include/shelter/services/EventProcessor.h
+        include/shelter/services/SimulationEngine.h
 )
 
 target_include_directories(Shelter PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
-

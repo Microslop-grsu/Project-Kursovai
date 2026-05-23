@@ -40,6 +40,15 @@ bool PetRepository::remove(short id) {
 
 const std::vector<std::unique_ptr<Pet>>& PetRepository::getAll() const {return pets;}
 
+std::vector<Pet*> PetRepository::getAllRaw() const {
+    std::vector<Pet*> result;
+    result.reserve(pets.size());
+    for (const auto& pet : pets) {
+        result.push_back(pet.get());
+    }
+    return result;
+}
+
 std::vector<Pet*> PetRepository::findByCriteria(const SearchCriteria& crit) const {
     std::vector<Pet*> result;
     for (const auto& pet : pets) {
@@ -67,4 +76,14 @@ std::vector<Pet*> PetRepository::findByCriteria(const SearchCriteria& crit) cons
 
 void PetRepository::clear() {
     pets.clear();
+}
+
+short PetRepository::getMaxId() const {
+    short maxId = 0;
+    for (const auto& pet : pets) {
+        if (pet && pet->getId() > maxId) {
+            maxId = pet->getId();
+        }
+    }
+    return maxId;
 }
