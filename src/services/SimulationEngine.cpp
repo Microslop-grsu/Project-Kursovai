@@ -1,6 +1,7 @@
 #include "../../include/shelter/services/SimulationEngine.h"
 #include "../../include/shelter/services/DietCalculator.h"
 #include "../../include/shelter/services/ShelterManager.h"
+#include "../../include/shelter/services/SmartBowl.h"
 #include "../../include/shelter/storage/json.hpp"
 #include <algorithm>
 #include <filesystem>
@@ -45,6 +46,13 @@ void SimulationEngine::run(int totalTicks, int displayInterval) {
 void SimulationEngine::tick() {
     ++currentTick;
     lastEvents.clear();
+
+    bowlRegistry.sync(manager->getAllPets(), manager->getMedicalRecord());
+
+    if (currentTick % ticksPerDay == 0) {
+        bowlRegistry.resetAll();
+        logEvent("SmartBowl: daily counters reset for all bowls.");
+    }
 
     updateAnimalStates();
     performHungerCheck();
@@ -158,7 +166,16 @@ void SimulationEngine::performHungerCheck() {
             DietCalculator::calculateDailyGrams(*pet, manager->getMedicalRecord()) * 0.35
         );
 
-        manager->feedPet(pet->getId(), grams);
+        const bool fed = bowlRegistry.dispense(
+            pet->getId(), grams,
+            manager->getMonitor(),
+            manager->getLogger()
+        );
+        if (!fed) {
+            continue;
+        }
+
+        pet->setHungerLevel(std::min(pet->getHungerLevel(), 10));
         ++stats.feedingOccurrences;
 
         FeedingEvent feedingEvent(

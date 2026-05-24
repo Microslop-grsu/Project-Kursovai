@@ -2,6 +2,7 @@
 #include "EventGenerator.h"
 #include "EventProcessor.h"
 #include "VetInspector.h"
+#include "SmartBowl.h"
 #include <memory>
 #include <string>
 #include <vector>
@@ -30,6 +31,9 @@ private:
     std::shared_ptr<VetInspector> vetInspector;
     std::shared_ptr<EventProcessor> eventProcessor;
     SimulationConfig config;
+
+    SmartBowlRegistry bowlRegistry;
+    int ticksPerDay = 10;
 
     int currentTick = 0;
     int statusDisplayInterval = 1;
