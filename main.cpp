@@ -5,6 +5,10 @@
 #include <iostream>
 #include <limits>
 #include <memory>
+#ifdef _WIN32
+#include <windows.h>
+#endif
+
 
 namespace {
 std::filesystem::path findProjectRoot() {
@@ -39,6 +43,10 @@ int readPositiveInteger(const std::string& prompt, int defaultValue) {
 }
 
 int main() {
+#ifdef _WIN32
+    SetConsoleOutputCP(65001);
+    SetConsoleCP(65001);
+#endif
     const std::filesystem::path projectRoot = findProjectRoot();
     const std::filesystem::path petsPath = projectRoot / "data" / "pets.json";
     const std::filesystem::path logPath = projectRoot / "data" / "events.logs";
@@ -51,9 +59,9 @@ int main() {
     }
 
     std::cout << "\n=== ShelterCore ===\n";
-    std::cout << "1 - Simulation mode\n";
-    std::cout << "2 - Interactive mode\n";
-    std::cout << "0 - Exit\n> ";
+    std::cout << "1 - Режим симуляции\n";
+    std::cout << "2 - Интерактивный режим\n";
+    std::cout << "0 - Выход\n> ";
 
     int choice = 0;
     if (!(std::cin >> choice)) {
@@ -61,15 +69,15 @@ int main() {
     }
 
     if (choice == 1) {
-        const int totalTicks = readPositiveInteger("Number of ticks", 100);
-        const int displayInterval = readPositiveInteger("Display interval", 10);
+        const int totalTicks = readPositiveInteger("Количество тиков", 100);
+        const int displayInterval = readPositiveInteger("Интервал отображения", 10);
 
         SimulationConfig config;
         SimulationEngine engine(manager, config);
         engine.run(totalTicks, displayInterval);
         engine.saveStatistics(statsPath.string());
 
-        std::cout << "Statistics saved to " << statsPath << '\n';
+        std::cout << "Статистика сохранена в " << statsPath << '\n';
         return 0;
     }
 
