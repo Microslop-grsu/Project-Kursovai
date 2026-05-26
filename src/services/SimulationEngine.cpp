@@ -87,26 +87,67 @@ std::vector<std::string> SimulationEngine::getLastEvents() const {
     return lastEvents;
 }
 
+static std::string healthColor(double value) {
+    if (value >= 70.0) return "\033[1;32m";   // Зелёный — здоров
+    if (value >= 30.0) return "\033[1;33m";   // Жёлтый — средне
+    return "\033[1;31m";                       // Красный — критично
+}
+
 std::string SimulationEngine::getShelterStatus() const {
     const auto animals = manager->getAllPets();
-    double totalHunger = 0.0;
-    double totalHealth = 0.0;
+    const size_t count = animals.size();
+
+    double totalHunger = 0.0, totalHealth = 0.0;
+    size_t critical = 0;
 
     for (const Pet* pet : animals) {
         totalHunger += pet->getHungerLevel();
         totalHealth += pet->getHealthLevel();
+        if (pet->getHealthLevel() < 25.0) critical++;
     }
 
-    const double averageHunger = animals.empty() ? 0.0 : totalHunger / static_cast<double>(animals.size());
-    const double averageHealth = animals.empty() ? 0.0 : totalHealth / static_cast<double>(animals.size());
+    const double avgH = count ? totalHunger / count : 0.0;
+    const double avgHP = count ? totalHealth / count : 0.0;
 
-    std::ostringstream stream;
-    stream << std::fixed << std::setprecision(1);
-    stream << "Tick " << currentTick
-           << " | pets: " << animals.size()
-           << " | avg hunger: " << averageHunger
-           << " | avg health: " << averageHealth;
-    return stream.str();
+    std::ostringstream ss;
+    ss << std::fixed << std::setprecision(1);
+    const std::string R = "\033[0m";
+
+    ss << "\n  .:~ " << "SHELTER REPORT — TICK " << currentTick << " ~:.\n\n";
+
+    ss << "  Pets: " << count
+       << "  |  Critical: " << critical
+       << "  |  Avg Hunger: " << avgH << "%"
+       << "  |  Avg Health: " << avgHP << "%\n";
+    ss << "  " << std::string(62, '-') << "\n";
+
+    if (!animals.empty()) {
+        ss << "  " << std::left
+           << std::setw(6)  << "ID"
+           << std::setw(14) << "Name"
+           << std::setw(12) << "Hunger"
+           << std::setw(14) << "Health"
+           << "Status\n";
+        ss << "  " << std::string(62, '-') << "\n";
+
+        for (const Pet* pet : animals) {
+            const double hun = pet->getHungerLevel();
+            const double hp  = pet->getHealthLevel();
+            const std::string status = (hp <= 30.0) ? "!!! CRITICAL" :
+                                       (hun > 75.0) ? "... HUNGRY" : "OK";
+
+            ss << "  " << std::left
+               << std::setw(6)  << pet->getId()
+               << std::setw(14) << pet->getName()
+               << std::setw(10) << (std::to_string(int(hun)) + "%")
+               << std::setw(2)  << ""
+               << healthColor(hp) << std::setw(10) << (std::to_string(int(hp)) + "%") << R
+               << std::setw(2)  << ""
+               << status << "\n";
+        }
+        ss << "  " << std::string(62, '-') << "\n";
+    }
+    return ss.str();
 }
 
 void SimulationEngine::saveStatistics(const std::string& filename) const {

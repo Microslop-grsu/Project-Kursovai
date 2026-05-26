@@ -1,12 +1,12 @@
 {
-    "animalsAdopted": 3,
-    "animalsArrived": 1,
-    "averageHealthLevel": 76.24809523809527,
-    "averageHungerLevel": 34.904190476190486,
+    "animalsAdopted": 5,
+    "animalsArrived": 8,
+    "averageHealthLevel": 94.74083333333334,
+    "averageHungerLevel": 29.904761904761905,
     "criticalHealthCases": 0,
-    "currentPopulation": 5,
-    "feedingOccurrences": 66,
+    "currentPopulation": 7,
+    "feedingOccurrences": 50,
     "totalTicks": 50,
-    "vaccinationsGiven": 3,
+    "vaccinationsGiven": 2,
     "vetChecksPerformed": 6
 }
