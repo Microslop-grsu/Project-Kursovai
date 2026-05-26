@@ -3,6 +3,8 @@
 #include "shelter/ui/ConsoleView.h"
 #include <filesystem>
 #include <iostream>
+#include <thread>
+#include <chrono>
 #include <limits>
 #include <memory>
 #ifdef _WIN32

@@ -1,23 +1,11 @@
 {
     "pets": [
         {
-            "activityLevel": "LOW",
-            "age": 8,
-            "furType": "hairless",
-            "healthLevel": 70,
-            "hungerLevel": 70,
-            "id": 8,
-            "isHungry": true,
-            "name": "Milo",
-            "type": "Cat",
-            "weight": 2.920598336742625
-        },
-        {
             "activityLevel": "NORMAL",
             "age": 7,
             "furType": "hairless",
-            "healthLevel": 60,
-            "hungerLevel": 70,
+            "healthLevel": 45,
+            "hungerLevel": 58,
             "id": 14,
             "isHungry": true,
             "name": "Nora",
@@ -27,8 +15,8 @@
         {
             "activityLevel": "NORMAL",
             "age": 7,
-            "healthLevel": 80,
-            "hungerLevel": 70,
+            "healthLevel": 70,
+            "hungerLevel": 58,
             "id": 18,
             "isHungry": true,
             "name": "Rio",
@@ -40,8 +28,8 @@
             "activityLevel": "NORMAL",
             "age": 4,
             "hasCommands": false,
-            "healthLevel": 80,
-            "hungerLevel": 70,
+            "healthLevel": 65,
+            "hungerLevel": 58,
             "id": 19,
             "isHungry": true,
             "name": "Max",
@@ -49,54 +37,29 @@
             "weight": 19.812010074791637
         },
         {
-            "activityLevel": "HIGH",
-            "age": 12,
-            "healthLevel": 95,
-            "humidity": 57.47556758975867,
-            "hungerLevel": 70,
-            "id": 21,
-            "isHungry": true,
-            "name": "Iggy",
-            "temperature": 26.914761593289665,
-            "type": "Exotic",
-            "weight": 6.854291204002042
-        },
-        {
-            "activityLevel": "LOW",
-            "age": 6,
-            "healthLevel": 100,
-            "hungerLevel": 34,
-            "id": 22,
-            "isHungry": false,
-            "name": "Rio",
-            "type": "Bird",
-            "weight": 0.5877775269517309,
-            "wingSpan": 23.18696695565879
-        },
-        {
             "activityLevel": "NORMAL",
             "age": 14,
-            "healthLevel": 100,
+            "healthLevel": 90,
             "humidity": 56.060319526306465,
-            "hungerLevel": 10,
+            "hungerLevel": 58,
             "id": 23,
-            "isHungry": false,
+            "isHungry": true,
             "name": "Iggy",
             "temperature": 29.192713038813604,
             "type": "Exotic",
             "weight": 5.3988748838254175
         },
         {
-            "activityLevel": "LOW",
-            "age": 7,
-            "hasCommands": true,
-            "healthLevel": 100,
-            "hungerLevel": 0,
+            "activityLevel": "NORMAL",
+            "age": 2,
+            "healthLevel": 75,
+            "hungerLevel": 100,
             "id": 24,
-            "isHungry": false,
-            "name": "Max",
-            "type": "Dog",
-            "weight": 22.623256234042422
+            "isHungry": true,
+            "name": "Sky",
+            "type": "Bird",
+            "weight": 0.7848019500169268,
+            "wingSpan": 43.13536970504892
         }
     ]
 }

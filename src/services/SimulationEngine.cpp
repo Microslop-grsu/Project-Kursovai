@@ -9,6 +9,8 @@
 #include <iomanip>
 #include <iostream>
 #include <sstream>
+#include <thread>
+#include <chrono>
 
 using json = nlohmann::json;
 
@@ -31,8 +33,10 @@ void SimulationEngine::run(int totalTicks, int displayInterval) {
 
     for (int tickIndex = 0; tickIndex < totalTicks; ++tickIndex) {
         tick();
+        std::this_thread::sleep_for(std::chrono::milliseconds(500));
         if (currentTick % statusDisplayInterval == 0) {
             displayStatus();
+            std::this_thread::sleep_for(std::chrono::seconds(5));
         }
     }
 

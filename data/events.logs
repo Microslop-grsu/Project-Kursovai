@@ -2260,3 +2260,244 @@
 2026-05-26 10:52:21 [INFO] SIM - [Tick 100] Feeding: Max (#19) (82 -> 10, 173.4g)
 2026-05-26 10:52:21 [INFO] SIM - [Tick 100] Feeding: Iggy (#21) (82 -> 10, 57.6g)
 2026-05-26 10:52:21 [INFO] SIM - [Tick 100] Simulation finished.
+2026-05-26 11:04:09 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Health Update: Milo (#8) (70 -> 65) - critical hunger
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Health Update: Nora (#14) (60 -> 55) - critical hunger
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Health Update: Rio (#18) (80 -> 75) - critical hunger
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Health Update: Max (#19) (80 -> 75) - critical hunger
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Health Update: Iggy (#21) (95 -> 90) - critical hunger
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Feeding: Milo (#8) (82 -> 10, 32.7g)
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Feeding: Nora (#14) (82 -> 10, 83.0g)
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Feeding: Rio (#18) (82 -> 10, 5.9g)
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Feeding: Max (#19) (82 -> 10, 173.4g)
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Feeding: Iggy (#21) (82 -> 10, 57.6g)
+2026-05-26 11:04:09 [INFO] SHELTER - Removed pet #21 (Iggy)
+2026-05-26 11:04:09 [INFO] SIM - [Tick 1] Animal Adopted: Iggy (#21) found a new home (Matched with an adopter)
+2026-05-26 11:04:10 [INFO] SIM - [Tick 2] Feeding: Rio (#22) (58 -> 10, 5.0g)
+2026-05-26 11:04:12 [INFO] SIM - [Tick 4] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:04:13 [INFO] SIM - [Tick 5] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:04:13 [INFO] SIM - [Tick 5] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:04:13 [INFO] SIM - [Tick 5] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:04:13 [INFO] SIM - [Tick 5] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:04:13 [INFO] SIM - [Tick 5] Feeding: Max (#24) (60 -> 10, 158.4g)
+2026-05-26 11:04:19 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:04:20 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:04:21 [INFO] SIM - [Tick 8] Health Update: Rio (#22) (100 -> 95) - critical hunger
+2026-05-26 11:04:21 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:04:21 [INFO] SIM - [Tick 8] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:04:22 [INFO] SIM - [Tick 9] Health Update: Rio (#22) (95 -> 90) - critical hunger
+2026-05-26 11:04:22 [WARNING] BOWL - Pet #8: daily limit 93 g reached (consumed 65 g, requested 32 g). Feeding blocked.
+2026-05-26 11:04:22 [WARNING] BOWL - Pet #14: daily limit 237 g reached (consumed 165 g, requested 82 g). Feeding blocked.
+2026-05-26 11:04:22 [WARNING] BOWL - Pet #18: daily limit 16 g reached (consumed 11 g, requested 5 g). Feeding blocked.
+2026-05-26 11:04:22 [WARNING] BOWL - Pet #19: daily limit 495 g reached (consumed 346 g, requested 173 g). Feeding blocked.
+2026-05-26 11:04:22 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:04:22 [INFO] SIM - [Tick 9] Feeding: Max (#24) (58 -> 10, 158.4g)
+2026-05-26 11:04:23 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-26 11:04:23 [INFO] SIM - [Tick 10] Health Update: Rio (#22) (90 -> 85) - critical hunger
+2026-05-26 11:04:23 [INFO] SIM - [Tick 10] Feeding: Milo (#8) (70 -> 10, 32.7g)
+2026-05-26 11:04:23 [INFO] SIM - [Tick 10] Feeding: Nora (#14) (70 -> 10, 83.0g)
+2026-05-26 11:04:23 [INFO] SIM - [Tick 10] Feeding: Rio (#18) (70 -> 10, 5.9g)
+2026-05-26 11:04:23 [INFO] SIM - [Tick 10] Feeding: Max (#19) (70 -> 10, 173.4g)
+2026-05-26 11:04:23 [INFO] SIM - [Tick 10] Feeding: Rio (#22) (100 -> 10, 5.0g)
+2026-05-26 11:04:29 [INFO] SIM - [Tick 10] Simulation finished.
+2026-05-26 11:05:45 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-26 11:05:45 [INFO] SIM - [Tick 1] Feeding: Rio (#22) (58 -> 10, 5.0g)
+2026-05-26 11:05:46 [INFO] MEDICAL - Added vaccination for pet ID: 19
+2026-05-26 11:05:46 [INFO] SIM - [Tick 2] Vaccination: Max (#19) received Rabies on 2026-05-26 (Routine vaccination)
+2026-05-26 11:05:47 [INFO] SIM - [Tick 3] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:05:48 [INFO] SIM - [Tick 4] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:05:48 [INFO] SIM - [Tick 4] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:05:48 [INFO] SIM - [Tick 4] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:05:48 [INFO] SIM - [Tick 4] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:05:48 [INFO] SIM - [Tick 4] Feeding: Max (#24) (60 -> 10, 158.4g)
+2026-05-26 11:05:49 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:05:50 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:05:51 [INFO] SIM - [Tick 7] Health Update: Rio (#22) (100 -> 95) - critical hunger
+2026-05-26 11:05:51 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:05:51 [INFO] SIM - [Tick 7] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:05:52 [INFO] SIM - [Tick 8] Health Update: Rio (#22) (95 -> 90) - critical hunger
+2026-05-26 11:05:52 [INFO] SIM - [Tick 8] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:05:52 [INFO] SIM - [Tick 8] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:05:52 [INFO] SIM - [Tick 8] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:05:52 [INFO] SIM - [Tick 8] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:05:52 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:05:52 [INFO] SIM - [Tick 8] Feeding: Max (#24) (58 -> 10, 158.4g)
+2026-05-26 11:05:53 [INFO] SIM - [Tick 9] Health Update: Rio (#22) (90 -> 85) - critical hunger
+2026-05-26 11:05:53 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:05:54 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-26 11:05:54 [INFO] SIM - [Tick 10] Health Update: Rio (#22) (85 -> 80) - critical hunger
+2026-05-26 11:05:54 [INFO] SIM - [Tick 10] Feeding: Rio (#22) (100 -> 10, 5.0g)
+2026-05-26 11:06:00 [INFO] SIM - [Tick 10] Simulation finished.
+2026-05-26 11:06:35 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-26 11:06:35 [INFO] SIM - [Tick 1] Feeding: Rio (#22) (58 -> 10, 5.0g)
+2026-05-26 11:06:37 [INFO] SIM - [Tick 3] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:06:38 [INFO] SIM - [Tick 4] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:06:38 [INFO] SIM - [Tick 4] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:06:38 [INFO] SIM - [Tick 4] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:06:38 [INFO] SIM - [Tick 4] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:06:38 [INFO] SIM - [Tick 4] Feeding: Max (#24) (60 -> 10, 158.4g)
+2026-05-26 11:06:39 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:06:45 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:06:46 [INFO] SIM - [Tick 7] Health Update: Rio (#22) (100 -> 95) - critical hunger
+2026-05-26 11:06:46 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:06:46 [INFO] SIM - [Tick 7] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:06:47 [INFO] SIM - [Tick 8] Health Update: Rio (#22) (95 -> 90) - critical hunger
+2026-05-26 11:06:47 [INFO] SIM - [Tick 8] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:06:47 [INFO] SIM - [Tick 8] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:06:47 [INFO] SIM - [Tick 8] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:06:47 [INFO] SIM - [Tick 8] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:06:47 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:06:47 [INFO] SIM - [Tick 8] Feeding: Max (#24) (58 -> 10, 158.4g)
+2026-05-26 11:06:48 [INFO] SIM - [Tick 9] Health Update: Rio (#22) (90 -> 85) - critical hunger
+2026-05-26 11:06:48 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:06:49 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-26 11:06:49 [INFO] SIM - [Tick 10] Health Update: Rio (#22) (85 -> 80) - critical hunger
+2026-05-26 11:06:49 [INFO] SIM - [Tick 10] Feeding: Rio (#22) (100 -> 10, 5.0g)
+2026-05-26 11:06:55 [INFO] SIM - [Tick 11] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:06:55 [INFO] MEDICAL - Added vaccination for pet ID: 18
+2026-05-26 11:06:55 [INFO] SIM - [Tick 11] Vaccination: Rio (#18) received Avian Flu on 2026-05-26 (Routine vaccination)
+2026-05-26 11:06:56 [INFO] SIM - [Tick 12] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:06:56 [INFO] SIM - [Tick 12] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:06:56 [INFO] SIM - [Tick 12] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:06:56 [INFO] SIM - [Tick 12] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:06:56 [INFO] SIM - [Tick 12] Feeding: Max (#24) (58 -> 10, 158.4g)
+2026-05-26 11:06:56 [INFO] MEDICAL - Added vaccination for pet ID: 24
+2026-05-26 11:06:56 [INFO] SIM - [Tick 12] Vaccination: Max (#24) received Rabies on 2026-05-26 (Routine vaccination)
+2026-05-26 11:06:58 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:06:59 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:06:59 [INFO] SIM - [Tick 15] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:07:05 [INFO] SIM - [Tick 16] Health Update: Rio (#22) (80 -> 75) - critical hunger
+2026-05-26 11:07:05 [INFO] SIM - [Tick 16] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:07:05 [INFO] SIM - [Tick 16] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:07:05 [INFO] SIM - [Tick 16] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:07:05 [INFO] SIM - [Tick 16] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:07:05 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:05 [INFO] SIM - [Tick 16] Feeding: Max (#24) (58 -> 10, 158.4g)
+2026-05-26 11:07:06 [INFO] SIM - [Tick 17] Health Update: Rio (#22) (75 -> 70) - critical hunger
+2026-05-26 11:07:06 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:07 [INFO] SIM - [Tick 18] Health Update: Rio (#22) (70 -> 65) - critical hunger
+2026-05-26 11:07:07 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:08 [INFO] SIM - [Tick 19] Health Update: Rio (#22) (65 -> 60) - critical hunger
+2026-05-26 11:07:08 [WARNING] BOWL - Pet #22: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:08 [WARNING] BOWL - Pet #23: daily limit 107 g reached (consumed 75 g, requested 37 g). Feeding blocked.
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Health Update: Rio (#22) (60 -> 55) - critical hunger
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Feeding: Rio (#22) (100 -> 10, 5.0g)
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Feeding: Iggy (#23) (70 -> 10, 37.8g)
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Feeding: Max (#24) (58 -> 10, 158.4g)
+2026-05-26 11:07:09 [INFO] SHELTER - Removed pet #22 (Rio)
+2026-05-26 11:07:09 [INFO] SIM - [Tick 20] Animal Adopted: Rio (#22) found a new home (Matched with an adopter)
+2026-05-26 11:07:18 [INFO] SIM - [Tick 24] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:07:18 [INFO] SIM - [Tick 24] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:07:18 [INFO] SIM - [Tick 24] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:07:18 [INFO] SIM - [Tick 24] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:07:18 [INFO] SIM - [Tick 24] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:07:18 [INFO] SIM - [Tick 24] Feeding: Max (#24) (58 -> 10, 158.4g)
+2026-05-26 11:07:19 [INFO] MEDICAL - Added vaccination for pet ID: 8
+2026-05-26 11:07:19 [INFO] SIM - [Tick 25] Vaccination: Milo (#8) received Feline Distemper on 2026-05-26 (Routine vaccination)
+2026-05-26 11:07:19 [INFO] SHELTER - Removed pet #24 (Max)
+2026-05-26 11:07:19 [INFO] SIM - [Tick 25] Animal Adopted: Max (#24) found a new home (Matched with an adopter)
+2026-05-26 11:07:27 [WARNING] BOWL - Pet #8: daily limit 93 g reached (consumed 65 g, requested 32 g). Feeding blocked.
+2026-05-26 11:07:27 [WARNING] BOWL - Pet #14: daily limit 237 g reached (consumed 165 g, requested 82 g). Feeding blocked.
+2026-05-26 11:07:27 [WARNING] BOWL - Pet #18: daily limit 16 g reached (consumed 11 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:27 [WARNING] BOWL - Pet #19: daily limit 495 g reached (consumed 346 g, requested 173 g). Feeding blocked.
+2026-05-26 11:07:27 [WARNING] BOWL - Pet #23: daily limit 107 g reached (consumed 75 g, requested 37 g). Feeding blocked.
+2026-05-26 11:07:27 [INFO] SHELTER - Added pet #24 (Bird Sky)
+2026-05-26 11:07:27 [INFO] SIM - [Tick 28] Animal Arrived: Bird Sky, age 2, weight 0.8kg (New intake)
+2026-05-26 11:07:28 [WARNING] BOWL - Pet #8: daily limit 93 g reached (consumed 65 g, requested 32 g). Feeding blocked.
+2026-05-26 11:07:28 [WARNING] BOWL - Pet #14: daily limit 237 g reached (consumed 165 g, requested 82 g). Feeding blocked.
+2026-05-26 11:07:28 [WARNING] BOWL - Pet #18: daily limit 16 g reached (consumed 11 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:28 [WARNING] BOWL - Pet #19: daily limit 495 g reached (consumed 346 g, requested 173 g). Feeding blocked.
+2026-05-26 11:07:28 [WARNING] BOWL - Pet #23: daily limit 107 g reached (consumed 75 g, requested 37 g). Feeding blocked.
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] SmartBowl: daily counters reset for all bowls.
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Health Update: Milo (#8) (70 -> 65) - critical hunger
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Health Update: Nora (#14) (55 -> 50) - critical hunger
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Health Update: Rio (#18) (80 -> 75) - critical hunger
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Health Update: Max (#19) (75 -> 70) - critical hunger
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Health Update: Iggy (#23) (100 -> 95) - critical hunger
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Feeding: Milo (#8) (82 -> 10, 32.7g)
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Feeding: Nora (#14) (82 -> 10, 83.0g)
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Feeding: Rio (#18) (82 -> 10, 5.9g)
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Feeding: Max (#19) (82 -> 10, 173.4g)
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Feeding: Iggy (#23) (82 -> 10, 37.8g)
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Vet report for Milo: health 65/100, well fed, vaccination current, monitor closely
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Vet report for Nora: health 50/100, well fed, vaccination overdue, monitor closely
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Vet report for Rio: health 75/100, well fed, vaccination current, stable
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Vet report for Max: health 70/100, well fed, vaccination overdue, stable
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Vet report for Iggy: health 95/100, well fed, vaccination overdue, stable
+2026-05-26 11:07:29 [INFO] SIM - [Tick 30] Vet report for Sky: health 100/100, well fed, vaccination current, stable
+2026-05-26 11:07:37 [INFO] SIM - [Tick 33] Feeding: Sky (#24) (60 -> 10, 5.0g)
+2026-05-26 11:07:38 [INFO] SIM - [Tick 34] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:07:38 [INFO] SIM - [Tick 34] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:07:38 [INFO] SIM - [Tick 34] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:07:38 [INFO] SIM - [Tick 34] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:07:38 [INFO] SIM - [Tick 34] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:07:46 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:47 [WARNING] BOWL - Pet #8: daily limit 93 g reached (consumed 65 g, requested 32 g). Feeding blocked.
+2026-05-26 11:07:47 [WARNING] BOWL - Pet #14: daily limit 237 g reached (consumed 165 g, requested 82 g). Feeding blocked.
+2026-05-26 11:07:47 [WARNING] BOWL - Pet #18: daily limit 16 g reached (consumed 11 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:47 [WARNING] BOWL - Pet #19: daily limit 495 g reached (consumed 346 g, requested 173 g). Feeding blocked.
+2026-05-26 11:07:47 [WARNING] BOWL - Pet #23: daily limit 107 g reached (consumed 75 g, requested 37 g). Feeding blocked.
+2026-05-26 11:07:47 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:48 [INFO] SIM - [Tick 39] Health Update: Sky (#24) (100 -> 95) - critical hunger
+2026-05-26 11:07:48 [WARNING] BOWL - Pet #8: daily limit 93 g reached (consumed 65 g, requested 32 g). Feeding blocked.
+2026-05-26 11:07:48 [WARNING] BOWL - Pet #14: daily limit 237 g reached (consumed 165 g, requested 82 g). Feeding blocked.
+2026-05-26 11:07:48 [WARNING] BOWL - Pet #18: daily limit 16 g reached (consumed 11 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:48 [WARNING] BOWL - Pet #19: daily limit 495 g reached (consumed 346 g, requested 173 g). Feeding blocked.
+2026-05-26 11:07:48 [WARNING] BOWL - Pet #23: daily limit 107 g reached (consumed 75 g, requested 37 g). Feeding blocked.
+2026-05-26 11:07:48 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] SmartBowl: daily counters reset for all bowls.
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Health Update: Milo (#8) (65 -> 60) - critical hunger
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Health Update: Nora (#14) (50 -> 45) - critical hunger
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Health Update: Rio (#18) (75 -> 70) - critical hunger
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Health Update: Max (#19) (70 -> 65) - critical hunger
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Health Update: Iggy (#23) (95 -> 90) - critical hunger
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Health Update: Sky (#24) (95 -> 90) - critical hunger
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Feeding: Milo (#8) (82 -> 10, 32.7g)
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Feeding: Nora (#14) (82 -> 10, 83.0g)
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Feeding: Rio (#18) (82 -> 10, 5.9g)
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Feeding: Max (#19) (82 -> 10, 173.4g)
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Feeding: Iggy (#23) (82 -> 10, 37.8g)
+2026-05-26 11:07:49 [INFO] SIM - [Tick 40] Feeding: Sky (#24) (94 -> 10, 5.0g)
+2026-05-26 11:07:58 [INFO] SIM - [Tick 44] Feeding: Milo (#8) (58 -> 10, 32.7g)
+2026-05-26 11:07:58 [INFO] SIM - [Tick 44] Feeding: Nora (#14) (58 -> 10, 83.0g)
+2026-05-26 11:07:58 [INFO] SIM - [Tick 44] Feeding: Rio (#18) (58 -> 10, 5.9g)
+2026-05-26 11:07:58 [INFO] SIM - [Tick 44] Feeding: Max (#19) (58 -> 10, 173.4g)
+2026-05-26 11:07:58 [INFO] SIM - [Tick 44] Feeding: Iggy (#23) (58 -> 10, 37.8g)
+2026-05-26 11:07:58 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:07:59 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:08:05 [INFO] SIM - [Tick 46] Health Update: Sky (#24) (90 -> 85) - critical hunger
+2026-05-26 11:08:05 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:08:06 [INFO] SIM - [Tick 47] Health Update: Sky (#24) (85 -> 80) - critical hunger
+2026-05-26 11:08:06 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:08:07 [INFO] SIM - [Tick 48] Health Update: Sky (#24) (80 -> 75) - critical hunger
+2026-05-26 11:08:07 [WARNING] BOWL - Pet #8: daily limit 93 g reached (consumed 65 g, requested 32 g). Feeding blocked.
+2026-05-26 11:08:07 [WARNING] BOWL - Pet #14: daily limit 237 g reached (consumed 165 g, requested 82 g). Feeding blocked.
+2026-05-26 11:08:07 [WARNING] BOWL - Pet #18: daily limit 16 g reached (consumed 11 g, requested 5 g). Feeding blocked.
+2026-05-26 11:08:07 [WARNING] BOWL - Pet #19: daily limit 495 g reached (consumed 346 g, requested 173 g). Feeding blocked.
+2026-05-26 11:08:07 [WARNING] BOWL - Pet #23: daily limit 107 g reached (consumed 75 g, requested 37 g). Feeding blocked.
+2026-05-26 11:08:07 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:08:07 [INFO] SHELTER - Removed pet #8 (Milo)
+2026-05-26 11:08:07 [INFO] SIM - [Tick 48] Animal Adopted: Milo (#8) found a new home (Matched with an adopter)
+2026-05-26 11:08:08 [INFO] SIM - [Tick 49] Health Update: Sky (#24) (75 -> 70) - critical hunger
+2026-05-26 11:08:08 [WARNING] BOWL - Pet #14: daily limit 237 g reached (consumed 165 g, requested 82 g). Feeding blocked.
+2026-05-26 11:08:08 [WARNING] BOWL - Pet #18: daily limit 16 g reached (consumed 11 g, requested 5 g). Feeding blocked.
+2026-05-26 11:08:08 [WARNING] BOWL - Pet #19: daily limit 495 g reached (consumed 346 g, requested 173 g). Feeding blocked.
+2026-05-26 11:08:08 [WARNING] BOWL - Pet #23: daily limit 107 g reached (consumed 75 g, requested 37 g). Feeding blocked.
+2026-05-26 11:08:08 [WARNING] BOWL - Pet #24: daily limit 7 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] SmartBowl: daily counters reset for all bowls.
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Health Update: Nora (#14) (45 -> 40) - critical hunger
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Health Update: Rio (#18) (70 -> 65) - critical hunger
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Health Update: Max (#19) (65 -> 60) - critical hunger
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Health Update: Iggy (#23) (90 -> 85) - critical hunger
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Health Update: Sky (#24) (70 -> 65) - critical hunger
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Feeding: Nora (#14) (82 -> 10, 83.0g)
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Feeding: Rio (#18) (82 -> 10, 5.9g)
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Feeding: Max (#19) (82 -> 10, 173.4g)
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Feeding: Iggy (#23) (82 -> 10, 37.8g)
+2026-05-26 11:08:09 [INFO] SIM - [Tick 50] Feeding: Sky (#24) (100 -> 10, 5.0g)
+2026-05-26 11:08:15 [INFO] SIM - [Tick 50] Simulation finished.
