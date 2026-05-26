@@ -30,6 +30,7 @@ public:
     ActivityLevel getActivityLevel() const;
     int getHungerLevel() const;
     int getHealthLevel() const;
+    int getConsecutiveLowHungerTicks() const;
 
     void setIsHungry(bool hungry);
     void setActivityLevel(ActivityLevel level);
@@ -38,6 +39,8 @@ public:
     void increaseHunger(int amount = 1);
     void decreaseHunger(int amount);
     void changeHealth(int delta);
+    void resetConsecutiveLowHungerTicks();
+    void increaseConsecutiveLowHungerTicks();
 
     static std::string activityToString(ActivityLevel level);
 
@@ -50,6 +53,7 @@ protected:
     ActivityLevel activityLevel;
     int hungerLevel;
     int healthLevel;
+    int consecutiveLowHungerTicks;
 
 private:
     void syncHungerFlag();

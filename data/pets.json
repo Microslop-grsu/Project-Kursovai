@@ -1,91 +1,53 @@
 {
     "pets": [
         {
-            "activityLevel": "LOW",
+            "activityLevel": "NORMAL",
             "age": 5,
-            "hasCommands": false,
-            "healthLevel": 95,
-            "hungerLevel": 22,
-            "id": 35,
+            "hasCommands": true,
+            "healthLevel": 79,
+            "hungerLevel": 34,
+            "id": 60,
             "isHungry": false,
-            "name": "Bella",
+            "name": "Rocky",
             "type": "Dog",
-            "weight": 22.504049624272472
+            "weight": 26.764986915911887
         },
         {
-            "activityLevel": "LOW",
+            "activityLevel": "NORMAL",
             "age": 2,
             "healthLevel": 100,
-            "hungerLevel": 10,
-            "id": 36,
+            "humidity": 60.62040737907082,
+            "hungerLevel": 34,
+            "id": 62,
             "isHungry": false,
-            "name": "Sky",
-            "type": "Bird",
-            "weight": 1.6031402526471863,
-            "wingSpan": 40.96361069493097
-        },
-        {
-            "activityLevel": "LOW",
-            "age": 11,
-            "healthLevel": 95,
-            "humidity": 51.719778985676804,
-            "hungerLevel": 22,
-            "id": 37,
-            "isHungry": false,
-            "name": "Zuri",
-            "temperature": 31.586549917287865,
+            "name": "Nova",
+            "temperature": 28.51188110593236,
             "type": "Exotic",
-            "weight": 0.9368459206570576
+            "weight": 1.1363855368415332
         },
         {
-            "activityLevel": "LOW",
-            "age": 7,
-            "furType": "hairless",
+            "activityLevel": "HIGH",
+            "age": 4,
             "healthLevel": 100,
-            "hungerLevel": 22,
-            "id": 38,
-            "isHungry": false,
-            "name": "Murka",
-            "type": "Cat",
-            "weight": 2.9450397370646266
-        },
-        {
-            "activityLevel": "LOW",
-            "age": 2,
-            "healthLevel": 90,
-            "hungerLevel": 70,
-            "id": 39,
+            "hungerLevel": 58,
+            "id": 63,
             "isHungry": true,
-            "name": "Rio",
+            "name": "Sunny",
             "type": "Bird",
-            "weight": 0.9401095770055647,
-            "wingSpan": 51.60082040191534
+            "weight": 0.22936036701774629,
+            "wingSpan": 20.741933695916845
         },
         {
             "activityLevel": "LOW",
-            "age": 5,
+            "age": 4,
+            "hasCommands": true,
             "healthLevel": 100,
-            "humidity": 49.742349231140665,
-            "hungerLevel": 46,
-            "id": 40,
+            "hungerLevel": 0,
+            "id": 64,
             "isHungry": false,
-            "name": "Zuri",
-            "temperature": 26.674407552689004,
-            "type": "Exotic",
-            "weight": 1.5210880780869793
-        },
-        {
-            "activityLevel": "LOW",
-            "age": 9,
-            "healthLevel": 100,
-            "humidity": 63.570574050468196,
-            "hungerLevel": 46,
-            "id": 42,
-            "isHungry": false,
-            "name": "Mango",
-            "temperature": 24.76417003919643,
-            "type": "Exotic",
-            "weight": 6.923342758207583
+            "name": "Luna",
+            "type": "Dog",
+            "weight": 10.383005991040614
         }
     ]
 }

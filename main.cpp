@@ -3,8 +3,6 @@
 #include "shelter/ui/ConsoleView.h"
 #include <filesystem>
 #include <iostream>
-#include <thread>
-#include <chrono>
 #include <limits>
 #include <memory>
 #ifdef _WIN32
@@ -77,9 +75,9 @@ int main() {
         SimulationConfig config;
         SimulationEngine engine(manager, config);
         engine.run(totalTicks, displayInterval);
-        engine.saveStatistics(statsPath.string());
 
-        std::cout << "Статистика сохранена в " << statsPath << '\n';
+        // engine.saveStatistics(statsPath.string());
+        // std::cout << "Статистика сохранена в " << statsPath << '\n';
         return 0;
     }
 

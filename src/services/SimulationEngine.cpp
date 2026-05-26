@@ -4,15 +4,12 @@
 #include "../../include/shelter/services/SmartBowl.h"
 #include "../../include/shelter/storage/json.hpp"
 #include <algorithm>
-#include <filesystem>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
 #include <sstream>
 #include <thread>
 #include <chrono>
-
-using json = nlohmann::json;
 
 SimulationEngine::SimulationEngine(
     std::shared_ptr<ShelterManager> manager,
@@ -149,40 +146,71 @@ std::string SimulationEngine::getShelterStatus() const {
     }
     return ss.str();
 }
-
-void SimulationEngine::saveStatistics(const std::string& filename) const {
-    const std::filesystem::path path(filename);
-    if (path.has_parent_path()) {
-        std::filesystem::create_directories(path.parent_path());
-    }
-
-    json statistics = {
-        {"totalTicks", currentTick},
-        {"animalsArrived", stats.animalsArrived},
-        {"animalsAdopted", stats.animalsAdopted},
-        {"vaccinationsGiven", stats.vaccinationsGiven},
-        {"vetChecksPerformed", stats.vetChecksPerformed},
-        {"feedingOccurrences", stats.feedingOccurrences},
-        {"criticalHealthCases", stats.criticalHealthCases},
-        {"averageHungerLevel", stats.samples == 0 ? 0.0 : stats.accumulatedAverageHunger / stats.samples},
-        {"averageHealthLevel", stats.samples == 0 ? 0.0 : stats.accumulatedAverageHealth / stats.samples},
-        {"currentPopulation", manager->getPetCount()}
-    };
-
-    std::ofstream output(path);
-    output << statistics.dump(4);
-}
+// Добавлением вывода в консоль я(Жданович) считаю этот метод бесполезным
+// void SimulationEngine::saveStatistics(const std::string& filename) const {
+//     const std::filesystem::path path(filename);
+//     if (path.has_parent_path()) {
+//         std::filesystem::create_directories(path.parent_path());
+//     }
+//
+//     json statistics = {
+//         {"totalTicks", currentTick},
+//         {"animalsArrived", stats.animalsArrived},
+//         {"animalsAdopted", stats.animalsAdopted},
+//         {"vaccinationsGiven", stats.vaccinationsGiven},
+//         {"vetChecksPerformed", stats.vetChecksPerformed},
+//         {"feedingOccurrences", stats.feedingOccurrences},
+//         {"criticalHealthCases", stats.criticalHealthCases},
+//         {"averageHungerLevel", stats.samples == 0 ? 0.0 : stats.accumulatedAverageHunger / stats.samples},
+//         {"averageHealthLevel", stats.samples == 0 ? 0.0 : stats.accumulatedAverageHealth / stats.samples},
+//         {"currentPopulation", manager->getPetCount()}
+//     };
+//
+//     std::ofstream output(path);
+//     output << statistics.dump(4);
+// }
 
 void SimulationEngine::updateAnimalStates() {
+    std::vector<short> deadAnimals;
+    constexpr int LOW_HUNGER_RECOVERY_TICKS = 2;
+    constexpr int LOW_HUNGER_HEALTH_BONUS = 1;
+
     for (Pet* pet : manager->getAllPets()) {
         if (!pet) {
             continue;
         }
 
+        const int hungerBeforeTick = pet->getHungerLevel();
+
+        if (hungerBeforeTick < 30) {
+            pet->increaseConsecutiveLowHungerTicks();
+        } else {
+            pet->resetConsecutiveLowHungerTicks();
+        }
+
+        if (pet->getConsecutiveLowHungerTicks() >= LOW_HUNGER_RECOVERY_TICKS && pet->getHealthLevel() < 100) {
+            const int previousHealth = pet->getHealthLevel();
+            pet->changeHealth(+LOW_HUNGER_HEALTH_BONUS);
+            logEvent(
+                "RECOVERY: " + pet->getName() + " (#" + std::to_string(pet->getId()) +
+                ") recovered after " + std::to_string(pet->getConsecutiveLowHungerTicks()) +
+                " consecutive low-hunger ticks (" + std::to_string(hungerBeforeTick) +
+                "%). Health: " + std::to_string(previousHealth) +
+                " -> " + std::to_string(pet->getHealthLevel())
+            );
+        }
+
         pet->increaseHunger(config.hungerIncreasePerTick);
+
         if (pet->getHungerLevel() > config.criticalHungerThreshold) {
             const int previousHealth = pet->getHealthLevel();
-            pet->changeHealth(-config.healthPenaltyPerCriticalTick);
+
+            int healthPenalty = config.healthPenaltyPerCriticalTick;
+            if (pet->getType() == "Bird") {
+                healthPenalty = static_cast<int>(config.healthPenaltyPerCriticalTick * 1.5);
+            }
+
+            pet->changeHealth(-healthPenalty);
             if (previousHealth >= 30 && pet->getHealthLevel() < 30) {
                 ++stats.criticalHealthCases;
             }
@@ -196,43 +224,59 @@ void SimulationEngine::updateAnimalStates() {
             );
             logEvent(healthUpdate.toString());
         }
+
+        if (pet->getHealthLevel() <= 0) {
+            deadAnimals.push_back(pet->getId());
+            logEvent("FATAL: " + pet->getName() + " (#" + std::to_string(pet->getId()) +
+                    ", " + pet->getType() + ") died from starvation!");
+        }
+    }
+
+    for (short petId : deadAnimals) {
+        manager->removePet(petId);
     }
 }
 
 void SimulationEngine::performHungerCheck() {
-    for (Pet* pet : manager->getAllPets()) {
-        if (!pet || pet->getHungerLevel() <= config.hungerFeedingThreshold) {
-            continue;
-        }
+     for (Pet* pet : manager->getAllPets()) {
+         if (!pet || pet->getHungerLevel() <= config.hungerFeedingThreshold) {
+             continue;
+         }
 
-        const int previousHunger = pet->getHungerLevel();
-        const double grams = std::max(
-            5.0,
-            DietCalculator::calculateDailyGrams(*pet, manager->getMedicalRecord()) * 0.35
-        );
+         const int previousHunger = pet->getHungerLevel();
+         double portionPercent = 0.35;
 
-        const bool fed = bowlRegistry.dispense(
-            pet->getId(), grams,
-            manager->getMonitor(),
-            manager->getLogger()
-        );
-        if (!fed) {
-            continue;
-        }
+         if (pet->getType() == "Bird") {
+             portionPercent = 0.50;
+         }
 
-        pet->setHungerLevel(std::min(pet->getHungerLevel(), 10));
-        ++stats.feedingOccurrences;
+         const double grams = std::max(
+             5.0,
+             DietCalculator::calculateDailyGrams(*pet, manager->getMedicalRecord()) * portionPercent
+         );
 
-        FeedingEvent feedingEvent(
-            pet->getId(),
-            pet->getName(),
-            grams,
-            previousHunger,
-            pet->getHungerLevel()
-        );
-        logEvent(feedingEvent.toString());
-    }
-}
+         const bool fed = bowlRegistry.dispense(
+             pet->getId(), grams,
+             manager->getMonitor(),
+             manager->getLogger()
+         );
+         if (!fed) {
+             continue;
+         }
+
+         pet->setHungerLevel(std::min(pet->getHungerLevel(), 10));
+         ++stats.feedingOccurrences;
+
+         FeedingEvent feedingEvent(
+             pet->getId(),
+             pet->getName(),
+             grams,
+             previousHunger,
+             pet->getHungerLevel()
+         );
+         logEvent(feedingEvent.toString());
+     }
+ }
 
 void SimulationEngine::performPeriodicVetCheck() {
     for (Pet* pet : manager->getAllPets()) {
