@@ -5,12 +5,11 @@
 #include "../core/MedicalRecord.h"
 #include "../storage/PetRepository.h"
 #include "../utils/Logger.h"
-#include "DietCalculator.h"
 #include "FeedingMonitor.h"
 
 class ShelterManager {
 public:
-    explicit ShelterManager(const std::string& logPath);
+    explicit ShelterManager(const std::string& logPath, std::string dataPath = "");
 
     bool loadData(const std::string& path);
     bool saveData(const std::string& path);
@@ -40,4 +39,5 @@ private:
     PetRepository repo;
     MedicalRecord medicalRecord;
     FeedingMonitor monitor;
+    std::string dataPath;
 };

@@ -52,7 +52,7 @@ int main() {
     const std::filesystem::path logPath = projectRoot / "data" / "events.logs";
     const std::filesystem::path statsPath = projectRoot / "stats.json";
 
-    auto manager = std::make_shared<ShelterManager>(logPath.string());
+    auto manager = std::make_shared<ShelterManager>(logPath.string(), petsPath.string());
     if (!manager->loadData(petsPath.string())) {
         std::cerr << "Failed to load pet data from " << petsPath << '\n';
         return 1;

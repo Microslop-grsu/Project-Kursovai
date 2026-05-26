@@ -1,5 +1,6 @@
 #include "../../include/shelter/ui/ConsoleView.h"
 #include "../../include/shelter/services/ShelterManager.h"
+#include "../../include/shelter/services/DietCalculator.h"
 #include <iostream>
 #include <vector>
 

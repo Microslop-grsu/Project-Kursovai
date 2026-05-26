@@ -1,48 +1,45 @@
 #include "../../include/shelter/storage/DataLoader.h"
 #include "../../include/shelter/storage/PetFactory.h"
 #include "../../include/shelter/storage/json.hpp"
+#include "../../include/shelter/utils/Logger.h"
 #include <fstream>
 #include <iostream>
 
 using json = nlohmann::json;
 
-namespace {
-void logDataLoaderMessage(const std::string& level, const std::string& message) {
-    std::cerr << "[DataLoader][" << level << "] " << message << '\n';
-}
-}
+Logger dataLogger("../data/storage.logs");
 
 bool DataLoader::loadFromFile(const std::string& path, PetRepository& repo) {
     std::ifstream file(path);
     if (!file.is_open()) {
-        logDataLoaderMessage("ERROR", "File not found: " + path);
+        dataLogger.error("DATA", "Файл не найден: " + path);
         return false;
     }
 
     json data;
     try {
         file >> data;
-    } catch (const json::parse_error& error) {
-        logDataLoaderMessage("ERROR", "JSON parse error: " + std::string(error.what()));
+    } catch (const json::parse_error& e) {
+        dataLogger.error("DATA", "Ошибка парсинга JSON: " + std::string(e.what()));
         return false;
     }
 
     repo.clear();
     if (!data.contains("pets") || !data["pets"].is_array()) {
-        logDataLoaderMessage("ERROR", "Pets array is missing.");
+        dataLogger.error("DATA", "Данные о питомцах отсутствуют");
         return false;
     }
 
     for (const auto& petJson : data["pets"]) {
         auto pet = PetFactory::createFromJson(petJson);
         if (!pet) {
-            logDataLoaderMessage("ERROR", "Invalid pet entry in " + path);
+            dataLogger.error("DATA", "Неверная запись о питомце в" + path);
             return false;
         }
         repo.add(std::move(pet));
     }
 
-    logDataLoaderMessage("INFO", "Loaded " + std::to_string(repo.size()) + " pets from " + path);
+    dataLogger.info("DATA", "Загружено " + std::to_string(repo.size()) + " питомцев из " + path);
     return true;
 }
 
@@ -56,12 +53,12 @@ bool DataLoader::saveToFile(const std::string& path, const PetRepository& repo) 
 
     std::ofstream file(path);
     if (!file.is_open()) {
-        logDataLoaderMessage("ERROR", "Cannot write to file: " + path);
+        dataLogger.error("DATA", "Невозможно записать данные в : " + path);
         return false;
     }
 
     file << data.dump(4);
     currentFilePath = path;
-    logDataLoaderMessage("INFO", "Saved " + std::to_string(repo.size()) + " pets to " + path);
+    dataLogger.info("DATA", "Сохранено " + std::to_string(repo.size()) + " питомцев в " + path);
     return true;
 }

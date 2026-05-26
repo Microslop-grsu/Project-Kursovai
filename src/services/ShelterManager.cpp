@@ -1,18 +1,28 @@
 #include "../../include/shelter/services/ShelterManager.h"
 #include "../../include/shelter/services/DietCalculator.h"
 #include "../../include/shelter/storage/DataLoader.h"
+#include "../../include/shelter/storage/PetFactory.h"
 #include <algorithm>
 #include <iostream>
 
-ShelterManager::ShelterManager(const std::string& logPath) : logger(logPath) {}
+ShelterManager::ShelterManager(const std::string& logPath, std::string dataPath)
+    : logger(logPath), dataPath(std::move(dataPath)) {}
 
 bool ShelterManager::loadData(const std::string& path) {
-    return DataLoader::loadFromFile(path, repo);
+    const bool loaded = DataLoader::loadFromFile(path, repo);
+    if (loaded) {
+        dataPath = path;
+    }
+    return loaded;
 }
 
 bool ShelterManager::saveData(const std::string& path) {
     DataLoader loader;
-    return loader.saveToFile(path, repo);
+    const bool saved = loader.saveToFile(path, repo);
+    if (saved) {
+        dataPath = path;
+    }
+    return saved;
 }
 
 bool ShelterManager::addPet(std::unique_ptr<Pet> pet) {
@@ -20,16 +30,24 @@ bool ShelterManager::addPet(std::unique_ptr<Pet> pet) {
         return false;
     }
 
+    const short petId = pet->getId();
+    const std::string petType = pet->getType();
+    const std::string petName = pet->getName();
+
     if (repo.findByID(pet->getId()) != nullptr) {
-        logger.warning("SHELTER", "Attempted to add a duplicate pet ID: " + std::to_string(pet->getId()));
+        logger.warning("SHELTER", "Attempted to add a duplicate pet ID: " + std::to_string(petId));
         return false;
     }
 
-    logger.info(
-        "SHELTER",
-        "Added pet #" + std::to_string(pet->getId()) + " (" + pet->getType() + " " + pet->getName() + ")"
-    );
     repo.add(std::move(pet));
+    logger.info("SHELTER", "Added pet #" + std::to_string(petId) + " (" + petType + " " + petName + ")");
+
+    if (!dataPath.empty() && !saveData(dataPath)) {
+        repo.remove(petId);
+        logger.error("SHELTER", "Failed to save pets data after adding pet #" + std::to_string(petId));
+        return false;
+    }
+
     return true;
 }
 
@@ -41,9 +59,19 @@ bool ShelterManager::removePet(short id) {
     }
 
     const std::string petName = pet->getName();
+    const nlohmann::json removedPetSnapshot = pet->toJson();
     const bool removed = repo.remove(id);
     if (removed) {
         logger.info("SHELTER", "Removed pet #" + std::to_string(id) + " (" + petName + ")");
+
+        if (!dataPath.empty() && !saveData(dataPath)) {
+            auto restoredPet = PetFactory::createFromJson(removedPetSnapshot);
+            if (restoredPet) {
+                repo.add(std::move(restoredPet));
+            }
+            logger.error("SHELTER", "Failed to save pets data after removing pet #" + std::to_string(id));
+            return false;
+        }
     }
     return removed;
 }
