@@ -21,20 +21,20 @@ double DietCalculator::activityMultiplier(const Pet &pet)
     }
 }
 
-double DietCalculator::healthAdjustment(const MedicalRecord &record)
+double DietCalculator::healthAdjustment(short petId, const MedicalRecord &record)
 {
     double adj = 0.0;
-    if (record.hasHealthIssue("obesity"))         adj -= 0.15;
-    if (record.hasHealthIssue("diabetes"))        adj -= 0.10;
-    if (record.hasHealthIssue("kidney_disease"))  adj -= 0.20;
-    if (record.hasHealthIssue("underweight"))     adj += 0.20;
+    if (record.hasHealthIssue(petId, "obesity"))         adj -= 0.15;
+    if (record.hasHealthIssue(petId, "diabetes"))        adj -= 0.10;
+    if (record.hasHealthIssue(petId, "kidney_disease"))  adj -= 0.20;
+    if (record.hasHealthIssue(petId, "underweight"))     adj += 0.20;
     return adj;
 }
 
 double DietCalculator::calculateDailyGrams(const Pet &pet, const MedicalRecord &record)
 {
     double base      = baseGramsPerKg(pet.getType()) * pet.getWeight();
-    double totalMult = activityMultiplier(pet) + healthAdjustment(record);
+    double totalMult = activityMultiplier(pet) + healthAdjustment(pet.getId(), record);
 
     if (totalMult < 0.30) totalMult = 0.30;
 
@@ -46,7 +46,7 @@ std::string DietCalculator::getDietSummary(const Pet &pet, const MedicalRecord &
 {
     double base      = baseGramsPerKg(pet.getType()) * pet.getWeight();
     double activity  = activityMultiplier(pet);
-    double healthAdj = healthAdjustment(record);
+    double healthAdj = healthAdjustment(pet.getId(), record);
     double totalMult = activity + healthAdj;
     if (totalMult < 0.30) totalMult = 0.30;
     double grams = base * totalMult;
@@ -64,7 +64,7 @@ std::string DietCalculator::getDietSummary(const Pet &pet, const MedicalRecord &
 
     if (healthAdj != 0.0) {
         oss << "  Поправка (болезни): ";
-        const auto &issues = record.getHealthIssues();
+        const auto issues = record.getHealthIssuesForPet(pet.getId());
         for (size_t i = 0; i < issues.size(); ++i) {
             if (i) oss << ", ";
             oss << issues[i];

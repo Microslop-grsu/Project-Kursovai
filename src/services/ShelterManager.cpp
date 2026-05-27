@@ -97,9 +97,11 @@ void ShelterManager::addVaccination(short petId, const std::string& vaccine, con
     logger.info("MEDICAL", "Added vaccination for pet ID: " + std::to_string(petId));
 }
 
-void ShelterManager::addHealthIssue(const std::string& issue) {
-    medicalRecord.addHealthIssue(issue);
-    logger.info("DIET", "Health issue registered: " + issue);
+void ShelterManager::addHealthIssue(short petId, const std::string& issue) {
+    medicalRecord.addHealthIssue(petId, issue);
+    Pet* pet = repo.findByID(petId);
+    std::string petLabel = pet ? (pet->getName() + " (#" + std::to_string(petId) + ")") : std::to_string(petId);
+    logger.info("DIET", "Health issue registered for " + petLabel + ": " + issue);
 }
 
 void ShelterManager::checkHungryPets() {

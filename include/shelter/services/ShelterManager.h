@@ -27,7 +27,7 @@ public:
     short generateNextPetId() const;
 
     void addVaccination(short petId, const std::string& vaccine, const std::string& date);
-    void addHealthIssue(const std::string& issue);
+    void addHealthIssue(short petId, const std::string& issue);
     void checkHungryPets();
     void feedPet(const std::string& petName, double grams);
     void feedPet(short petId, double grams);
