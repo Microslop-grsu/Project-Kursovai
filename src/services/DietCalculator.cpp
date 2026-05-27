@@ -39,7 +39,7 @@ double DietCalculator::calculateDailyGrams(const Pet &pet, const MedicalRecord &
     if (totalMult < 0.30) totalMult = 0.30;
 
     double result = base * totalMult;
-    return result < 5.0 ? 5.0 : result;
+    return result < 15.0 ? 15.0 : result;
 }
 
 std::string DietCalculator::getDietSummary(const Pet &pet, const MedicalRecord &record)

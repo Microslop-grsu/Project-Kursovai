@@ -12,7 +12,8 @@ SmartBowl::SmartBowl(short petId, double dailyLimitGrams)
 
 bool SmartBowl::dispense(double grams, FeedingMonitor& monitor, Logger& logger)
 {
-    if (gramsConsumedToday + grams > dailyLimit) {
+    const double remaining = dailyLimit - gramsConsumedToday;
+    if (remaining <= 0.0) {
         logger.warning("BOWL",
             "Pet #" + std::to_string(petId) +
             ": daily limit " + std::to_string(static_cast<int>(dailyLimit)) +
@@ -21,8 +22,22 @@ bool SmartBowl::dispense(double grams, FeedingMonitor& monitor, Logger& logger)
         return false;
     }
 
-    gramsConsumedToday += grams;
-    monitor.feed(petId, grams);
+    double toDispense = grams;
+    if (grams > remaining) {
+        // If requested amount exceeds remaining daily allowance, dispense the remainder
+        // instead of blocking completely. This avoids deadlocks when minimum portion
+        // sizes (e.g. birds requiring at least 5g) are larger than the bowl's remaining
+        // allowance for the day.
+        logger.info("BOWL",
+            "Pet #" + std::to_string(petId) +
+            ": requested " + std::to_string(static_cast<int>(grams)) +
+            " g but only " + std::to_string(static_cast<int>(remaining)) +
+            " g remaining for today. Dispensing remaining amount.");
+        toDispense = remaining;
+    }
+
+    gramsConsumedToday += toDispense;
+    monitor.feed(petId, toDispense);
     return true;
 }
 
