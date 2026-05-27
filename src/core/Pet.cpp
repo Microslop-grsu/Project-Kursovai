@@ -10,7 +10,8 @@ Pet::Pet(short id, const std::string& name, int age, double weight, ActivityLeve
       isHungry(false),
       activityLevel(activity),
       hungerLevel(0),
-      healthLevel(100) {}
+      healthLevel(100),
+      consecutiveLowHungerTicks(0) {}
 
 Pet::~Pet() {}
 
@@ -22,6 +23,7 @@ bool Pet::getIsHungry() const { return isHungry; }
 ActivityLevel Pet::getActivityLevel() const { return activityLevel; }
 int Pet::getHungerLevel() const { return hungerLevel; }
 int Pet::getHealthLevel() const { return healthLevel; }
+int Pet::getConsecutiveLowHungerTicks() const { return consecutiveLowHungerTicks; }
 
 void Pet::setIsHungry(bool hungry) {
     isHungry = hungry;
@@ -55,6 +57,14 @@ void Pet::decreaseHunger(int amount) {
 
 void Pet::changeHealth(int delta) {
     setHealthLevel(healthLevel + delta);
+}
+
+void Pet::resetConsecutiveLowHungerTicks() {
+    consecutiveLowHungerTicks = 0;
+}
+
+void Pet::increaseConsecutiveLowHungerTicks() {
+    ++consecutiveLowHungerTicks;
 }
 
 std::string Pet::activityToString(ActivityLevel level) {

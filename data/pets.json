@@ -1,45 +1,53 @@
 {
-  "pets": [
-    {
-      "id": 1,
-      "type": "Exotic",
-      "name": "Iggy",
-      "age": 2,
-      "weight": 1.5,
-      "temperature": 30.0,
-      "humidity": 45.0
-    },
-    {
-      "id": 2,
-      "type": "Dog",
-      "name": "Rex",
-      "age": 3,
-      "weight": 15.0,
-      "hasCommands": true
-    },
-    {
-      "id": 3,
-      "type": "Cat",
-      "name": "Murka",
-      "age": 2,
-      "weight": 4.2,
-      "furType": "Siamese"
-    },
-    {
-      "id": 4,
-      "type": "Bird",
-      "name": "Kesha",
-      "age": 1,
-      "weight": 0.3,
-      "wingSpan": 25.0
-    },
-    {
-      "id": 5,
-      "type": "Cat",
-      "name": "Sphynx",
-      "age": 2,
-      "weight": 3.5,
-      "furType": "hairless"
-    }
-  ]
+    "pets": [
+        {
+            "activityLevel": "NORMAL",
+            "age": 5,
+            "hasCommands": true,
+            "healthLevel": 79,
+            "hungerLevel": 34,
+            "id": 60,
+            "isHungry": false,
+            "name": "Rocky",
+            "type": "Dog",
+            "weight": 26.764986915911887
+        },
+        {
+            "activityLevel": "NORMAL",
+            "age": 2,
+            "healthLevel": 100,
+            "humidity": 60.62040737907082,
+            "hungerLevel": 34,
+            "id": 62,
+            "isHungry": false,
+            "name": "Nova",
+            "temperature": 28.51188110593236,
+            "type": "Exotic",
+            "weight": 1.1363855368415332
+        },
+        {
+            "activityLevel": "HIGH",
+            "age": 4,
+            "healthLevel": 100,
+            "hungerLevel": 58,
+            "id": 63,
+            "isHungry": true,
+            "name": "Sunny",
+            "type": "Bird",
+            "weight": 0.22936036701774629,
+            "wingSpan": 20.741933695916845
+        },
+        {
+            "activityLevel": "LOW",
+            "age": 4,
+            "hasCommands": true,
+            "healthLevel": 100,
+            "hungerLevel": 0,
+            "id": 64,
+            "isHungry": false,
+            "name": "Luna",
+            "type": "Dog",
+            "weight": 10.383005991040614
+        }
+    ]
 }

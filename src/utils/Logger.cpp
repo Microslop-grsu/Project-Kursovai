@@ -45,9 +45,7 @@ std::string Logger::getCurrentTime() {
 void Logger::log(LogLevel level, const std::string& category, const std::string& message) {
     if (log_file.is_open()) {
         log_file << getCurrentTime() << " [" << levelToString(level) << "] "
-               << category << " - " << message << "\n";
-
-        log_file.flush();
+               << category << " - " << message << std::endl;
     }
 }
 

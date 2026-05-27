@@ -52,7 +52,7 @@ int main() {
     const std::filesystem::path logPath = projectRoot / "data" / "events.logs";
     const std::filesystem::path statsPath = projectRoot / "stats.json";
 
-    auto manager = std::make_shared<ShelterManager>(logPath.string());
+    auto manager = std::make_shared<ShelterManager>(logPath.string(), petsPath.string());
     if (!manager->loadData(petsPath.string())) {
         std::cerr << "Failed to load pet data from " << petsPath << '\n';
         return 1;
@@ -75,9 +75,9 @@ int main() {
         SimulationConfig config;
         SimulationEngine engine(manager, config);
         engine.run(totalTicks, displayInterval);
-        engine.saveStatistics(statsPath.string());
 
-        std::cout << "Статистика сохранена в " << statsPath << '\n';
+        // engine.saveStatistics(statsPath.string());
+        // std::cout << "Статистика сохранена в " << statsPath << '\n';
         return 0;
     }
 

@@ -8,7 +8,7 @@ double DietCalculator::baseGramsPerKg(const std::string &petType)
 {
     if (petType == "Dog")  return 25.0;
     if (petType == "Cat")  return 40.0;
-    if (petType == "Bird") return 10.0;
+    if (petType == "Bird") return 15.0;
     return 20.0;
 }
 
