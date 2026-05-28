@@ -26,13 +26,11 @@ public:
     std::string getName() const;
     int getAge() const;
     double getWeight() const;
-    bool getIsHungry() const;
     ActivityLevel getActivityLevel() const;
     int getHungerLevel() const;
     int getHealthLevel() const;
     int getConsecutiveLowHungerTicks() const;
 
-    void setIsHungry(bool hungry);
     void setActivityLevel(ActivityLevel level);
     void setHungerLevel(int hunger);
     void setHealthLevel(int health);
@@ -49,12 +47,8 @@ protected:
     std::string name;
     int age;
     double weight;
-    bool isHungry;
     ActivityLevel activityLevel;
     int hungerLevel;
     int healthLevel;
     int consecutiveLowHungerTicks;
-
-private:
-    void syncHungerFlag();
 };

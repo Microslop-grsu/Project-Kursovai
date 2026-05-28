@@ -1,9 +1,8 @@
 #include "shelter/services/ShelterManager.h"
-#include "shelter/services/SimulationEngine.h"
+
 #include "shelter/ui/ConsoleView.h"
 #include <filesystem>
 #include <iostream>
-#include <limits>
 #include <memory>
 #ifdef _WIN32
 #include <windows.h>
@@ -28,18 +27,7 @@ std::filesystem::path findProjectRoot() {
     return std::filesystem::current_path();
 }
 
-int readPositiveInteger(const std::string& prompt, int defaultValue) {
-    std::cout << prompt << " [" << defaultValue << "]: ";
 
-    int value = defaultValue;
-    if (!(std::cin >> value) || value <= 0) {
-        std::cin.clear();
-        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-        return defaultValue;
-    }
-
-    return value;
-}
 }
 
 int main() {
@@ -58,34 +46,8 @@ int main() {
         return 1;
     }
 
-    std::cout << "\n=== ShelterCore ===\n";
-    std::cout << "1 - Режим симуляции\n";
-    std::cout << "2 - Интерактивный режим\n";
-    std::cout << "0 - Выход\n> ";
-
-    int choice = 0;
-    if (!(std::cin >> choice)) {
-        return 1;
-    }
-
-    if (choice == 1) {
-        const int totalTicks = readPositiveInteger("Количество тиков", 100);
-        const int displayInterval = readPositiveInteger("Интервал отображения", 10);
-
-        SimulationConfig config;
-        SimulationEngine engine(manager, config);
-        engine.run(totalTicks, displayInterval);
-
-        // engine.saveStatistics(statsPath.string());
-        // std::cout << "Статистика сохранена в " << statsPath << '\n';
-        return 0;
-    }
-
-    if (choice == 2) {
-        ConsoleView view(*manager);
-        view.run();
-        return 0;
-    }
+    ConsoleView view(manager);
+    view.run();
 
     return 0;
 }
