@@ -5599,3 +5599,22 @@
 2026-05-28 12:24:19 [INFO] SIM - [Tick 10] Feeding: Rose (#131) (58 -> 10, 170.6g)
 2026-05-28 12:24:24 [INFO] SIM - [Tick 10] Simulation finished.
 2026-05-28 12:38:58 [INFO] SHELTER - Removed pet #118 (Misty)
+2026-05-28 12:49:43 [INFO] SHELTER - Removed pet #134 (Nova)
+2026-05-28 12:50:13 [INFO] SHELTER - Removed pet #133 (Kesha)
+2026-05-28 12:53:50 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-28 12:53:50 [INFO] SIM - [Tick 1] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-28 12:53:50 [INFO] SIM - [Tick 2] Feeding: Kesha (#126) (58 -> 10, 7.5g)
+2026-05-28 12:53:50 [INFO] SIM - [Tick 2] Feeding: Milo (#132) (58 -> 10, 65.5g)
+2026-05-28 12:53:51 [INFO] SIM - [Tick 3] Feeding: Max (#124) (58 -> 10, 273.2g)
+2026-05-28 12:53:51 [INFO] SIM - [Tick 4] RECOVERY: Kesha (#126) recovered after 2 consecutive low-hunger ticks (22%). Health: 97 -> 98
+2026-05-28 12:53:52 [INFO] SIM - [Tick 5] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-28 12:53:52 [INFO] SIM - [Tick 6] Feeding: Kesha (#126) (58 -> 10, 7.5g)
+2026-05-28 12:53:52 [INFO] SIM - [Tick 6] Feeding: Milo (#132) (58 -> 10, 65.5g)
+2026-05-28 12:53:53 [INFO] SIM - [Tick 7] Feeding: Max (#124) (58 -> 10, 273.2g)
+2026-05-28 12:53:53 [INFO] SIM - [Tick 8] RECOVERY: Kesha (#126) recovered after 2 consecutive low-hunger ticks (22%). Health: 98 -> 99
+2026-05-28 12:53:54 [INFO] BOWL - Pet #125: requested 244 g but only 209 g remaining for today. Dispensing remaining amount.
+2026-05-28 12:53:54 [INFO] SIM - [Tick 9] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-28 12:53:54 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-28 12:53:54 [INFO] SIM - [Tick 10] Feeding: Kesha (#126) (58 -> 10, 7.5g)
+2026-05-28 12:53:54 [INFO] SIM - [Tick 10] Feeding: Milo (#132) (58 -> 10, 65.5g)
+2026-05-28 12:54:00 [INFO] SIM - [Tick 10] Simulation finished.

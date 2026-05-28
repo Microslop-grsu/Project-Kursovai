@@ -36,14 +36,14 @@ void ConsoleView::interactiveMode() {
     bool exit = false;
     short ans = 0;
     while (!exit) {
-        std::cout << "\n=== ShelterCore System ===\n";
+        std::cout << "\n=== Интерактивный режим ShelterCore ===\n";
         std::cout << "1. Список всех животных\n";
         std::cout << "2. Принять питомца\n";
         std::cout << "3. Найти по критериям\n";
         std::cout << "4. Отдать питомца\n";
         std::cout << "5. Детальная информация по ID\n";
         std::cout << "0. Выход\n";
-        std::cout << "Выберите режим >>> "; std::cin >> ans;
+        std::cout << "Выберите действие >>> "; std::cin >> ans;
         switch (ans) {
             case 1: listAllPets(); break;
             case 2: addPetForm(); break;
@@ -57,7 +57,7 @@ void ConsoleView::interactiveMode() {
 }
 
 void ConsoleView::simulationMode() {
-    std::cout << "\n=== Режим симуляции ===\n";
+    std::cout << "\n====== Режим симуляции ======\n";
     const int totalTicks = readPositiveInteger("Количество тиков", 100);
     const int displayInterval = readPositiveInteger("Интервал отображения", 10);
 
