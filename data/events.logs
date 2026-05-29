@@ -4447,3 +4447,901 @@
 2026-05-26 12:30:43 [INFO] SIM - [Tick 100] Feeding: Sunny (#63) (100 -> 10, 5.0g)
 2026-05-26 12:30:43 [INFO] SIM - [Tick 100] Feeding: Luna (#64) (70 -> 10, 72.7g)
 2026-05-26 12:30:49 [INFO] SIM - [Tick 100] Simulation finished.
+2026-05-27 11:44:52 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-27 11:44:52 [INFO] SIM - [Tick 1] Feeding: Sunny (#63) (70 -> 10, 5.0g)
+2026-05-27 11:44:52 [INFO] SHELTER - Added pet #65 (Cat Murka)
+2026-05-27 11:44:52 [INFO] SIM - [Tick 1] Animal Arrived: Cat Murka, age 11, weight 3.3kg (New intake)
+2026-05-27 11:44:52 [INFO] SIM - [Tick 2] Feeding: Rocky (#60) (58 -> 10, 234.2g)
+2026-05-27 11:44:52 [INFO] SIM - [Tick 2] Feeding: Nova (#62) (58 -> 10, 8.0g)
+2026-05-27 11:44:53 [INFO] SHELTER - Removed pet #65 (Murka)
+2026-05-27 11:44:53 [INFO] SIM - [Tick 3] Animal Adopted: Murka (#65) found a new home (Matched with an adopter)
+2026-05-27 11:44:53 [INFO] SIM - [Tick 4] RECOVERY: Rocky (#60) recovered after 2 consecutive low-hunger ticks (22%). Health: 79 -> 80
+2026-05-27 11:44:54 [WARNING] BOWL - Pet #63: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 11:44:54 [INFO] SIM - [Tick 5] Feeding: Luna (#64) (60 -> 10, 72.7g)
+2026-05-27 11:44:54 [INFO] SIM - [Tick 6] Feeding: Rocky (#60) (58 -> 10, 234.2g)
+2026-05-27 11:44:54 [INFO] SIM - [Tick 6] Feeding: Nova (#62) (58 -> 10, 8.0g)
+2026-05-27 11:44:54 [WARNING] BOWL - Pet #63: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 11:44:55 [INFO] SIM - [Tick 7] Health Update: Sunny (#63) (100 -> 93) - critical hunger
+2026-05-27 11:44:55 [WARNING] BOWL - Pet #63: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 11:44:55 [INFO] SIM - [Tick 8] RECOVERY: Rocky (#60) recovered after 2 consecutive low-hunger ticks (22%). Health: 80 -> 81
+2026-05-27 11:44:55 [INFO] SIM - [Tick 8] Health Update: Sunny (#63) (93 -> 86) - critical hunger
+2026-05-27 11:44:55 [WARNING] BOWL - Pet #63: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 11:44:56 [INFO] SIM - [Tick 9] Health Update: Sunny (#63) (86 -> 79) - critical hunger
+2026-05-27 11:44:56 [WARNING] BOWL - Pet #63: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 11:44:56 [INFO] SIM - [Tick 9] Feeding: Luna (#64) (58 -> 10, 72.7g)
+2026-05-27 11:44:56 [INFO] SHELTER - Removed pet #62 (Nova)
+2026-05-27 11:44:56 [INFO] SIM - [Tick 9] Animal Adopted: Nova (#62) found a new home (Matched with an adopter)
+2026-05-27 11:44:56 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-27 11:44:56 [INFO] SIM - [Tick 10] Health Update: Sunny (#63) (79 -> 72) - critical hunger
+2026-05-27 11:44:56 [INFO] SIM - [Tick 10] Feeding: Rocky (#60) (58 -> 10, 234.2g)
+2026-05-27 11:44:56 [INFO] SIM - [Tick 10] Feeding: Sunny (#63) (100 -> 10, 5.0g)
+2026-05-27 11:44:56 [INFO] SHELTER - Removed pet #60 (Rocky)
+2026-05-27 11:44:56 [INFO] SIM - [Tick 10] Animal Adopted: Rocky (#60) found a new home (Matched with an adopter)
+2026-05-27 11:45:02 [INFO] SIM - [Tick 10] Simulation finished.
+2026-05-27 12:27:35 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-27 12:27:35 [INFO] SIM - [Tick 2] RECOVERY: Sunny (#63) recovered after 2 consecutive low-hunger ticks (22%). Health: 72 -> 73
+2026-05-27 12:27:36 [INFO] SIM - [Tick 3] Feeding: Luna (#64) (58 -> 10, 72.7g)
+2026-05-27 12:27:36 [INFO] SIM - [Tick 4] Feeding: Sunny (#63) (58 -> 10, 5.0g)
+2026-05-27 12:27:42 [INFO] SIM - [Tick 6] RECOVERY: Sunny (#63) recovered after 2 consecutive low-hunger ticks (22%). Health: 73 -> 74
+2026-05-27 12:27:43 [INFO] SIM - [Tick 7] Feeding: Luna (#64) (58 -> 10, 72.7g)
+2026-05-27 12:27:43 [WARNING] BOWL - Pet #63: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:27:43 [INFO] SHELTER - Removed pet #63 (Sunny)
+2026-05-27 12:27:43 [INFO] SIM - [Tick 8] Animal Adopted: Sunny (#63) found a new home (Matched with an adopter)
+2026-05-27 12:27:44 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:27:50 [INFO] SIM - [Tick 11] Feeding: Luna (#64) (58 -> 10, 72.7g)
+2026-05-27 12:27:50 [INFO] SHELTER - Removed pet #64 (Luna)
+2026-05-27 12:27:50 [INFO] SIM - [Tick 12] Animal Adopted: Luna (#64) found a new home (Matched with an adopter)
+2026-05-27 12:27:59 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:28:05 [INFO] SIM - [Tick 20] Simulation finished.
+2026-05-27 12:35:43 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-27 12:35:43 [INFO] SIM - [Tick 1] Feeding: Tweety (#101) (72 -> 10, 5.0g)
+2026-05-27 12:35:43 [INFO] SIM - [Tick 1] Feeding: Rex (#102) (72 -> 10, 109.4g)
+2026-05-27 12:35:43 [INFO] SHELTER - Added pet #103 (Cat Milo)
+2026-05-27 12:35:43 [INFO] SIM - [Tick 1] Animal Arrived: Cat Milo, age 4, weight 4.9kg (New intake)
+2026-05-27 12:35:44 [INFO] SIM - [Tick 3] RECOVERY: Tweety (#101) recovered after 2 consecutive low-hunger ticks (22%). Health: 90 -> 91
+2026-05-27 12:35:44 [INFO] SIM - [Tick 3] RECOVERY: Rex (#102) recovered after 2 consecutive low-hunger ticks (22%). Health: 95 -> 96
+2026-05-27 12:35:44 [INFO] SHELTER - Added pet #104 (Bird Kiwi)
+2026-05-27 12:35:44 [INFO] SIM - [Tick 3] Animal Arrived: Bird Kiwi, age 7, weight 1.8kg (New intake)
+2026-05-27 12:35:45 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:35:45 [INFO] SIM - [Tick 5] Feeding: Rex (#102) (58 -> 10, 109.4g)
+2026-05-27 12:35:51 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:35:51 [INFO] SIM - [Tick 6] Feeding: Milo (#103) (60 -> 10, 82.0g)
+2026-05-27 12:35:51 [INFO] MEDICAL - Added vaccination for pet ID: 103
+2026-05-27 12:35:51 [INFO] SIM - [Tick 6] Vaccination: Milo (#103) received Feline Distemper on 2026-05-27 (Routine vaccination)
+2026-05-27 12:35:51 [INFO] SIM - [Tick 7] Health Update: Tweety (#101) (91 -> 84) - critical hunger
+2026-05-27 12:35:51 [INFO] SIM - [Tick 7] RECOVERY: Rex (#102) recovered after 2 consecutive low-hunger ticks (22%). Health: 96 -> 97
+2026-05-27 12:35:51 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:35:51 [INFO] VET - Vet report for Tweety: health 84/100, critical hunger, vaccination overdue, stable
+2026-05-27 12:35:51 [WARNING] VET - Tweety needs vaccination follow-up.
+2026-05-27 12:35:51 [INFO] SIM - [Tick 7] Vet Check: Tweety (#101) - Scheduled health review
+2026-05-27 12:35:52 [INFO] SIM - [Tick 8] Health Update: Tweety (#101) (84 -> 77) - critical hunger
+2026-05-27 12:35:52 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:35:52 [INFO] SIM - [Tick 8] Feeding: Kiwi (#104) (60 -> 10, 11.0g)
+2026-05-27 12:35:52 [INFO] SIM - [Tick 9] Health Update: Tweety (#101) (77 -> 70) - critical hunger
+2026-05-27 12:35:52 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:35:52 [WARNING] BOWL - Pet #102: daily limit 312 g reached (consumed 218 g, requested 109 g). Feeding blocked.
+2026-05-27 12:35:52 [INFO] SHELTER - Added pet #105 (Cat Murka)
+2026-05-27 12:35:52 [INFO] SIM - [Tick 9] Animal Arrived: Cat Murka, age 7, weight 2.7kg (New intake)
+2026-05-27 12:35:53 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:35:53 [INFO] SIM - [Tick 10] Health Update: Tweety (#101) (70 -> 63) - critical hunger
+2026-05-27 12:35:53 [INFO] SIM - [Tick 10] Feeding: Tweety (#101) (100 -> 10, 5.0g)
+2026-05-27 12:35:53 [INFO] SIM - [Tick 10] Feeding: Rex (#102) (70 -> 10, 109.4g)
+2026-05-27 12:35:53 [INFO] SIM - [Tick 10] Feeding: Milo (#103) (58 -> 10, 82.0g)
+2026-05-27 12:35:58 [INFO] MEDICAL - Added vaccination for pet ID: 104
+2026-05-27 12:35:58 [INFO] SIM - [Tick 11] Vaccination: Kiwi (#104) received Avian Flu on 2026-05-27 (Routine vaccination)
+2026-05-27 12:35:59 [INFO] SIM - [Tick 12] RECOVERY: Tweety (#101) recovered after 2 consecutive low-hunger ticks (22%). Health: 63 -> 64
+2026-05-27 12:35:59 [INFO] SIM - [Tick 12] RECOVERY: Rex (#102) recovered after 2 consecutive low-hunger ticks (22%). Health: 97 -> 98
+2026-05-27 12:35:59 [INFO] SIM - [Tick 12] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:35:59 [INFO] SHELTER - Removed pet #103 (Milo)
+2026-05-27 12:35:59 [INFO] SIM - [Tick 13] Animal Adopted: Milo (#103) found a new home (Matched with an adopter)
+2026-05-27 12:36:00 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:00 [INFO] SIM - [Tick 14] Feeding: Rex (#102) (58 -> 10, 109.4g)
+2026-05-27 12:36:00 [INFO] SIM - [Tick 14] Feeding: Murka (#105) (60 -> 10, 30.4g)
+2026-05-27 12:36:00 [INFO] SHELTER - Added pet #106 (Cat Misty)
+2026-05-27 12:36:00 [INFO] SIM - [Tick 14] Animal Arrived: Cat Misty, age 5, weight 6.1kg (New intake)
+2026-05-27 12:36:00 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:06 [INFO] SIM - [Tick 16] Health Update: Tweety (#101) (64 -> 57) - critical hunger
+2026-05-27 12:36:06 [INFO] SIM - [Tick 16] RECOVERY: Rex (#102) recovered after 2 consecutive low-hunger ticks (22%). Health: 98 -> 99
+2026-05-27 12:36:06 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:06 [INFO] SIM - [Tick 16] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:36:06 [INFO] SHELTER - Added pet #107 (Exotic Mango)
+2026-05-27 12:36:06 [INFO] SIM - [Tick 16] Animal Arrived: Exotic Mango, age 12, weight 11.1kg (New intake)
+2026-05-27 12:36:06 [INFO] SIM - [Tick 17] Health Update: Tweety (#101) (57 -> 50) - critical hunger
+2026-05-27 12:36:06 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:07 [INFO] SIM - [Tick 18] Health Update: Tweety (#101) (50 -> 43) - critical hunger
+2026-05-27 12:36:07 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:07 [WARNING] BOWL - Pet #102: daily limit 312 g reached (consumed 218 g, requested 109 g). Feeding blocked.
+2026-05-27 12:36:07 [INFO] SIM - [Tick 18] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:36:07 [INFO] SHELTER - Added pet #108 (Exotic Nova)
+2026-05-27 12:36:07 [INFO] SIM - [Tick 18] Animal Arrived: Exotic Nova, age 5, weight 4.0kg (New intake)
+2026-05-27 12:36:07 [INFO] SIM - [Tick 19] Health Update: Tweety (#101) (43 -> 36) - critical hunger
+2026-05-27 12:36:07 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:07 [WARNING] BOWL - Pet #102: daily limit 312 g reached (consumed 218 g, requested 109 g). Feeding blocked.
+2026-05-27 12:36:07 [INFO] SIM - [Tick 19] Feeding: Misty (#106) (60 -> 10, 103.0g)
+2026-05-27 12:36:08 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:36:08 [INFO] SIM - [Tick 20] Health Update: Tweety (#101) (36 -> 29) - critical hunger
+2026-05-27 12:36:08 [INFO] SIM - [Tick 20] Health Update: Rex (#102) (99 -> 94) - critical hunger
+2026-05-27 12:36:08 [INFO] SIM - [Tick 20] Feeding: Tweety (#101) (100 -> 10, 5.0g)
+2026-05-27 12:36:08 [INFO] SIM - [Tick 20] Feeding: Rex (#102) (82 -> 10, 109.4g)
+2026-05-27 12:36:08 [INFO] SIM - [Tick 20] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:36:13 [INFO] SIM - [Tick 21] Feeding: Mango (#107) (60 -> 10, 77.9g)
+2026-05-27 12:36:14 [INFO] SIM - [Tick 22] RECOVERY: Tweety (#101) recovered after 2 consecutive low-hunger ticks (22%). Health: 29 -> 30
+2026-05-27 12:36:14 [INFO] SIM - [Tick 22] RECOVERY: Rex (#102) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-05-27 12:36:14 [INFO] SIM - [Tick 22] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:36:14 [INFO] SIM - [Tick 23] Feeding: Misty (#106) (58 -> 10, 103.0g)
+2026-05-27 12:36:14 [INFO] SIM - [Tick 23] Feeding: Nova (#108) (60 -> 10, 33.7g)
+2026-05-27 12:36:15 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:15 [INFO] SIM - [Tick 24] Feeding: Rex (#102) (58 -> 10, 109.4g)
+2026-05-27 12:36:15 [INFO] SIM - [Tick 24] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:36:15 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:15 [INFO] SIM - [Tick 25] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:36:21 [INFO] SIM - [Tick 26] Health Update: Tweety (#101) (30 -> 23) - critical hunger
+2026-05-27 12:36:21 [INFO] SIM - [Tick 26] RECOVERY: Rex (#102) recovered after 2 consecutive low-hunger ticks (22%). Health: 95 -> 96
+2026-05-27 12:36:21 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:21 [INFO] SIM - [Tick 26] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:36:21 [INFO] SHELTER - Removed pet #102 (Rex)
+2026-05-27 12:36:21 [INFO] SIM - [Tick 26] Animal Adopted: Rex (#102) found a new home (Matched with an adopter)
+2026-05-27 12:36:21 [INFO] SIM - [Tick 27] Health Update: Tweety (#101) (23 -> 16) - critical hunger
+2026-05-27 12:36:21 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:21 [INFO] SIM - [Tick 27] Feeding: Misty (#106) (58 -> 10, 103.0g)
+2026-05-27 12:36:21 [INFO] SIM - [Tick 27] Feeding: Nova (#108) (58 -> 10, 33.7g)
+2026-05-27 12:36:22 [INFO] SIM - [Tick 28] Health Update: Tweety (#101) (16 -> 9) - critical hunger
+2026-05-27 12:36:22 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:22 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:36:22 [INFO] SHELTER - Removed pet #106 (Misty)
+2026-05-27 12:36:22 [INFO] SIM - [Tick 28] Animal Adopted: Misty (#106) found a new home (Matched with an adopter)
+2026-05-27 12:36:22 [INFO] SIM - [Tick 29] Health Update: Tweety (#101) (9 -> 2) - critical hunger
+2026-05-27 12:36:22 [WARNING] BOWL - Pet #101: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:36:22 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:36:22 [WARNING] BOWL - Pet #107: daily limit 222 g reached (consumed 155 g, requested 77 g). Feeding blocked.
+2026-05-27 12:36:22 [INFO] SHELTER - Added pet #109 (Dog Buddy)
+2026-05-27 12:36:22 [INFO] SIM - [Tick 29] Animal Arrived: Dog Buddy, age 2, weight 32.4kg (New intake)
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Health Update: Tweety (#101) (2 -> 0) - critical hunger
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] FATAL: Tweety (#101, Bird) died from starvation!
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Health Update: Kiwi (#104) (100 -> 93) - critical hunger
+2026-05-27 12:36:23 [INFO] SHELTER - Removed pet #101 (Tweety)
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Feeding: Mango (#107) (70 -> 10, 77.9g)
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Vet report for Kiwi: health 93/100, well fed, vaccination current, stable
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Vet report for Murka: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Vet report for Mango: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Vet report for Nova: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:36:23 [INFO] SIM - [Tick 30] Vet report for Buddy: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:36:28 [INFO] SIM - [Tick 30] Simulation finished.
+2026-05-27 12:39:12 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-27 12:39:12 [INFO] SIM - [Tick 1] Health Update: Kiwi (#104) (93 -> 86) - critical hunger
+2026-05-27 12:39:12 [INFO] SIM - [Tick 1] Health Update: Mango (#107) (100 -> 95) - critical hunger
+2026-05-27 12:39:12 [INFO] SIM - [Tick 1] Feeding: Kiwi (#104) (94 -> 10, 11.0g)
+2026-05-27 12:39:12 [INFO] SIM - [Tick 1] Feeding: Murka (#105) (70 -> 10, 30.4g)
+2026-05-27 12:39:12 [INFO] SIM - [Tick 1] Feeding: Mango (#107) (82 -> 10, 77.9g)
+2026-05-27 12:39:12 [INFO] SIM - [Tick 1] Feeding: Nova (#108) (58 -> 10, 33.7g)
+2026-05-27 12:39:13 [INFO] SIM - [Tick 3] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 86 -> 87
+2026-05-27 12:39:13 [INFO] SIM - [Tick 3] RECOVERY: Mango (#107) recovered after 2 consecutive low-hunger ticks (22%). Health: 95 -> 96
+2026-05-27 12:39:14 [INFO] SIM - [Tick 4] Feeding: Buddy (#109) (60 -> 10, 227.1g)
+2026-05-27 12:39:14 [INFO] SHELTER - Added pet #110 (Dog Buddy)
+2026-05-27 12:39:14 [INFO] SIM - [Tick 4] Animal Arrived: Dog Buddy, age 5, weight 22.2kg (New intake)
+2026-05-27 12:39:14 [INFO] SIM - [Tick 5] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:39:14 [INFO] SIM - [Tick 5] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:39:14 [INFO] SIM - [Tick 5] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:14 [INFO] SIM - [Tick 5] Feeding: Nova (#108) (58 -> 10, 33.7g)
+2026-05-27 12:39:15 [INFO] SIM - [Tick 7] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 87 -> 88
+2026-05-27 12:39:15 [INFO] SIM - [Tick 7] RECOVERY: Mango (#107) recovered after 2 consecutive low-hunger ticks (22%). Health: 96 -> 97
+2026-05-27 12:39:16 [INFO] SIM - [Tick 8] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:16 [INFO] MEDICAL - Added vaccination for pet ID: 108
+2026-05-27 12:39:16 [INFO] SIM - [Tick 8] Vaccination: Nova (#108) received Exotic Wellness on 2026-05-27 (Routine vaccination)
+2026-05-27 12:39:16 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:16 [INFO] BOWL - Pet #105: requested 30 g but only 26 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:16 [INFO] SIM - [Tick 9] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:39:16 [INFO] BOWL - Pet #107: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:16 [INFO] SIM - [Tick 9] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:16 [INFO] BOWL - Pet #108: requested 33 g but only 28 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:16 [INFO] SIM - [Tick 9] Feeding: Nova (#108) (58 -> 10, 33.7g)
+2026-05-27 12:39:16 [INFO] SIM - [Tick 9] Feeding: Buddy (#110) (60 -> 10, 155.5g)
+2026-05-27 12:39:16 [INFO] SHELTER - Added pet #111 (Bird Rio)
+2026-05-27 12:39:16 [INFO] SIM - [Tick 9] Animal Arrived: Bird Rio, age 3, weight 0.5kg (New intake)
+2026-05-27 12:39:17 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:39:17 [INFO] SIM - [Tick 10] Feeding: Kiwi (#104) (70 -> 10, 11.0g)
+2026-05-27 12:39:22 [INFO] SIM - [Tick 11] RECOVERY: Mango (#107) recovered after 2 consecutive low-hunger ticks (22%). Health: 97 -> 98
+2026-05-27 12:39:23 [INFO] SIM - [Tick 12] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 88 -> 89
+2026-05-27 12:39:23 [INFO] SIM - [Tick 12] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:23 [INFO] SIM - [Tick 13] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:39:23 [INFO] SIM - [Tick 13] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:23 [INFO] SIM - [Tick 13] Feeding: Nova (#108) (58 -> 10, 33.7g)
+2026-05-27 12:39:23 [INFO] SIM - [Tick 13] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:24 [INFO] SIM - [Tick 14] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:39:24 [INFO] SIM - [Tick 14] Feeding: Rio (#111) (60 -> 10, 5.0g)
+2026-05-27 12:39:24 [INFO] SIM - [Tick 15] RECOVERY: Mango (#107) recovered after 2 consecutive low-hunger ticks (22%). Health: 98 -> 99
+2026-05-27 12:39:24 [INFO] VET - Vet report for Murka: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:39:24 [WARNING] VET - Murka needs vaccination follow-up.
+2026-05-27 12:39:24 [INFO] SIM - [Tick 15] Vet Check: Murka (#105) - Scheduled health review
+2026-05-27 12:39:25 [INFO] SIM - [Tick 16] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 89 -> 90
+2026-05-27 12:39:25 [INFO] SIM - [Tick 16] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:25 [INFO] SIM - [Tick 17] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:39:25 [INFO] SIM - [Tick 17] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:25 [INFO] SIM - [Tick 17] Feeding: Nova (#108) (58 -> 10, 33.7g)
+2026-05-27 12:39:25 [INFO] SIM - [Tick 17] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:26 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:26 [INFO] BOWL - Pet #111: requested 5 g but only 2 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:26 [INFO] SIM - [Tick 18] Feeding: Rio (#111) (58 -> 10, 5.0g)
+2026-05-27 12:39:26 [INFO] SIM - [Tick 19] RECOVERY: Mango (#107) recovered after 2 consecutive low-hunger ticks (22%). Health: 99 -> 100
+2026-05-27 12:39:26 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:27 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:39:27 [INFO] SIM - [Tick 20] Health Update: Kiwi (#104) (90 -> 83) - critical hunger
+2026-05-27 12:39:27 [INFO] SIM - [Tick 20] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:39:27 [INFO] SIM - [Tick 20] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:32 [INFO] SIM - [Tick 21] Feeding: Murka (#105) (58 -> 10, 30.4g)
+2026-05-27 12:39:32 [INFO] SIM - [Tick 21] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:32 [INFO] SIM - [Tick 21] Feeding: Nova (#108) (58 -> 10, 33.7g)
+2026-05-27 12:39:32 [INFO] SIM - [Tick 21] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:33 [INFO] SIM - [Tick 22] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 83 -> 84
+2026-05-27 12:39:33 [INFO] SIM - [Tick 22] Feeding: Rio (#111) (58 -> 10, 5.0g)
+2026-05-27 12:39:33 [INFO] SHELTER - Added pet #112 (Bird Rio)
+2026-05-27 12:39:33 [INFO] SIM - [Tick 22] Animal Arrived: Bird Rio, age 7, weight 1.4kg (New intake)
+2026-05-27 12:39:33 [INFO] SHELTER - Removed pet #105 (Murka)
+2026-05-27 12:39:33 [INFO] SIM - [Tick 22] Animal Adopted: Murka (#105) found a new home (Matched with an adopter)
+2026-05-27 12:39:34 [INFO] SIM - [Tick 24] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:39:34 [INFO] SIM - [Tick 24] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:34 [INFO] SHELTER - Removed pet #108 (Nova)
+2026-05-27 12:39:34 [INFO] SIM - [Tick 24] Animal Adopted: Nova (#108) found a new home (Matched with an adopter)
+2026-05-27 12:39:34 [INFO] SIM - [Tick 25] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:34 [INFO] SIM - [Tick 25] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:35 [INFO] SIM - [Tick 26] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 84 -> 85
+2026-05-27 12:39:35 [INFO] BOWL - Pet #111: requested 5 g but only 2 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:35 [INFO] SIM - [Tick 26] Feeding: Rio (#111) (58 -> 10, 5.0g)
+2026-05-27 12:39:35 [INFO] SIM - [Tick 27] Feeding: Rio (#112) (60 -> 10, 12.7g)
+2026-05-27 12:39:35 [INFO] SHELTER - Removed pet #111 (Rio)
+2026-05-27 12:39:35 [INFO] SIM - [Tick 27] Animal Adopted: Rio (#111) found a new home (Matched with an adopter)
+2026-05-27 12:39:36 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:36 [INFO] BOWL - Pet #109: requested 227 g but only 194 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:36 [INFO] SIM - [Tick 28] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:36 [INFO] MEDICAL - Added vaccination for pet ID: 109
+2026-05-27 12:39:36 [INFO] SIM - [Tick 28] Vaccination: Buddy (#109) received Rabies on 2026-05-27 (Routine vaccination)
+2026-05-27 12:39:36 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:36 [INFO] BOWL - Pet #107: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:36 [INFO] SIM - [Tick 29] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:36 [INFO] BOWL - Pet #110: requested 155 g but only 133 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:36 [INFO] SIM - [Tick 29] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:37 [INFO] SIM - [Tick 30] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:39:37 [INFO] SIM - [Tick 30] Health Update: Kiwi (#104) (85 -> 78) - critical hunger
+2026-05-27 12:39:37 [INFO] SIM - [Tick 30] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:39:37 [INFO] SIM - [Tick 30] Vet report for Kiwi: health 78/100, well fed, vaccination overdue, stable
+2026-05-27 12:39:37 [INFO] SIM - [Tick 30] Vet report for Mango: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:39:37 [INFO] SIM - [Tick 30] Vet report for Buddy: health 100/100, needs a meal soon, vaccination current, stable
+2026-05-27 12:39:37 [INFO] SIM - [Tick 30] Vet report for Buddy: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:39:37 [INFO] SIM - [Tick 30] Vet report for Rio: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:39:42 [INFO] SIM - [Tick 31] Feeding: Rio (#112) (58 -> 10, 12.7g)
+2026-05-27 12:39:43 [INFO] SIM - [Tick 32] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 78 -> 79
+2026-05-27 12:39:43 [INFO] SIM - [Tick 32] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:43 [INFO] SIM - [Tick 33] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:43 [INFO] SIM - [Tick 33] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:44 [INFO] SIM - [Tick 34] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:39:44 [INFO] SIM - [Tick 35] Feeding: Rio (#112) (58 -> 10, 12.7g)
+2026-05-27 12:39:45 [INFO] SIM - [Tick 36] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 79 -> 80
+2026-05-27 12:39:45 [INFO] SIM - [Tick 36] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:45 [INFO] SIM - [Tick 37] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:45 [INFO] SIM - [Tick 37] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:46 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:46 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:46 [WARNING] BOWL - Pet #112: daily limit 25 g reached (consumed 25 g, requested 12 g). Feeding blocked.
+2026-05-27 12:39:47 [INFO] SIM - [Tick 40] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:39:47 [INFO] SIM - [Tick 40] Health Update: Kiwi (#104) (80 -> 73) - critical hunger
+2026-05-27 12:39:47 [INFO] SIM - [Tick 40] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:39:47 [INFO] SIM - [Tick 40] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:47 [INFO] SIM - [Tick 40] Feeding: Rio (#112) (70 -> 10, 12.7g)
+2026-05-27 12:39:52 [INFO] SIM - [Tick 41] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:52 [INFO] SIM - [Tick 41] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:53 [INFO] SIM - [Tick 42] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 73 -> 74
+2026-05-27 12:39:54 [INFO] SIM - [Tick 44] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:39:54 [INFO] SIM - [Tick 44] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:54 [INFO] SIM - [Tick 44] Feeding: Rio (#112) (58 -> 10, 12.7g)
+2026-05-27 12:39:54 [INFO] SHELTER - Added pet #113 (Cat Misty)
+2026-05-27 12:39:54 [INFO] SIM - [Tick 44] Animal Arrived: Cat Misty, age 11, weight 2.8kg (New intake)
+2026-05-27 12:39:54 [INFO] SIM - [Tick 45] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:54 [INFO] SIM - [Tick 45] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:55 [INFO] SIM - [Tick 46] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 74 -> 75
+2026-05-27 12:39:56 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:56 [INFO] BOWL - Pet #109: requested 227 g but only 194 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:56 [INFO] SIM - [Tick 48] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:39:56 [WARNING] BOWL - Pet #112: daily limit 25 g reached (consumed 25 g, requested 12 g). Feeding blocked.
+2026-05-27 12:39:56 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:39:56 [INFO] BOWL - Pet #107: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:56 [INFO] SIM - [Tick 49] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:39:56 [INFO] BOWL - Pet #110: requested 155 g but only 133 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:39:56 [INFO] SIM - [Tick 49] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:39:56 [WARNING] BOWL - Pet #112: daily limit 25 g reached (consumed 25 g, requested 12 g). Feeding blocked.
+2026-05-27 12:39:56 [INFO] SIM - [Tick 49] Feeding: Misty (#113) (60 -> 10, 31.1g)
+2026-05-27 12:39:56 [INFO] MEDICAL - Added vaccination for pet ID: 109
+2026-05-27 12:39:56 [INFO] SIM - [Tick 49] Vaccination: Buddy (#109) received Rabies on 2026-05-27 (Routine vaccination)
+2026-05-27 12:39:57 [INFO] SIM - [Tick 50] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:39:57 [INFO] SIM - [Tick 50] Health Update: Kiwi (#104) (75 -> 68) - critical hunger
+2026-05-27 12:39:57 [INFO] SIM - [Tick 50] Health Update: Rio (#112) (100 -> 93) - critical hunger
+2026-05-27 12:39:57 [INFO] SIM - [Tick 50] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:39:57 [INFO] SIM - [Tick 50] Feeding: Rio (#112) (82 -> 10, 12.7g)
+2026-05-27 12:40:03 [INFO] SIM - [Tick 52] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 68 -> 69
+2026-05-27 12:40:03 [INFO] SIM - [Tick 52] RECOVERY: Rio (#112) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-05-27 12:40:03 [INFO] SIM - [Tick 52] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:03 [INFO] SIM - [Tick 53] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:03 [INFO] SIM - [Tick 53] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:03 [INFO] SIM - [Tick 53] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:03 [INFO] SHELTER - Added pet #114 (Cat Nora)
+2026-05-27 12:40:03 [INFO] SIM - [Tick 53] Animal Arrived: Cat Nora, age 10, weight 4.2kg (New intake)
+2026-05-27 12:40:04 [INFO] SIM - [Tick 54] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:40:04 [INFO] SIM - [Tick 54] Feeding: Rio (#112) (58 -> 10, 12.7g)
+2026-05-27 12:40:05 [INFO] SIM - [Tick 56] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 69 -> 70
+2026-05-27 12:40:05 [INFO] SIM - [Tick 56] RECOVERY: Rio (#112) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-05-27 12:40:05 [INFO] SIM - [Tick 56] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:05 [INFO] SIM - [Tick 57] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:05 [INFO] SIM - [Tick 57] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:05 [INFO] SIM - [Tick 57] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:06 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:06 [WARNING] BOWL - Pet #112: daily limit 25 g reached (consumed 25 g, requested 12 g). Feeding blocked.
+2026-05-27 12:40:06 [INFO] SIM - [Tick 58] Feeding: Nora (#114) (60 -> 10, 71.0g)
+2026-05-27 12:40:06 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:06 [WARNING] BOWL - Pet #112: daily limit 25 g reached (consumed 25 g, requested 12 g). Feeding blocked.
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Health Update: Kiwi (#104) (70 -> 63) - critical hunger
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Health Update: Rio (#112) (95 -> 88) - critical hunger
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Feeding: Rio (#112) (82 -> 10, 12.7g)
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Vet report for Kiwi: health 63/100, well fed, vaccination overdue, monitor closely
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Vet report for Mango: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Vet report for Buddy: health 100/100, well fed, vaccination current, stable
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Vet report for Buddy: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Vet report for Rio: health 88/100, well fed, vaccination overdue, stable
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Vet report for Misty: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:07 [INFO] SIM - [Tick 60] Vet report for Nora: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:12 [INFO] SIM - [Tick 61] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:12 [INFO] SIM - [Tick 61] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:12 [INFO] SIM - [Tick 61] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:13 [INFO] SIM - [Tick 62] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 63 -> 64
+2026-05-27 12:40:13 [INFO] SIM - [Tick 62] RECOVERY: Rio (#112) recovered after 2 consecutive low-hunger ticks (22%). Health: 88 -> 89
+2026-05-27 12:40:13 [INFO] SIM - [Tick 62] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:13 [INFO] MEDICAL - Added vaccination for pet ID: 110
+2026-05-27 12:40:13 [INFO] SIM - [Tick 62] Vaccination: Buddy (#110) received Rabies on 2026-05-27 (Routine vaccination)
+2026-05-27 12:40:13 [INFO] SHELTER - Added pet #115 (Exotic Iggy)
+2026-05-27 12:40:13 [INFO] SIM - [Tick 63] Animal Arrived: Exotic Iggy, age 10, weight 5.0kg (New intake)
+2026-05-27 12:40:14 [INFO] SIM - [Tick 64] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:40:14 [INFO] SIM - [Tick 64] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:14 [INFO] SIM - [Tick 64] Feeding: Rio (#112) (58 -> 10, 12.7g)
+2026-05-27 12:40:14 [INFO] SHELTER - Added pet #116 (Bird Kiwi)
+2026-05-27 12:40:14 [INFO] SIM - [Tick 64] Animal Arrived: Bird Kiwi, age 4, weight 0.3kg (New intake)
+2026-05-27 12:40:14 [INFO] SIM - [Tick 65] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:14 [INFO] SIM - [Tick 65] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:14 [INFO] SIM - [Tick 65] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:15 [INFO] SIM - [Tick 66] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 64 -> 65
+2026-05-27 12:40:15 [INFO] SIM - [Tick 66] RECOVERY: Rio (#112) recovered after 2 consecutive low-hunger ticks (22%). Health: 89 -> 90
+2026-05-27 12:40:15 [INFO] SIM - [Tick 66] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:15 [INFO] SHELTER - Added pet #117 (Cat Murka)
+2026-05-27 12:40:15 [INFO] SIM - [Tick 66] Animal Arrived: Cat Murka, age 7, weight 6.6kg (New intake)
+2026-05-27 12:40:15 [INFO] SHELTER - Added pet #118 (Cat Misty)
+2026-05-27 12:40:15 [INFO] SIM - [Tick 67] Animal Arrived: Cat Misty, age 4, weight 6.5kg (New intake)
+2026-05-27 12:40:16 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:16 [INFO] BOWL - Pet #109: requested 227 g but only 194 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:16 [INFO] SIM - [Tick 68] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:16 [WARNING] BOWL - Pet #112: daily limit 25 g reached (consumed 25 g, requested 12 g). Feeding blocked.
+2026-05-27 12:40:16 [INFO] SIM - [Tick 68] Feeding: Iggy (#115) (60 -> 10, 28.0g)
+2026-05-27 12:40:16 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:16 [INFO] BOWL - Pet #107: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:16 [INFO] SIM - [Tick 69] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:16 [INFO] BOWL - Pet #110: requested 155 g but only 133 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:16 [INFO] SIM - [Tick 69] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:16 [WARNING] BOWL - Pet #112: daily limit 25 g reached (consumed 25 g, requested 12 g). Feeding blocked.
+2026-05-27 12:40:16 [INFO] BOWL - Pet #113: requested 31 g but only 26 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:16 [INFO] SIM - [Tick 69] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:16 [INFO] SIM - [Tick 69] Feeding: Kiwi (#116) (60 -> 10, 5.0g)
+2026-05-27 12:40:16 [INFO] VET - Vet report for Murka: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:16 [WARNING] VET - Murka needs vaccination follow-up.
+2026-05-27 12:40:16 [INFO] SIM - [Tick 69] Vet Check: Murka (#117) - Scheduled health review
+2026-05-27 12:40:17 [INFO] SIM - [Tick 70] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:40:17 [INFO] SIM - [Tick 70] Health Update: Kiwi (#104) (65 -> 58) - critical hunger
+2026-05-27 12:40:17 [INFO] SIM - [Tick 70] Health Update: Rio (#112) (90 -> 83) - critical hunger
+2026-05-27 12:40:17 [INFO] SIM - [Tick 70] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:40:17 [INFO] SIM - [Tick 70] Feeding: Rio (#112) (82 -> 10, 12.7g)
+2026-05-27 12:40:17 [INFO] SIM - [Tick 70] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:22 [INFO] SIM - [Tick 71] Feeding: Murka (#117) (60 -> 10, 92.8g)
+2026-05-27 12:40:23 [INFO] SIM - [Tick 72] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 58 -> 59
+2026-05-27 12:40:23 [INFO] SIM - [Tick 72] RECOVERY: Rio (#112) recovered after 2 consecutive low-hunger ticks (22%). Health: 83 -> 84
+2026-05-27 12:40:23 [INFO] SIM - [Tick 72] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:23 [INFO] SIM - [Tick 72] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:40:23 [INFO] SIM - [Tick 72] Feeding: Misty (#118) (60 -> 10, 91.6g)
+2026-05-27 12:40:23 [INFO] SIM - [Tick 73] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:23 [INFO] SIM - [Tick 73] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:23 [INFO] SIM - [Tick 73] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:23 [INFO] SIM - [Tick 73] Feeding: Kiwi (#116) (58 -> 10, 5.0g)
+2026-05-27 12:40:23 [INFO] VET - Vet report for Kiwi: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:40:23 [WARNING] VET - Kiwi needs vaccination follow-up.
+2026-05-27 12:40:23 [INFO] SIM - [Tick 73] Vet Check: Kiwi (#116) - Scheduled health review
+2026-05-27 12:40:24 [INFO] SIM - [Tick 74] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:40:24 [INFO] SIM - [Tick 74] Feeding: Rio (#112) (58 -> 10, 12.7g)
+2026-05-27 12:40:24 [INFO] SIM - [Tick 74] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:24 [INFO] SIM - [Tick 75] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:40:25 [INFO] SIM - [Tick 76] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 59 -> 60
+2026-05-27 12:40:25 [INFO] SIM - [Tick 76] RECOVERY: Rio (#112) recovered after 2 consecutive low-hunger ticks (22%). Health: 84 -> 85
+2026-05-27 12:40:25 [INFO] SIM - [Tick 76] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:25 [INFO] SIM - [Tick 76] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:40:25 [INFO] SIM - [Tick 76] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:40:25 [INFO] SHELTER - Removed pet #112 (Rio)
+2026-05-27 12:40:25 [INFO] SIM - [Tick 76] Animal Adopted: Rio (#112) found a new home (Matched with an adopter)
+2026-05-27 12:40:25 [INFO] SIM - [Tick 77] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:25 [INFO] SIM - [Tick 77] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:25 [INFO] SIM - [Tick 77] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:25 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:26 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:26 [INFO] BOWL - Pet #114: requested 70 g but only 60 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:26 [INFO] SIM - [Tick 78] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:26 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:26 [INFO] SHELTER - Added pet #119 (Exotic Nova)
+2026-05-27 12:40:26 [INFO] SIM - [Tick 78] Animal Arrived: Exotic Nova, age 10, weight 9.3kg (New intake)
+2026-05-27 12:40:26 [INFO] SIM - [Tick 79] Health Update: Kiwi (#116) (100 -> 93) - critical hunger
+2026-05-27 12:40:26 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:26 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:26 [INFO] BOWL - Pet #117: requested 92 g but only 79 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:26 [INFO] SIM - [Tick 79] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:40:27 [INFO] SIM - [Tick 80] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:40:27 [INFO] SIM - [Tick 80] Health Update: Kiwi (#104) (60 -> 53) - critical hunger
+2026-05-27 12:40:27 [INFO] SIM - [Tick 80] Health Update: Kiwi (#116) (93 -> 86) - critical hunger
+2026-05-27 12:40:27 [INFO] SIM - [Tick 80] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:40:27 [INFO] SIM - [Tick 80] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:27 [INFO] SIM - [Tick 80] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:40:27 [INFO] SIM - [Tick 80] Feeding: Kiwi (#116) (94 -> 10, 5.0g)
+2026-05-27 12:40:27 [INFO] SIM - [Tick 80] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:40:32 [INFO] SIM - [Tick 81] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:32 [INFO] SIM - [Tick 81] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:32 [INFO] SIM - [Tick 81] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:33 [INFO] SIM - [Tick 82] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 53 -> 54
+2026-05-27 12:40:33 [INFO] SIM - [Tick 82] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 86 -> 87
+2026-05-27 12:40:33 [INFO] SIM - [Tick 82] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:33 [INFO] SIM - [Tick 83] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:40:33 [INFO] SIM - [Tick 83] Feeding: Nova (#119) (60 -> 10, 65.1g)
+2026-05-27 12:40:34 [INFO] SIM - [Tick 84] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:40:34 [INFO] SIM - [Tick 84] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:34 [INFO] SIM - [Tick 84] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:40:34 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:34 [INFO] SIM - [Tick 84] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:40:34 [INFO] SIM - [Tick 85] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:34 [INFO] SIM - [Tick 85] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:34 [INFO] SIM - [Tick 85] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:34 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:35 [INFO] SIM - [Tick 86] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 54 -> 55
+2026-05-27 12:40:35 [INFO] SIM - [Tick 86] Health Update: Kiwi (#116) (87 -> 80) - critical hunger
+2026-05-27 12:40:35 [INFO] SIM - [Tick 86] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:35 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:35 [INFO] SIM - [Tick 87] Health Update: Kiwi (#116) (80 -> 73) - critical hunger
+2026-05-27 12:40:35 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:35 [INFO] SIM - [Tick 87] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:40:35 [INFO] SIM - [Tick 87] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:40:36 [INFO] SIM - [Tick 88] Health Update: Kiwi (#116) (73 -> 66) - critical hunger
+2026-05-27 12:40:36 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:36 [INFO] BOWL - Pet #109: requested 227 g but only 194 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:36 [INFO] SIM - [Tick 88] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:36 [INFO] BOWL - Pet #115: requested 27 g but only 23 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:36 [INFO] SIM - [Tick 88] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:40:36 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:36 [INFO] BOWL - Pet #118: requested 91 g but only 78 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:36 [INFO] SIM - [Tick 88] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:40:36 [INFO] SIM - [Tick 89] Health Update: Kiwi (#116) (66 -> 59) - critical hunger
+2026-05-27 12:40:36 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:36 [INFO] BOWL - Pet #107: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:36 [INFO] SIM - [Tick 89] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:36 [INFO] BOWL - Pet #110: requested 155 g but only 133 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:36 [INFO] SIM - [Tick 89] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:36 [INFO] BOWL - Pet #113: requested 31 g but only 26 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:36 [INFO] SIM - [Tick 89] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:36 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Health Update: Kiwi (#104) (55 -> 48) - critical hunger
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Health Update: Kiwi (#116) (59 -> 52) - critical hunger
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Feeding: Kiwi (#116) (100 -> 10, 5.0g)
+2026-05-27 12:40:37 [INFO] SHELTER - Added pet #120 (Dog Max)
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Animal Arrived: Dog Max, age 8, weight 9.6kg (New intake)
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Kiwi: health 48/100, well fed, vaccination overdue, monitor closely
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Mango: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Buddy: health 100/100, needs a meal soon, vaccination current, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Buddy: health 100/100, well fed, vaccination current, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Misty: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Nora: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Iggy: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Kiwi: health 52/100, well fed, vaccination overdue, monitor closely
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Murka: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Misty: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Nova: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:40:37 [INFO] SIM - [Tick 90] Vet report for Max: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:40:42 [INFO] SIM - [Tick 91] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:40:42 [INFO] SIM - [Tick 91] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:40:43 [INFO] SIM - [Tick 92] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 48 -> 49
+2026-05-27 12:40:43 [INFO] SIM - [Tick 92] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 52 -> 53
+2026-05-27 12:40:43 [INFO] SIM - [Tick 92] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:43 [INFO] SIM - [Tick 92] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:40:43 [INFO] SIM - [Tick 92] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:40:43 [INFO] SIM - [Tick 93] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:43 [INFO] SIM - [Tick 93] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:43 [INFO] SIM - [Tick 93] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:44 [INFO] SIM - [Tick 94] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:40:44 [INFO] SIM - [Tick 94] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:44 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:44 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:44 [INFO] SIM - [Tick 95] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:40:44 [INFO] SIM - [Tick 95] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:40:44 [INFO] SIM - [Tick 95] Feeding: Max (#120) (60 -> 10, 100.5g)
+2026-05-27 12:40:45 [INFO] SIM - [Tick 96] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 49 -> 50
+2026-05-27 12:40:45 [INFO] SIM - [Tick 96] Health Update: Kiwi (#116) (53 -> 46) - critical hunger
+2026-05-27 12:40:45 [INFO] SIM - [Tick 96] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:45 [INFO] SIM - [Tick 96] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:40:45 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:45 [INFO] SIM - [Tick 96] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:40:45 [INFO] SIM - [Tick 97] Health Update: Kiwi (#116) (46 -> 39) - critical hunger
+2026-05-27 12:40:45 [INFO] SIM - [Tick 97] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:40:45 [INFO] SIM - [Tick 97] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:40:45 [INFO] SIM - [Tick 97] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:40:45 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:46 [INFO] SIM - [Tick 98] Health Update: Kiwi (#116) (39 -> 32) - critical hunger
+2026-05-27 12:40:46 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:46 [INFO] BOWL - Pet #114: requested 70 g but only 60 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:46 [INFO] SIM - [Tick 98] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:40:46 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:46 [INFO] SHELTER - Added pet #121 (Bird Rio)
+2026-05-27 12:40:46 [INFO] SIM - [Tick 98] Animal Arrived: Bird Rio, age 4, weight 0.5kg (New intake)
+2026-05-27 12:40:46 [INFO] SIM - [Tick 99] Health Update: Kiwi (#116) (32 -> 25) - critical hunger
+2026-05-27 12:40:46 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:40:46 [WARNING] BOWL - Pet #116: daily limit 5 g reached (consumed 5 g, requested 5 g). Feeding blocked.
+2026-05-27 12:40:46 [INFO] BOWL - Pet #117: requested 92 g but only 79 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:46 [INFO] SIM - [Tick 99] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:40:46 [INFO] BOWL - Pet #119: requested 65 g but only 55 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:40:46 [INFO] SIM - [Tick 99] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:40:46 [INFO] SIM - [Tick 99] Feeding: Max (#120) (58 -> 10, 100.5g)
+2026-05-27 12:40:47 [INFO] SIM - [Tick 100] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:40:47 [INFO] SIM - [Tick 100] Health Update: Kiwi (#104) (50 -> 43) - critical hunger
+2026-05-27 12:40:47 [INFO] SIM - [Tick 100] Health Update: Kiwi (#116) (25 -> 18) - critical hunger
+2026-05-27 12:40:47 [INFO] SIM - [Tick 100] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:40:47 [INFO] SIM - [Tick 100] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:40:47 [INFO] SIM - [Tick 100] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:40:47 [INFO] SIM - [Tick 100] Feeding: Kiwi (#116) (100 -> 10, 5.0g)
+2026-05-27 12:40:47 [INFO] SIM - [Tick 100] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:40:52 [INFO] SIM - [Tick 100] Simulation finished.
+2026-05-27 12:43:14 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-27 12:43:14 [INFO] SIM - [Tick 1] Health Update: Kiwi (#116) (32 -> 25) - critical hunger
+2026-05-27 12:43:14 [INFO] SIM - [Tick 1] Feeding: Kiwi (#104) (70 -> 10, 11.0g)
+2026-05-27 12:43:14 [INFO] SIM - [Tick 1] Feeding: Kiwi (#116) (100 -> 10, 7.5g)
+2026-05-27 12:43:14 [INFO] SIM - [Tick 1] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:43:14 [INFO] SIM - [Tick 1] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:43:14 [INFO] SIM - [Tick 1] Feeding: Max (#120) (58 -> 10, 100.5g)
+2026-05-27 12:43:14 [INFO] SHELTER - Removed pet #120 (Max)
+2026-05-27 12:43:14 [INFO] SIM - [Tick 1] Animal Adopted: Max (#120) found a new home (Matched with an adopter)
+2026-05-27 12:43:19 [INFO] SIM - [Tick 2] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:43:19 [INFO] SIM - [Tick 2] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:43:19 [INFO] SIM - [Tick 2] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:43:25 [INFO] SIM - [Tick 3] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 50 -> 51
+2026-05-27 12:43:25 [INFO] SIM - [Tick 3] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 25 -> 26
+2026-05-27 12:43:25 [INFO] SIM - [Tick 3] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:43:25 [INFO] SIM - [Tick 3] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:43:25 [INFO] SIM - [Tick 3] Feeding: Misty (#113) (58 -> 10, 31.1g)
+2026-05-27 12:43:30 [INFO] SIM - [Tick 4] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:43:36 [INFO] SIM - [Tick 5] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:43:36 [INFO] SIM - [Tick 5] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:43:36 [INFO] SIM - [Tick 5] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:43:36 [INFO] SIM - [Tick 5] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:43:36 [INFO] SIM - [Tick 5] Feeding: Rio (#121) (60 -> 10, 7.5g)
+2026-05-27 12:43:41 [INFO] SIM - [Tick 6] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:43:41 [INFO] SIM - [Tick 6] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:43:41 [INFO] SIM - [Tick 6] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:43:41 [INFO] SHELTER - Removed pet #113 (Misty)
+2026-05-27 12:43:41 [INFO] SIM - [Tick 6] Animal Adopted: Misty (#113) found a new home (Matched with an adopter)
+2026-05-27 12:43:47 [INFO] SIM - [Tick 7] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 51 -> 52
+2026-05-27 12:43:47 [INFO] SIM - [Tick 7] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 26 -> 27
+2026-05-27 12:43:47 [INFO] SIM - [Tick 7] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:43:47 [INFO] SIM - [Tick 7] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:43:52 [INFO] SIM - [Tick 8] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:43:52 [INFO] MEDICAL - Added vaccination for pet ID: 104
+2026-05-27 12:43:52 [INFO] SIM - [Tick 8] Vaccination: Kiwi (#104) received Avian Flu on 2026-05-27 (Routine vaccination)
+2026-05-27 12:43:58 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:43:58 [WARNING] BOWL - Pet #116: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:43:58 [INFO] BOWL - Pet #117: requested 92 g but only 79 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:43:58 [INFO] SIM - [Tick 9] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:43:58 [INFO] BOWL - Pet #119: requested 65 g but only 55 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:43:58 [INFO] SIM - [Tick 9] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:43:58 [INFO] SIM - [Tick 9] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:44:03 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:44:03 [INFO] SIM - [Tick 10] Feeding: Kiwi (#104) (70 -> 10, 11.0g)
+2026-05-27 12:44:03 [INFO] SIM - [Tick 10] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:44:03 [INFO] SIM - [Tick 10] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:44:03 [INFO] SIM - [Tick 10] Feeding: Kiwi (#116) (70 -> 10, 7.5g)
+2026-05-27 12:44:03 [INFO] SIM - [Tick 10] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:44:09 [INFO] SIM - [Tick 10] Simulation finished.
+2026-05-27 12:48:45 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-27 12:48:45 [INFO] SIM - [Tick 1] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:48:45 [INFO] SIM - [Tick 1] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:48:45 [INFO] SIM - [Tick 2] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:48:46 [INFO] SIM - [Tick 3] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:48:46 [INFO] SIM - [Tick 3] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:48:46 [INFO] SIM - [Tick 3] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:48:46 [INFO] SIM - [Tick 3] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:48:46 [INFO] SIM - [Tick 3] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:48:46 [INFO] MEDICAL - Added vaccination for pet ID: 118
+2026-05-27 12:48:46 [INFO] SIM - [Tick 3] Vaccination: Misty (#118) received Feline Distemper on 2026-05-27 (Routine vaccination)
+2026-05-27 12:48:46 [INFO] SIM - [Tick 4] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:48:46 [INFO] SIM - [Tick 4] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:48:46 [INFO] SIM - [Tick 4] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:48:46 [INFO] VET - Vet report for Iggy: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:48:46 [WARNING] VET - Iggy needs vaccination follow-up.
+2026-05-27 12:48:46 [INFO] SIM - [Tick 4] Vet Check: Iggy (#115) - Scheduled health review
+2026-05-27 12:48:47 [INFO] SIM - [Tick 5] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 51 -> 52
+2026-05-27 12:48:47 [INFO] SIM - [Tick 5] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 85 -> 86
+2026-05-27 12:48:47 [INFO] SIM - [Tick 5] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:48:47 [INFO] SIM - [Tick 5] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:48:52 [INFO] SIM - [Tick 6] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 7] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 7] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 7] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 7] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 7] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:48:53 [INFO] SHELTER - Added pet #122 (Bird Kiwi)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 7] Animal Arrived: Bird Kiwi, age 2, weight 1.7kg (New intake)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 8] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 8] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:48:53 [INFO] SIM - [Tick 8] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:48:54 [INFO] SIM - [Tick 9] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 52 -> 53
+2026-05-27 12:48:54 [INFO] SIM - [Tick 9] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 86 -> 87
+2026-05-27 12:48:54 [INFO] BOWL - Pet #107: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:48:54 [INFO] SIM - [Tick 9] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:48:54 [INFO] BOWL - Pet #110: requested 155 g but only 133 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:48:54 [INFO] SIM - [Tick 9] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:48:54 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:48:54 [INFO] SIM - [Tick 10] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 11] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 11] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 11] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 11] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 11] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 12] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 12] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 12] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:49:00 [INFO] SIM - [Tick 12] Feeding: Kiwi (#122) (60 -> 10, 15.5g)
+2026-05-27 12:49:00 [INFO] MEDICAL - Added vaccination for pet ID: 107
+2026-05-27 12:49:00 [INFO] SIM - [Tick 12] Vaccination: Mango (#107) received Exotic Wellness on 2026-05-27 (Routine vaccination)
+2026-05-27 12:49:01 [INFO] SIM - [Tick 13] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 53 -> 54
+2026-05-27 12:49:01 [INFO] SIM - [Tick 13] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 87 -> 88
+2026-05-27 12:49:01 [INFO] SIM - [Tick 13] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:49:01 [INFO] SIM - [Tick 13] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:49:01 [INFO] SHELTER - Added pet #123 (Exotic Mango)
+2026-05-27 12:49:01 [INFO] SIM - [Tick 13] Animal Arrived: Exotic Mango, age 3, weight 4.5kg (New intake)
+2026-05-27 12:49:01 [INFO] SIM - [Tick 14] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:49:02 [INFO] SIM - [Tick 15] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:49:02 [INFO] SIM - [Tick 15] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:49:02 [INFO] SIM - [Tick 15] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:49:02 [INFO] SIM - [Tick 15] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:49:02 [INFO] SIM - [Tick 15] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:49:07 [INFO] SIM - [Tick 16] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:49:07 [INFO] SIM - [Tick 16] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:49:07 [INFO] SIM - [Tick 16] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:49:07 [INFO] SIM - [Tick 16] Feeding: Kiwi (#122) (58 -> 10, 15.5g)
+2026-05-27 12:49:07 [INFO] VET - Vet report for Misty: health 100/100, well fed, vaccination current, stable
+2026-05-27 12:49:07 [INFO] SIM - [Tick 16] Vet Check: Misty (#118) - Scheduled health review
+2026-05-27 12:49:08 [INFO] SIM - [Tick 17] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 54 -> 55
+2026-05-27 12:49:08 [INFO] SIM - [Tick 17] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 88 -> 89
+2026-05-27 12:49:08 [INFO] SIM - [Tick 17] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:49:08 [INFO] SIM - [Tick 17] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:49:08 [INFO] BOWL - Pet #114: requested 70 g but only 60 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:49:08 [INFO] SIM - [Tick 18] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:49:08 [INFO] SIM - [Tick 18] Feeding: Mango (#123) (60 -> 10, 25.3g)
+2026-05-27 12:49:08 [INFO] SHELTER - Added pet #124 (Dog Max)
+2026-05-27 12:49:08 [INFO] SIM - [Tick 18] Animal Arrived: Dog Max, age 5, weight 31.2kg (New intake)
+2026-05-27 12:49:09 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:49:09 [WARNING] BOWL - Pet #116: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:49:09 [INFO] BOWL - Pet #117: requested 92 g but only 79 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:49:09 [INFO] SIM - [Tick 19] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:49:09 [INFO] BOWL - Pet #119: requested 65 g but only 55 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:49:09 [INFO] SIM - [Tick 19] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:49:09 [WARNING] BOWL - Pet #121: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] Feeding: Kiwi (#104) (70 -> 10, 11.0g)
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] Feeding: Kiwi (#116) (70 -> 10, 7.5g)
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] Feeding: Rio (#121) (70 -> 10, 7.5g)
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] Feeding: Kiwi (#122) (58 -> 10, 15.5g)
+2026-05-27 12:49:09 [INFO] SHELTER - Added pet #125 (Dog Rocky)
+2026-05-27 12:49:09 [INFO] SIM - [Tick 20] Animal Arrived: Dog Rocky, age 3, weight 27.9kg (New intake)
+2026-05-27 12:49:15 [INFO] SIM - [Tick 20] Simulation finished.
+2026-05-27 12:50:31 [INFO] SIM - [Tick 0] Simulation started.
+2026-05-27 12:50:31 [INFO] SIM - [Tick 1] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:50:31 [INFO] SIM - [Tick 1] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:50:31 [INFO] SHELTER - Added pet #126 (Bird Kesha)
+2026-05-27 12:50:31 [INFO] SIM - [Tick 1] Animal Arrived: Bird Kesha, age 1, weight 0.6kg (New intake)
+2026-05-27 12:50:32 [INFO] SIM - [Tick 2] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 55 -> 56
+2026-05-27 12:50:32 [INFO] SIM - [Tick 2] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 89 -> 90
+2026-05-27 12:50:32 [INFO] SIM - [Tick 2] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:50:32 [INFO] SIM - [Tick 2] Feeding: Mango (#123) (58 -> 10, 25.3g)
+2026-05-27 12:50:32 [INFO] SIM - [Tick 3] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:50:32 [INFO] SIM - [Tick 3] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:50:32 [INFO] SIM - [Tick 3] Feeding: Max (#124) (60 -> 10, 273.2g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 4] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 4] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 4] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 4] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 4] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 4] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 4] Feeding: Kiwi (#122) (58 -> 10, 15.5g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 5] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 5] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:50:33 [INFO] SIM - [Tick 5] Feeding: Rocky (#125) (60 -> 10, 244.4g)
+2026-05-27 12:50:34 [INFO] SIM - [Tick 6] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 56 -> 57
+2026-05-27 12:50:34 [INFO] SIM - [Tick 6] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 90 -> 91
+2026-05-27 12:50:34 [INFO] SIM - [Tick 6] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:50:34 [INFO] SIM - [Tick 6] Feeding: Mango (#123) (58 -> 10, 25.3g)
+2026-05-27 12:50:34 [INFO] SIM - [Tick 6] Feeding: Kesha (#126) (60 -> 10, 7.5g)
+2026-05-27 12:50:34 [INFO] SIM - [Tick 7] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:50:34 [INFO] SIM - [Tick 7] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:50:34 [INFO] SIM - [Tick 7] Feeding: Max (#124) (58 -> 10, 273.2g)
+2026-05-27 12:50:34 [INFO] SHELTER - Removed pet #122 (Kiwi)
+2026-05-27 12:50:34 [INFO] SIM - [Tick 7] Animal Adopted: Kiwi (#122) found a new home (Matched with an adopter)
+2026-05-27 12:50:35 [INFO] SIM - [Tick 8] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:50:35 [INFO] SIM - [Tick 8] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:50:35 [INFO] SIM - [Tick 8] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:50:35 [INFO] SIM - [Tick 8] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:50:35 [INFO] SIM - [Tick 8] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:50:35 [INFO] SIM - [Tick 8] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:50:35 [INFO] MEDICAL - Added vaccination for pet ID: 109
+2026-05-27 12:50:35 [INFO] SIM - [Tick 8] Vaccination: Buddy (#109) received Rabies on 2026-05-27 (Routine vaccination)
+2026-05-27 12:50:35 [INFO] BOWL - Pet #107: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:35 [INFO] SIM - [Tick 9] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:50:35 [INFO] BOWL - Pet #110: requested 155 g but only 133 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:35 [INFO] SIM - [Tick 9] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:50:35 [INFO] SIM - [Tick 9] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-27 12:50:36 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:50:36 [INFO] SIM - [Tick 10] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 57 -> 58
+2026-05-27 12:50:36 [INFO] SIM - [Tick 10] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 91 -> 92
+2026-05-27 12:50:36 [INFO] SIM - [Tick 10] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:50:36 [INFO] SIM - [Tick 10] Feeding: Mango (#123) (58 -> 10, 25.3g)
+2026-05-27 12:50:36 [INFO] SIM - [Tick 10] Feeding: Kesha (#126) (58 -> 10, 7.5g)
+2026-05-27 12:50:41 [INFO] SIM - [Tick 11] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:50:41 [INFO] SIM - [Tick 11] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:50:41 [INFO] SIM - [Tick 11] Feeding: Max (#124) (58 -> 10, 273.2g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 12] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 12] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 12] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 12] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 12] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 12] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 13] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 13] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:50:42 [INFO] SIM - [Tick 13] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-27 12:50:43 [INFO] SIM - [Tick 14] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 58 -> 59
+2026-05-27 12:50:43 [INFO] SIM - [Tick 14] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 92 -> 93
+2026-05-27 12:50:43 [INFO] SIM - [Tick 14] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:50:43 [INFO] SIM - [Tick 14] Feeding: Mango (#123) (58 -> 10, 25.3g)
+2026-05-27 12:50:43 [INFO] SIM - [Tick 14] Feeding: Kesha (#126) (58 -> 10, 7.5g)
+2026-05-27 12:50:43 [INFO] SIM - [Tick 15] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:50:43 [INFO] SIM - [Tick 15] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:50:43 [INFO] SIM - [Tick 15] Feeding: Max (#124) (58 -> 10, 273.2g)
+2026-05-27 12:50:43 [INFO] MEDICAL - Added vaccination for pet ID: 107
+2026-05-27 12:50:43 [INFO] SIM - [Tick 15] Vaccination: Mango (#107) received Exotic Wellness on 2026-05-27 (Routine vaccination)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 16] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 16] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 16] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 16] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 16] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 16] Feeding: Rio (#121) (58 -> 10, 7.5g)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 17] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 17] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:50:44 [INFO] SIM - [Tick 17] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-27 12:50:45 [INFO] SIM - [Tick 18] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 59 -> 60
+2026-05-27 12:50:45 [INFO] SIM - [Tick 18] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-05-27 12:50:45 [INFO] BOWL - Pet #114: requested 70 g but only 60 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:45 [INFO] SIM - [Tick 18] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:50:45 [INFO] BOWL - Pet #123: requested 25 g but only 21 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:45 [INFO] SIM - [Tick 18] Feeding: Mango (#123) (58 -> 10, 25.3g)
+2026-05-27 12:50:45 [WARNING] BOWL - Pet #126: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:50:45 [INFO] SHELTER - Removed pet #121 (Rio)
+2026-05-27 12:50:45 [INFO] SIM - [Tick 18] Animal Adopted: Rio (#121) found a new home (Matched with an adopter)
+2026-05-27 12:50:45 [INFO] BOWL - Pet #117: requested 92 g but only 79 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:45 [INFO] SIM - [Tick 19] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:50:45 [INFO] BOWL - Pet #119: requested 65 g but only 55 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:45 [INFO] SIM - [Tick 19] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:50:45 [INFO] BOWL - Pet #124: requested 273 g but only 234 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:45 [INFO] SIM - [Tick 19] Feeding: Max (#124) (58 -> 10, 273.2g)
+2026-05-27 12:50:45 [WARNING] BOWL - Pet #126: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:50:45 [INFO] SHELTER - Added pet #127 (Dog Charlie)
+2026-05-27 12:50:45 [INFO] SIM - [Tick 19] Animal Arrived: Dog Charlie, age 9, weight 20.7kg (New intake)
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] Health Update: Kesha (#126) (100 -> 93) - critical hunger
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] Feeding: Kesha (#126) (82 -> 10, 7.5g)
+2026-05-27 12:50:46 [INFO] SHELTER - Added pet #128 (Dog Max)
+2026-05-27 12:50:46 [INFO] SIM - [Tick 20] Animal Arrived: Dog Max, age 8, weight 17.8kg (New intake)
+2026-05-27 12:50:51 [INFO] SIM - [Tick 21] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:50:51 [INFO] SIM - [Tick 21] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:50:51 [INFO] SIM - [Tick 21] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-27 12:50:52 [INFO] SIM - [Tick 22] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 60 -> 61
+2026-05-27 12:50:52 [INFO] SIM - [Tick 22] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-05-27 12:50:52 [INFO] SIM - [Tick 22] RECOVERY: Kesha (#126) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-05-27 12:50:52 [INFO] SIM - [Tick 22] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:50:52 [INFO] SIM - [Tick 22] Feeding: Mango (#123) (58 -> 10, 25.3g)
+2026-05-27 12:50:52 [INFO] SHELTER - Added pet #129 (Bird Rio)
+2026-05-27 12:50:52 [INFO] SIM - [Tick 22] Animal Arrived: Bird Rio, age 7, weight 0.3kg (New intake)
+2026-05-27 12:50:52 [INFO] SIM - [Tick 23] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:50:52 [INFO] SIM - [Tick 23] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:50:52 [INFO] SIM - [Tick 23] Feeding: Max (#124) (58 -> 10, 273.2g)
+2026-05-27 12:50:52 [INFO] SHELTER - Added pet #130 (Cat Nora)
+2026-05-27 12:50:52 [INFO] SIM - [Tick 23] Animal Arrived: Cat Nora, age 12, weight 6.1kg (New intake)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 24] Feeding: Kiwi (#104) (58 -> 10, 11.0g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 24] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 24] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 24] Feeding: Kiwi (#116) (58 -> 10, 7.5g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 24] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 24] Feeding: Kesha (#126) (58 -> 10, 7.5g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 24] Feeding: Charlie (#127) (60 -> 10, 181.3g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 25] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 25] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 25] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-27 12:50:53 [INFO] SIM - [Tick 25] Feeding: Max (#128) (60 -> 10, 124.4g)
+2026-05-27 12:50:54 [INFO] SIM - [Tick 26] RECOVERY: Kiwi (#104) recovered after 2 consecutive low-hunger ticks (22%). Health: 61 -> 62
+2026-05-27 12:50:54 [INFO] SIM - [Tick 26] RECOVERY: Kiwi (#116) recovered after 2 consecutive low-hunger ticks (22%). Health: 95 -> 96
+2026-05-27 12:50:54 [INFO] SIM - [Tick 26] RECOVERY: Kesha (#126) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-05-27 12:50:54 [INFO] SIM - [Tick 26] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:50:54 [INFO] SIM - [Tick 26] Feeding: Mango (#123) (58 -> 10, 25.3g)
+2026-05-27 12:50:54 [INFO] SIM - [Tick 27] Feeding: Murka (#117) (58 -> 10, 92.8g)
+2026-05-27 12:50:54 [INFO] SIM - [Tick 27] Feeding: Nova (#119) (58 -> 10, 65.1g)
+2026-05-27 12:50:54 [INFO] SIM - [Tick 27] Feeding: Max (#124) (58 -> 10, 273.2g)
+2026-05-27 12:50:54 [INFO] SIM - [Tick 27] Feeding: Rio (#129) (60 -> 10, 7.5g)
+2026-05-27 12:50:55 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:50:55 [INFO] BOWL - Pet #109: requested 227 g but only 194 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:55 [INFO] SIM - [Tick 28] Feeding: Buddy (#109) (58 -> 10, 227.1g)
+2026-05-27 12:50:55 [INFO] BOWL - Pet #115: requested 27 g but only 23 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:55 [INFO] SIM - [Tick 28] Feeding: Iggy (#115) (58 -> 10, 28.0g)
+2026-05-27 12:50:55 [WARNING] BOWL - Pet #116: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:50:55 [INFO] BOWL - Pet #118: requested 91 g but only 78 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:55 [INFO] SIM - [Tick 28] Feeding: Misty (#118) (58 -> 10, 91.6g)
+2026-05-27 12:50:55 [WARNING] BOWL - Pet #126: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:50:55 [INFO] SIM - [Tick 28] Feeding: Charlie (#127) (58 -> 10, 181.3g)
+2026-05-27 12:50:55 [INFO] SIM - [Tick 28] Feeding: Nora (#130) (60 -> 10, 85.5g)
+2026-05-27 12:50:55 [WARNING] BOWL - Pet #104: daily limit 22 g reached (consumed 22 g, requested 11 g). Feeding blocked.
+2026-05-27 12:50:55 [INFO] BOWL - Pet #107: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:55 [INFO] SIM - [Tick 29] Feeding: Mango (#107) (58 -> 10, 77.9g)
+2026-05-27 12:50:55 [INFO] BOWL - Pet #110: requested 155 g but only 133 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:55 [INFO] SIM - [Tick 29] Feeding: Buddy (#110) (58 -> 10, 155.5g)
+2026-05-27 12:50:55 [WARNING] BOWL - Pet #116: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:50:55 [INFO] BOWL - Pet #125: requested 244 g but only 209 g remaining for today. Dispensing remaining amount.
+2026-05-27 12:50:55 [INFO] SIM - [Tick 29] Feeding: Rocky (#125) (58 -> 10, 244.4g)
+2026-05-27 12:50:55 [WARNING] BOWL - Pet #126: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-05-27 12:50:55 [INFO] SIM - [Tick 29] Feeding: Max (#128) (58 -> 10, 124.4g)
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] SmartBowl: daily counters reset for all bowls.
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Health Update: Kiwi (#104) (62 -> 55) - critical hunger
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Health Update: Kiwi (#116) (96 -> 89) - critical hunger
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Health Update: Kesha (#126) (95 -> 88) - critical hunger
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Feeding: Kiwi (#104) (82 -> 10, 11.0g)
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Feeding: Nora (#114) (58 -> 10, 71.0g)
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Feeding: Kiwi (#116) (82 -> 10, 7.5g)
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Feeding: Mango (#123) (58 -> 10, 25.3g)
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Feeding: Kesha (#126) (82 -> 10, 7.5g)
+2026-05-27 12:50:56 [INFO] MEDICAL - Added vaccination for pet ID: 115
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vaccination: Iggy (#115) received Exotic Wellness on 2026-05-27 (Routine vaccination)
+2026-05-27 12:50:56 [INFO] SHELTER - Removed pet #115 (Iggy)
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Animal Adopted: Iggy (#115) found a new home (Matched with an adopter)
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Kiwi: health 55/100, well fed, vaccination overdue, monitor closely
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Mango: health 100/100, well fed, vaccination current, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Buddy: health 100/100, needs a meal soon, vaccination current, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Buddy: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Nora: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Kiwi: health 89/100, well fed, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Murka: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Misty: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Nova: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Mango: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Max: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Rocky: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Kesha: health 88/100, well fed, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Charlie: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Max: health 100/100, well fed, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Rio: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:50:56 [INFO] SIM - [Tick 30] Vet report for Nora: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-05-27 12:51:01 [INFO] SIM - [Tick 30] Simulation finished.

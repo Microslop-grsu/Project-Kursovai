@@ -87,24 +87,34 @@ const std::vector<VaccinationEntry>& MedicalRecord::getAllRecords() const {
     return records;
 }
 
-void MedicalRecord::addHealthIssue(const std::string& issue) {
-    for (const auto& healthIssue : healthIssues) {
-        if (healthIssue == issue) {
-            return;
+void MedicalRecord::addHealthIssue(short petId, const std::string& issue) {
+    for (const auto& entry : healthIssues) {
+        if (entry.petId == petId && entry.issue == issue) {
+            return;  // уже добавлен
         }
     }
-    healthIssues.push_back(issue);
+    healthIssues.emplace_back(petId, issue);
 }
 
-bool MedicalRecord::hasHealthIssue(const std::string& issue) const {
-    for (const auto& healthIssue : healthIssues) {
-        if (healthIssue == issue) {
+bool MedicalRecord::hasHealthIssue(short petId, const std::string& issue) const {
+    for (const auto& entry : healthIssues) {
+        if (entry.petId == petId && entry.issue == issue) {
             return true;
         }
     }
     return false;
 }
 
-const std::vector<std::string>& MedicalRecord::getHealthIssues() const {
+std::vector<std::string> MedicalRecord::getHealthIssuesForPet(short petId) const {
+    std::vector<std::string> issues;
+    for (const auto& entry : healthIssues) {
+        if (entry.petId == petId) {
+            issues.push_back(entry.issue);
+        }
+    }
+    return issues;
+}
+
+const std::vector<HealthIssueEntry>& MedicalRecord::getAllHealthIssues() const {
     return healthIssues;
 }

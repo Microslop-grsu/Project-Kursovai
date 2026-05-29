@@ -13,5 +13,5 @@ public:
 private:
     static double baseGramsPerKg(const std::string &petType);
     static double activityMultiplier(const Pet &pet);
-    static double healthAdjustment(const MedicalRecord &record);
+    static double healthAdjustment(short petId, const MedicalRecord &record);
 };

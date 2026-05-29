@@ -44,7 +44,7 @@ void ConsoleView::showPetDetails() {
     if (pet) {
         pet->printDetailInfo();
         printVaccinations(id);
-        const auto& issues = manager.getMedicalRecord().getHealthIssues();
+        const auto issues = manager.getMedicalRecord().getHealthIssuesForPet(id);
         if (!issues.empty()) {
             std::cout << "Болезни:\n";
             for (const auto& issue : issues)
