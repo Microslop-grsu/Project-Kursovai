@@ -1,21 +1,32 @@
 #pragma once
-
 #include <unordered_map>
 #include <string>
 #include <ctime>
-#include <vector> // добавлено
+#include <vector>
 
 class Logger;
-class Pet; // forward declaration
+class Pet;
+class MedicalRecord;
 
-class FeedingMonitor
-{
+class FeedingMonitor {
 public:
-    void feed(const std::string &petName);
+    // gramsGiven = 0 означает «покормили, но граммы не фиксируем»
+    void feed(short petId, double gramsGiven = 0.0);
+
     void checkStarvation(Logger &logger, const std::vector<Pet *> &pets);
-    std::time_t getLastFeedingTime(const std::string &petName) const;
+
+    // Сравнивает dailyConsumed с нормой DietCalculator, логирует превышение > 20%
+    void checkOverfeeding(Logger &logger, const std::vector<Pet *> &pets,
+                          const MedicalRecord &record);
+
+    std::time_t getLastFeedingTime(short petId) const;
+    double getDailyConsumed(short petId) const;
+    void resetDailyCounters();
 
 private:
-    std::unordered_map<std::string, std::time_t> lastMeal;
+    std::unordered_map<short, std::time_t> lastMeal;
+    std::unordered_map<short, double> dailyConsumed; // grams consumed today
+    std::unordered_map<short, std::time_t> dayStart; // current day tracking
+
     static const int HUNGER_THRESHOLD_HOURS = 8;
 };

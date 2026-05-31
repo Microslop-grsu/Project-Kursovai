@@ -1,5 +1,6 @@
 #include "../../include/shelter/ui/ConsoleView.h"
 #include "../../include/shelter/services/ShelterManager.h"
+#include "../../include/shelter/services/DietCalculator.h"
 #include <iostream>
 #include <vector>
 
@@ -43,6 +44,17 @@ void ConsoleView::showPetDetails() {
     if (pet) {
         pet->printDetailInfo();
         printVaccinations(id);
+        const auto issues = manager.getMedicalRecord().getHealthIssuesForPet(id);
+        if (!issues.empty()) {
+            std::cout << "Болезни:\n";
+            for (const auto& issue : issues)
+                std::cout << "- " << issue << "\n";
+        } else {
+            std::cout << "Болезни: нет\n";
+        }
+
+        std::cout << "Суточная норма: " << DietCalculator::calculateDailyGrams(*pet, manager.getMedicalRecord()) << " г\n";
+
     } else {
         std::cout << "Не найден\n";
     }

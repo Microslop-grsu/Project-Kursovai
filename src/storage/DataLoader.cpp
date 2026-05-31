@@ -1,53 +1,49 @@
 #include "../../include/shelter/storage/DataLoader.h"
-#include "../../include/shelter/utils/Logger.h"
-#include "../../include/shelter/storage/json.hpp"
-#include "../../include/shelter/core/Exotic.h"
-#include "../../include/shelter/core/Dog.h"
-#include "../../include/shelter/core/Cat.h"
-#include "../../include/shelter/core/Bird.h"
 #include "../../include/shelter/storage/PetFactory.h"
+#include "../../include/shelter/storage/json.hpp"
+#include "../../include/shelter/utils/Logger.h"
 #include <fstream>
+#include <iostream>
 
 using json = nlohmann::json;
-Logger logger("../data/events.logs");
 
-bool DataLoader::loadFromFile(const std::string& path,
-                              PetRepository& repo) {
+Logger dataLogger("../data/storage.logs");
+
+bool DataLoader::loadFromFile(const std::string& path, PetRepository& repo) {
     std::ifstream file(path);
     if (!file.is_open()) {
-        logger.error("FILE", "File not found");
+        dataLogger.error("DATA", "Файл не найден: " + path);
         return false;
     }
 
     json data;
     try {
         file >> data;
-    }   catch (json::parse_error& e) {
-        logger.error("JSON", "JSON parse error: " + std::string(e.what()));
+    } catch (const json::parse_error& e) {
+        dataLogger.error("DATA", "Ошибка парсинга JSON: " + std::string(e.what()));
         return false;
     }
+
     repo.clear();
-
     if (!data.contains("pets") || !data["pets"].is_array()) {
-        logger.error("PETS", "Pets not found");
+        dataLogger.error("DATA", "Данные о питомцах отсутствуют");
         return false;
     }
 
-    for (const auto& petJson: data["pets"] ) {
-        if (auto pet = PetFactory::createFromJson(petJson)){
-            repo.add(std::move(pet));
-        }
-        else {
-            logger.debug("DATA", "Invalid JSON format");
+    for (const auto& petJson : data["pets"]) {
+        auto pet = PetFactory::createFromJson(petJson);
+        if (!pet) {
+            dataLogger.error("DATA", "Неверная запись о питомце в" + path);
             return false;
         }
+        repo.add(std::move(pet));
     }
-    std::string msg = "Loaded " + std::to_string(repo.size()) + " pets from " + path;
-    logger.debug("DATA", msg);
+
+    dataLogger.info("DATA", "Загружено " + std::to_string(repo.size()) + " питомцев из " + path);
     return true;
 }
 
-bool DataLoader::saveToFile(const std::string &path, const PetRepository &repo) {
+bool DataLoader::saveToFile(const std::string& path, const PetRepository& repo) {
     json data;
     data["pets"] = json::array();
 
@@ -57,14 +53,12 @@ bool DataLoader::saveToFile(const std::string &path, const PetRepository &repo) 
 
     std::ofstream file(path);
     if (!file.is_open()) {
-        logger.error("FILE", "Cannot write to file: " + path);
+        dataLogger.error("DATA", "Невозможно записать данные в : " + path);
         return false;
     }
 
     file << data.dump(4);
     currentFilePath = path;
-    std::string msg = "Saved " + std::to_string(repo.size()) + " pets to " + path;
-    logger.info("DATA", msg);
-
+    dataLogger.info("DATA", "Сохранено " + std::to_string(repo.size()) + " питомцев в " + path);
     return true;
 }

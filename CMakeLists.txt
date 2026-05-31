@@ -4,6 +4,8 @@ project(ShelterCore)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+add_compile_options("$<$<CXX_COMPILER_ID:GNU>:-fexec-charset=UTF-8>")
+
 add_executable(Shelter
         main.cpp
         src/core/Pet.cpp
@@ -19,6 +21,13 @@ add_executable(Shelter
         src/storage/PetRepository.cpp
         src/services/ShelterManager.cpp
         src/ui/ConsoleView.cpp
+        src/services/DietCalculator.cpp
+        src/services/SimulationEvent.cpp
+        src/services/EventGenerator.cpp
+        src/services/VetInspector.cpp
+        src/services/EventProcessor.cpp
+        src/services/SimulationEngine.cpp
+        src/services/SmartBowl.cpp
         include/shelter/core/Pet.h
         include/shelter/core/Dog.h
         include/shelter/core/Cat.h
@@ -33,7 +42,13 @@ add_executable(Shelter
         include/shelter/storage/PetRepository.h
         include/shelter/services/ShelterManager.h
         include/shelter/ui/ConsoleView.h
+        include/shelter/services/DietCalculator.h
+        include/shelter/services/SimulationEvent.h
+        include/shelter/services/EventGenerator.h
+        include/shelter/services/VetInspector.h
+        include/shelter/services/EventProcessor.h
+        include/shelter/services/SimulationEngine.h
+        include/shelter/services/SmartBowl.h
 )
 
 target_include_directories(Shelter PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
-
