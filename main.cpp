@@ -38,9 +38,10 @@ int main() {
     const std::filesystem::path projectRoot = findProjectRoot();
     const std::filesystem::path petsPath = projectRoot / "data" / "pets.json";
     const std::filesystem::path logPath = projectRoot / "data" / "events.logs";
+    const std::filesystem::path storageLogPath = projectRoot / "data" / "storage.logs";
     const std::filesystem::path statsPath = projectRoot / "stats.json";
 
-    auto manager = std::make_shared<ShelterManager>(logPath.string(), petsPath.string());
+    auto manager = std::make_shared<ShelterManager>(logPath.string(), petsPath.string(), storageLogPath.string());
     if (!manager->loadData(petsPath.string())) {
         std::cerr << "Failed to load pet data from " << petsPath << '\n';
         return 1;

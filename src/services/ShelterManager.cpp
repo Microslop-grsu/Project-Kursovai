@@ -5,11 +5,11 @@
 #include <algorithm>
 #include <iostream>
 
-ShelterManager::ShelterManager(const std::string& logPath, std::string dataPath)
-    : logger(logPath), dataPath(std::move(dataPath)) {}
+ShelterManager::ShelterManager(const std::string& logPath, std::string dataPath, const std::string& storageLogPath)
+    : logger(logPath), dataLoader(storageLogPath), dataPath(std::move(dataPath)) {}
 
 bool ShelterManager::loadData(const std::string& path) {
-    const bool loaded = DataLoader::loadFromFile(path, repo);
+    const bool loaded = dataLoader.loadFromFile(path, repo);
     if (loaded) {
         dataPath = path;
     }
@@ -17,8 +17,7 @@ bool ShelterManager::loadData(const std::string& path) {
 }
 
 bool ShelterManager::saveData(const std::string& path) {
-    DataLoader loader;
-    const bool saved = loader.saveToFile(path, repo);
+    const bool saved = dataLoader.saveToFile(path, repo);
     if (saved) {
         dataPath = path;
     }
