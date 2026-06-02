@@ -1,4 +1,4 @@
-# 🏠 ShelterCore - Система управления приютом для животных
+# 🏠 ShelterCore: Happy Tails - Система управления приютом для животных
 
 [![C++](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://isocpp.org/)
 [![CMake](https://img.shields.io/badge/CMake-3.8+-yellow.svg)](https://cmake.org/)
@@ -6,7 +6,7 @@
 
 ## 📋 Описание проекта
 
-**ShelterCore** — это комплексная система управления приютом для животных, разработанная на C++20. Проект предоставляет функциональность для:
+**ShelterCore: Happy Tails** — это комплексная система управления приютом для животных, разработанная на C++20. Проект предоставляет функциональность для:
 
 - 🐕 **Управления животными** - каталогизация и отслеживание собак, кошек, птиц и экзотических животных
 - 🍖 **Мониторинга питания** - автоматический расчёт рационов, учёт потребления пищи через "умные" кормушки
@@ -48,7 +48,7 @@ brew install cmake git
 
 ```bash
 # Клонируем репозиторий
-git clone https://github.com/Microslop-grsu/ShelterCore.git
+git clone https://github.com/yourusername/ShelterCore.git
 cd ShelterCore
 
 # Создаём директорию сборки
