@@ -5944,3 +5944,700 @@
 2026-06-01 07:35:57 [INFO] SIM - [Tick 50] Feeding: Charlie (#143) (58 -> 10, 198.8g)
 2026-06-01 07:35:57 [INFO] SIM - [Tick 50] Feeding: Sky (#149) (82 -> 10, 15.1g)
 2026-06-01 07:36:03 [INFO] SIM - [Tick 50] Simulation finished.
+2026-06-02 18:21:39 [INFO] SIM - [Tick 0] Simulation started.
+2026-06-02 18:21:39 [INFO] SIM - [Tick 1] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 18:21:39 [INFO] SIM - [Tick 1] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:21:39 [INFO] SIM - [Tick 1] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:21:40 [INFO] SIM - [Tick 2] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:21:40 [INFO] SIM - [Tick 2] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 18:21:40 [INFO] SHELTER - Added pet #152 (Dog Buddy)
+2026-06-02 18:21:40 [INFO] SIM - [Tick 2] Animal Arrived: Dog Buddy, age 5, weight 19.1kg (New intake)
+2026-06-02 18:21:40 [INFO] SIM - [Tick 3] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 18:21:40 [INFO] SIM - [Tick 3] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:21:40 [INFO] SIM - [Tick 3] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:21:41 [INFO] SIM - [Tick 4] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:21:41 [INFO] SIM - [Tick 4] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 18:21:41 [INFO] SIM - [Tick 5] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 18:21:41 [INFO] SIM - [Tick 5] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:21:41 [INFO] SIM - [Tick 5] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:21:41 [INFO] SIM - [Tick 5] Feeding: Kesha (#151) (60 -> 10, 10.5g)
+2026-06-02 18:21:47 [INFO] SIM - [Tick 6] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:21:47 [INFO] SIM - [Tick 6] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 18:21:47 [INFO] SIM - [Tick 7] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 18:21:47 [INFO] SIM - [Tick 7] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:21:47 [INFO] SIM - [Tick 7] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:21:47 [INFO] SIM - [Tick 7] Feeding: Buddy (#152) (60 -> 10, 167.5g)
+2026-06-02 18:21:47 [INFO] SHELTER - Added pet #153 (Bird Kiwi)
+2026-06-02 18:21:47 [INFO] SIM - [Tick 7] Animal Arrived: Bird Kiwi, age 5, weight 0.5kg (New intake)
+2026-06-02 18:21:47 [INFO] VET - Vet report for Milo: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 18:21:47 [WARNING] VET - Milo needs vaccination follow-up.
+2026-06-02 18:21:47 [INFO] SIM - [Tick 7] Vet Check: Milo (#144) - Scheduled health review
+2026-06-02 18:21:48 [INFO] SIM - [Tick 8] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:21:48 [INFO] SIM - [Tick 8] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 18:21:48 [INFO] SHELTER - Added pet #154 (Cat Loki)
+2026-06-02 18:21:48 [INFO] SIM - [Tick 8] Animal Arrived: Cat Loki, age 7, weight 6.7kg (New intake)
+2026-06-02 18:21:48 [INFO] SHELTER - Removed pet #144 (Milo)
+2026-06-02 18:21:48 [INFO] SIM - [Tick 8] Animal Adopted: Milo (#144) found a new home (Matched with an adopter)
+2026-06-02 18:21:48 [INFO] BOWL - Pet #140: requested 53 g but only 45 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:21:48 [INFO] SIM - [Tick 9] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 18:21:48 [INFO] BOWL - Pet #142: requested 334 g but only 286 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:21:48 [INFO] SIM - [Tick 9] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:21:48 [INFO] BOWL - Pet #150: requested 261 g but only 224 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:21:48 [INFO] SIM - [Tick 9] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:21:48 [INFO] SIM - [Tick 9] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 18:21:49 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-06-02 18:21:49 [INFO] SIM - [Tick 10] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:21:49 [INFO] SIM - [Tick 10] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 18:21:54 [INFO] SIM - [Tick 11] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:21:54 [INFO] SIM - [Tick 11] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:21:54 [INFO] SIM - [Tick 11] Feeding: Buddy (#152) (58 -> 10, 167.5g)
+2026-06-02 18:21:55 [INFO] SIM - [Tick 12] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:21:55 [INFO] SIM - [Tick 12] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 18:21:55 [INFO] SIM - [Tick 12] Feeding: Kiwi (#153) (60 -> 10, 7.5g)
+2026-06-02 18:21:55 [INFO] SIM - [Tick 13] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 18:21:55 [INFO] SIM - [Tick 13] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:21:55 [INFO] SIM - [Tick 13] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:21:55 [INFO] SIM - [Tick 13] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 18:21:55 [INFO] SIM - [Tick 13] Feeding: Loki (#154) (60 -> 10, 74.6g)
+2026-06-02 18:21:56 [INFO] SIM - [Tick 14] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:21:56 [INFO] SIM - [Tick 14] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 18:21:56 [INFO] SIM - [Tick 15] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:21:56 [INFO] SIM - [Tick 15] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:21:56 [INFO] SIM - [Tick 15] Feeding: Buddy (#152) (58 -> 10, 167.5g)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 16] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 16] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 16] Feeding: Kiwi (#153) (58 -> 10, 7.5g)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 17] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 17] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 17] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 17] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 17] Feeding: Loki (#154) (58 -> 10, 74.6g)
+2026-06-02 18:22:02 [INFO] SHELTER - Added pet #155 (Exotic Echo)
+2026-06-02 18:22:02 [INFO] SIM - [Tick 17] Animal Arrived: Exotic Echo, age 10, weight 8.0kg (New intake)
+2026-06-02 18:22:03 [INFO] BOWL - Pet #133: requested 104 g but only 89 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:03 [INFO] SIM - [Tick 18] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:22:03 [INFO] BOWL - Pet #143: requested 198 g but only 170 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:03 [INFO] SIM - [Tick 18] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 18:22:03 [INFO] SHELTER - Removed pet #143 (Charlie)
+2026-06-02 18:22:03 [INFO] SIM - [Tick 18] Animal Adopted: Charlie (#143) found a new home (Matched with an adopter)
+2026-06-02 18:22:03 [INFO] BOWL - Pet #147: requested 214 g but only 183 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:03 [INFO] SIM - [Tick 19] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:22:03 [INFO] BOWL - Pet #148: requested 176 g but only 151 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:03 [INFO] SIM - [Tick 19] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:22:03 [INFO] BOWL - Pet #152: requested 167 g but only 143 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:03 [INFO] SIM - [Tick 19] Feeding: Buddy (#152) (58 -> 10, 167.5g)
+2026-06-02 18:22:04 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-06-02 18:22:04 [INFO] SIM - [Tick 20] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:22:04 [INFO] SIM - [Tick 20] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 18:22:04 [INFO] SIM - [Tick 20] Feeding: Kiwi (#153) (58 -> 10, 7.5g)
+2026-06-02 18:22:09 [INFO] SIM - [Tick 21] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 18:22:09 [INFO] SIM - [Tick 21] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:22:09 [INFO] SIM - [Tick 21] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:22:09 [INFO] SIM - [Tick 21] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 18:22:09 [INFO] SIM - [Tick 21] Feeding: Loki (#154) (58 -> 10, 74.6g)
+2026-06-02 18:22:10 [INFO] SIM - [Tick 22] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:22:10 [INFO] SIM - [Tick 22] Feeding: Echo (#155) (60 -> 10, 55.7g)
+2026-06-02 18:22:10 [INFO] SIM - [Tick 23] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:22:10 [INFO] SIM - [Tick 23] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:22:10 [INFO] SIM - [Tick 23] Feeding: Buddy (#152) (58 -> 10, 167.5g)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 24] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 24] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 24] Feeding: Kiwi (#153) (58 -> 10, 7.5g)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 25] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 25] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 25] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 25] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 25] Feeding: Loki (#154) (58 -> 10, 74.6g)
+2026-06-02 18:22:11 [INFO] SHELTER - Removed pet #152 (Buddy)
+2026-06-02 18:22:11 [INFO] SIM - [Tick 25] Animal Adopted: Buddy (#152) found a new home (Matched with an adopter)
+2026-06-02 18:22:17 [INFO] SIM - [Tick 26] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:22:17 [INFO] SIM - [Tick 26] Feeding: Echo (#155) (58 -> 10, 55.7g)
+2026-06-02 18:22:17 [INFO] SIM - [Tick 27] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:22:17 [INFO] SIM - [Tick 27] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:22:18 [INFO] BOWL - Pet #146: requested 154 g but only 132 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:18 [INFO] SIM - [Tick 28] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:22:18 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 18:22:18 [WARNING] BOWL - Pet #153: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-06-02 18:22:18 [INFO] BOWL - Pet #140: requested 53 g but only 45 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:18 [INFO] SIM - [Tick 29] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 18:22:18 [INFO] BOWL - Pet #142: requested 334 g but only 286 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:18 [INFO] SIM - [Tick 29] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:22:18 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 18:22:18 [INFO] BOWL - Pet #150: requested 261 g but only 224 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:18 [INFO] SIM - [Tick 29] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:22:18 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 18:22:18 [WARNING] BOWL - Pet #153: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-06-02 18:22:18 [INFO] BOWL - Pet #154: requested 74 g but only 63 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:18 [INFO] SIM - [Tick 29] Feeding: Loki (#154) (58 -> 10, 74.6g)
+2026-06-02 18:22:18 [INFO] SHELTER - Removed pet #140 (Murka)
+2026-06-02 18:22:18 [INFO] SIM - [Tick 29] Animal Adopted: Murka (#140) found a new home (Matched with an adopter)
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] SmartBowl: daily counters reset for all bowls.
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Health Update: Sky (#149) (100 -> 93) - critical hunger
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Health Update: Kiwi (#153) (100 -> 93) - critical hunger
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Feeding: Sky (#149) (82 -> 10, 15.1g)
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Feeding: Kesha (#151) (70 -> 10, 10.5g)
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Feeding: Kiwi (#153) (82 -> 10, 7.5g)
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Feeding: Echo (#155) (58 -> 10, 55.7g)
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Nora: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Luna: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Max: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Buddy: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Charlie: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Sky: health 93/100, well fed, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Charlie: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Kesha: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Kiwi: health 93/100, well fed, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Loki: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 18:22:19 [INFO] SIM - [Tick 30] Vet report for Echo: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 18:22:24 [INFO] SIM - [Tick 31] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:22:24 [INFO] SIM - [Tick 31] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:22:25 [INFO] SIM - [Tick 32] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-06-02 18:22:25 [INFO] SIM - [Tick 32] RECOVERY: Kiwi (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-06-02 18:22:25 [INFO] SIM - [Tick 32] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:22:25 [INFO] SIM - [Tick 33] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:22:25 [INFO] SIM - [Tick 33] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:22:25 [INFO] SIM - [Tick 33] Feeding: Loki (#154) (58 -> 10, 74.6g)
+2026-06-02 18:22:26 [INFO] SIM - [Tick 34] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:22:26 [INFO] SIM - [Tick 34] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 18:22:26 [INFO] SIM - [Tick 34] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 18:22:26 [INFO] SIM - [Tick 34] Feeding: Kiwi (#153) (58 -> 10, 7.5g)
+2026-06-02 18:22:26 [INFO] SIM - [Tick 34] Feeding: Echo (#155) (58 -> 10, 55.7g)
+2026-06-02 18:22:26 [INFO] SIM - [Tick 35] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:22:26 [INFO] SIM - [Tick 35] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:22:32 [INFO] SIM - [Tick 36] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-06-02 18:22:32 [INFO] SIM - [Tick 36] RECOVERY: Kiwi (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-06-02 18:22:32 [INFO] SIM - [Tick 36] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:22:33 [INFO] SIM - [Tick 37] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 18:22:33 [INFO] SIM - [Tick 37] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 18:22:33 [INFO] SIM - [Tick 37] Feeding: Loki (#154) (58 -> 10, 74.6g)
+2026-06-02 18:22:33 [INFO] BOWL - Pet #133: requested 104 g but only 89 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:33 [INFO] SIM - [Tick 38] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 18:22:33 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 18:22:33 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 18:22:33 [WARNING] BOWL - Pet #153: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-06-02 18:22:33 [INFO] BOWL - Pet #155: requested 55 g but only 47 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:33 [INFO] SIM - [Tick 38] Feeding: Echo (#155) (58 -> 10, 55.7g)
+2026-06-02 18:22:34 [INFO] BOWL - Pet #147: requested 214 g but only 183 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:34 [INFO] SIM - [Tick 39] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 18:22:34 [INFO] BOWL - Pet #148: requested 176 g but only 151 g remaining for today. Dispensing remaining amount.
+2026-06-02 18:22:34 [INFO] SIM - [Tick 39] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 18:22:34 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 18:22:34 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 18:22:34 [WARNING] BOWL - Pet #153: daily limit 15 g reached (consumed 15 g, requested 7 g). Feeding blocked.
+2026-06-02 18:22:34 [INFO] SIM - [Tick 40] SmartBowl: daily counters reset for all bowls.
+2026-06-02 18:22:34 [INFO] SIM - [Tick 40] Health Update: Sky (#149) (95 -> 88) - critical hunger
+2026-06-02 18:22:34 [INFO] SIM - [Tick 40] Health Update: Kesha (#151) (100 -> 93) - critical hunger
+2026-06-02 18:22:34 [INFO] SIM - [Tick 40] Health Update: Kiwi (#153) (95 -> 88) - critical hunger
+2026-06-02 18:22:34 [INFO] SIM - [Tick 40] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 18:22:34 [INFO] SIM - [Tick 40] Feeding: Sky (#149) (82 -> 10, 15.1g)
+2026-06-02 18:22:34 [INFO] SIM - [Tick 40] Feeding: Kesha (#151) (82 -> 10, 10.5g)
+2026-06-02 18:22:34 [INFO] SIM - [Tick 40] Feeding: Kiwi (#153) (82 -> 10, 7.5g)
+2026-06-02 18:22:40 [INFO] SIM - [Tick 40] Simulation finished.
+2026-06-02 19:06:46 [INFO] SIM - [Tick 0] Simulation started.
+2026-06-02 19:06:46 [INFO] SIM - [Tick 1] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 19:06:46 [INFO] SIM - [Tick 1] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:06:46 [INFO] SIM - [Tick 1] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 19:06:46 [INFO] SIM - [Tick 2] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:06:46 [INFO] SIM - [Tick 2] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 19:06:47 [INFO] SIM - [Tick 3] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:06:47 [INFO] SIM - [Tick 3] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:06:47 [INFO] SIM - [Tick 3] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 19:06:52 [INFO] SIM - [Tick 4] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:06:52 [INFO] SIM - [Tick 4] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:06:53 [INFO] SIM - [Tick 5] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 19:06:53 [INFO] SIM - [Tick 5] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:06:53 [INFO] SIM - [Tick 5] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 19:06:53 [INFO] SIM - [Tick 5] Feeding: Kesha (#151) (60 -> 10, 10.5g)
+2026-06-02 19:06:53 [INFO] SIM - [Tick 6] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:06:53 [INFO] SIM - [Tick 6] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 19:06:59 [INFO] SIM - [Tick 7] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:06:59 [INFO] SIM - [Tick 7] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:06:59 [INFO] SIM - [Tick 7] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 19:06:59 [INFO] SIM - [Tick 8] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:06:59 [INFO] SIM - [Tick 8] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:07:00 [INFO] BOWL - Pet #140: requested 53 g but only 45 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:07:00 [INFO] SIM - [Tick 9] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 19:07:00 [INFO] BOWL - Pet #142: requested 334 g but only 286 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:07:00 [INFO] SIM - [Tick 9] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:07:00 [INFO] BOWL - Pet #150: requested 261 g but only 224 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:07:00 [INFO] SIM - [Tick 9] Feeding: Charlie (#150) (58 -> 10, 261.4g)
+2026-06-02 19:07:00 [INFO] SIM - [Tick 9] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:07:05 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:07:05 [INFO] SIM - [Tick 10] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:07:05 [INFO] SIM - [Tick 10] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 19:07:06 [INFO] SIM - [Tick 11] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:07:06 [INFO] SIM - [Tick 11] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:07:06 [INFO] SIM - [Tick 11] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 19:07:06 [INFO] SIM - [Tick 12] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:07:06 [INFO] SIM - [Tick 12] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:07:06 [INFO] SHELTER - Removed pet #150 (Charlie)
+2026-06-02 19:07:06 [INFO] SIM - [Tick 12] Animal Adopted: Charlie (#150) found a new home (Matched with an adopter)
+2026-06-02 19:07:12 [INFO] SIM - [Tick 13] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 19:07:12 [INFO] SIM - [Tick 13] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:07:12 [INFO] SIM - [Tick 13] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:07:12 [INFO] SIM - [Tick 14] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:07:12 [INFO] SIM - [Tick 14] Feeding: Charlie (#143) (58 -> 10, 198.8g)
+2026-06-02 19:07:13 [INFO] SIM - [Tick 15] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:07:13 [INFO] SIM - [Tick 15] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:07:13 [INFO] SIM - [Tick 15] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 19:07:19 [INFO] SIM - [Tick 16] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:07:19 [INFO] SIM - [Tick 16] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:07:19 [INFO] SHELTER - Removed pet #143 (Charlie)
+2026-06-02 19:07:19 [INFO] SIM - [Tick 16] Animal Adopted: Charlie (#143) found a new home (Matched with an adopter)
+2026-06-02 19:07:19 [INFO] SIM - [Tick 17] Feeding: Murka (#140) (58 -> 10, 53.4g)
+2026-06-02 19:07:19 [INFO] SIM - [Tick 17] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:07:19 [INFO] SIM - [Tick 17] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:07:19 [INFO] SHELTER - Added pet #152 (Cat Misty)
+2026-06-02 19:07:19 [INFO] DIET - Health issue registered for Misty (#152): diabetes
+2026-06-02 19:07:19 [INFO] DIET - Health issue registered for Misty (#152): underweight
+2026-06-02 19:07:19 [INFO] SIM - [Tick 17] Animal Arrived: Cat Misty, age 7, weight 3.5kg, diseases: diabetes, underweight (New intake)
+2026-06-02 19:07:20 [INFO] BOWL - Pet #133: requested 104 g but only 89 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:07:20 [INFO] SIM - [Tick 18] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:07:25 [INFO] BOWL - Pet #144: requested 90 g but only 77 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:07:25 [INFO] SIM - [Tick 19] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:07:25 [INFO] BOWL - Pet #147: requested 214 g but only 183 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:07:25 [INFO] SIM - [Tick 19] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:07:25 [INFO] BOWL - Pet #148: requested 176 g but only 151 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:07:25 [INFO] SIM - [Tick 19] Feeding: Charlie (#148) (58 -> 10, 176.6g)
+2026-06-02 19:07:25 [INFO] SHELTER - Added pet #153 (Bird Rio)
+2026-06-02 19:07:25 [INFO] DIET - Health issue registered for Rio (#153): underweight
+2026-06-02 19:07:25 [INFO] SIM - [Tick 19] Animal Arrived: Bird Rio, age 7, weight 1.1kg, diseases: underweight (New intake)
+2026-06-02 19:07:26 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:07:26 [INFO] SIM - [Tick 20] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:07:26 [INFO] SIM - [Tick 20] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:07:26 [INFO] SHELTER - Removed pet #140 (Murka)
+2026-06-02 19:07:26 [INFO] SIM - [Tick 20] Animal Adopted: Murka (#140) found a new home (Matched with an adopter)
+2026-06-02 19:07:26 [INFO] SIM - [Tick 20] Simulation finished.
+2026-06-02 19:08:22 [INFO] SIM - [Tick 0] Simulation started.
+2026-06-02 19:08:22 [INFO] SIM - [Tick 1] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:08:22 [INFO] SIM - [Tick 1] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:08:22 [INFO] SHELTER - Removed pet #148 (Charlie)
+2026-06-02 19:08:22 [INFO] SIM - [Tick 1] Animal Adopted: Charlie (#148) found a new home (Matched with an adopter)
+2026-06-02 19:08:23 [INFO] SIM - [Tick 2] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:08:23 [INFO] SIM - [Tick 2] Feeding: Misty (#152) (60 -> 10, 53.3g)
+2026-06-02 19:08:23 [INFO] SIM - [Tick 3] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:08:23 [INFO] SIM - [Tick 3] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:08:24 [INFO] SIM - [Tick 4] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:08:24 [INFO] SIM - [Tick 4] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:08:24 [INFO] SIM - [Tick 4] Feeding: Rio (#153) (60 -> 10, 9.7g)
+2026-06-02 19:08:24 [INFO] SIM - [Tick 5] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:08:24 [INFO] SIM - [Tick 5] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:08:30 [INFO] SIM - [Tick 6] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:08:30 [INFO] SIM - [Tick 6] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:08:30 [INFO] SIM - [Tick 7] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:08:30 [INFO] SIM - [Tick 7] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:08:31 [INFO] SIM - [Tick 8] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:08:31 [INFO] SIM - [Tick 8] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:08:31 [INFO] SIM - [Tick 8] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:08:31 [INFO] MEDICAL - Added vaccination for pet ID: 149
+2026-06-02 19:08:31 [INFO] SIM - [Tick 8] Vaccination: Sky (#149) received Avian Flu on 2026-06-02 (Routine vaccination)
+2026-06-02 19:08:31 [INFO] BOWL - Pet #142: requested 334 g but only 286 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:08:31 [INFO] SIM - [Tick 9] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:08:31 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:08:31 [INFO] SHELTER - Added pet #154 (Cat Loki)
+2026-06-02 19:08:31 [INFO] DIET - Health issue registered for Loki (#154): underweight
+2026-06-02 19:08:31 [INFO] DIET - Health issue registered for Loki (#154): obesity
+2026-06-02 19:08:31 [INFO] SIM - [Tick 9] Animal Arrived: Cat Loki, age 11, weight 5.1kg, diseases: underweight, obesity (New intake)
+2026-06-02 19:08:32 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:08:32 [INFO] SIM - [Tick 10] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:08:32 [INFO] SIM - [Tick 10] Feeding: Kesha (#151) (70 -> 10, 10.5g)
+2026-06-02 19:08:32 [INFO] SIM - [Tick 10] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:08:37 [INFO] SIM - [Tick 11] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:08:37 [INFO] SIM - [Tick 11] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:08:38 [INFO] SIM - [Tick 12] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:08:38 [INFO] SIM - [Tick 12] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:08:38 [INFO] SIM - [Tick 12] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:08:39 [INFO] SIM - [Tick 13] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:08:39 [INFO] SIM - [Tick 14] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:08:39 [INFO] SIM - [Tick 14] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:08:39 [INFO] SIM - [Tick 14] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:08:39 [INFO] SIM - [Tick 14] Feeding: Loki (#154) (60 -> 10, 89.2g)
+2026-06-02 19:08:39 [INFO] SHELTER - Added pet #155 (Bird Rio)
+2026-06-02 19:08:39 [INFO] DIET - Health issue registered for Rio (#155): obesity
+2026-06-02 19:08:39 [INFO] DIET - Health issue registered for Rio (#155): diabetes
+2026-06-02 19:08:39 [INFO] DIET - Health issue registered for Rio (#155): kidney_disease
+2026-06-02 19:08:39 [INFO] DIET - Health issue registered for Rio (#155): underweight
+2026-06-02 19:08:39 [INFO] SIM - [Tick 14] Animal Arrived: Bird Rio, age 5, weight 1.9kg, diseases: obesity, diabetes, kidney_disease, underweight (New intake)
+2026-06-02 19:08:40 [INFO] SIM - [Tick 15] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:08:40 [INFO] SIM - [Tick 15] Feeding: Buddy (#147) (58 -> 10, 214.6g)
+2026-06-02 19:08:45 [INFO] SIM - [Tick 16] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:08:45 [INFO] SIM - [Tick 16] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:08:45 [INFO] SIM - [Tick 16] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:08:46 [INFO] SIM - [Tick 17] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:08:46 [INFO] BOWL - Pet #133: requested 104 g but only 89 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:08:46 [INFO] SIM - [Tick 18] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:08:46 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:08:46 [INFO] BOWL - Pet #152: requested 53 g but only 45 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:08:46 [INFO] SIM - [Tick 18] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:08:46 [INFO] SIM - [Tick 18] Feeding: Loki (#154) (58 -> 10, 89.2g)
+2026-06-02 19:08:46 [INFO] SHELTER - Removed pet #147 (Buddy)
+2026-06-02 19:08:46 [INFO] SIM - [Tick 18] Animal Adopted: Buddy (#147) found a new home (Matched with an adopter)
+2026-06-02 19:08:47 [INFO] BOWL - Pet #144: requested 90 g but only 77 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:08:47 [INFO] SIM - [Tick 19] Feeding: Milo (#144) (58 -> 10, 90.3g)
+2026-06-02 19:08:47 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:08:47 [INFO] SIM - [Tick 19] Feeding: Rio (#155) (60 -> 10, 13.5g)
+2026-06-02 19:08:47 [INFO] SHELTER - Removed pet #154 (Loki)
+2026-06-02 19:08:47 [INFO] SIM - [Tick 19] Animal Adopted: Loki (#154) found a new home (Matched with an adopter)
+2026-06-02 19:08:47 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:08:47 [INFO] SIM - [Tick 20] Health Update: Kesha (#151) (100 -> 93) - critical hunger
+2026-06-02 19:08:47 [INFO] SIM - [Tick 20] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:08:47 [INFO] SIM - [Tick 20] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:08:47 [INFO] SIM - [Tick 20] Feeding: Kesha (#151) (82 -> 10, 10.5g)
+2026-06-02 19:08:47 [INFO] SIM - [Tick 20] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:08:53 [INFO] SIM - [Tick 21] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:08:53 [INFO] SHELTER - Removed pet #144 (Milo)
+2026-06-02 19:08:53 [INFO] SIM - [Tick 21] Animal Adopted: Milo (#144) found a new home (Matched with an adopter)
+2026-06-02 19:08:53 [INFO] SIM - [Tick 22] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-06-02 19:08:53 [INFO] SIM - [Tick 22] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:08:53 [INFO] SIM - [Tick 22] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:08:54 [INFO] SIM - [Tick 23] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:08:54 [INFO] SIM - [Tick 24] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:08:54 [INFO] SIM - [Tick 24] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:08:54 [INFO] SIM - [Tick 24] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:08:54 [INFO] SIM - [Tick 24] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:08:54 [INFO] SHELTER - Added pet #156 (Bird Sky)
+2026-06-02 19:08:54 [INFO] DIET - Health issue registered for Sky (#156): diabetes
+2026-06-02 19:08:54 [INFO] SIM - [Tick 24] Animal Arrived: Bird Sky, age 7, weight 1.7kg, diseases: diabetes (New intake)
+2026-06-02 19:08:55 [INFO] SIM - [Tick 25] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:09:00 [INFO] SIM - [Tick 26] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-06-02 19:09:00 [INFO] SIM - [Tick 26] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:09:00 [INFO] SIM - [Tick 26] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:09:00 [INFO] VET - Vet report for Nora: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 19:09:00 [WARNING] VET - Nora needs vaccination follow-up.
+2026-06-02 19:09:00 [INFO] SIM - [Tick 26] Vet Check: Nora (#133) - Scheduled health review
+2026-06-02 19:09:01 [INFO] SIM - [Tick 27] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:09:01 [INFO] BOWL - Pet #146: requested 154 g but only 132 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:09:01 [INFO] SIM - [Tick 28] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:09:01 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 19:09:01 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:09:01 [WARNING] BOWL - Pet #153: daily limit 19 g reached (consumed 19 g, requested 9 g). Feeding blocked.
+2026-06-02 19:09:02 [INFO] BOWL - Pet #142: requested 334 g but only 286 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:09:02 [INFO] SIM - [Tick 29] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:09:02 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 19:09:02 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:09:02 [WARNING] BOWL - Pet #153: daily limit 19 g reached (consumed 19 g, requested 9 g). Feeding blocked.
+2026-06-02 19:09:02 [INFO] SIM - [Tick 29] Feeding: Sky (#156) (60 -> 10, 8.7g)
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Health Update: Sky (#149) (100 -> 93) - critical hunger
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Health Update: Kesha (#151) (95 -> 88) - critical hunger
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Health Update: Rio (#153) (100 -> 93) - critical hunger
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Feeding: Sky (#149) (82 -> 10, 15.1g)
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Feeding: Kesha (#151) (82 -> 10, 10.5g)
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Feeding: Rio (#153) (82 -> 10, 9.7g)
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Nora: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Luna: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Max: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Sky: health 93/100, well fed, vaccination current, stable
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Kesha: health 88/100, well fed, vaccination overdue, stable
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Misty: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Rio: health 93/100, well fed, vaccination overdue, stable
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Rio: health 100/100, needs a meal soon, vaccination overdue, stable
+2026-06-02 19:09:02 [INFO] SIM - [Tick 30] Vet report for Sky: health 100/100, well fed, vaccination overdue, stable
+2026-06-02 19:09:08 [INFO] SIM - [Tick 31] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:09:08 [INFO] SIM - [Tick 32] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-06-02 19:09:08 [INFO] SIM - [Tick 32] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 88 -> 89
+2026-06-02 19:09:08 [INFO] SIM - [Tick 32] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-06-02 19:09:08 [INFO] SIM - [Tick 32] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:09:09 [INFO] SIM - [Tick 33] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:09:09 [INFO] SIM - [Tick 33] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:09:09 [INFO] SHELTER - Added pet #157 (Cat Lily)
+2026-06-02 19:09:09 [INFO] DIET - Health issue registered for Lily (#157): obesity
+2026-06-02 19:09:09 [INFO] SIM - [Tick 33] Animal Arrived: Cat Lily, age 10, weight 5.7kg, diseases: obesity (New intake)
+2026-06-02 19:09:09 [INFO] SIM - [Tick 34] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:09:09 [INFO] SIM - [Tick 34] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:09:09 [INFO] SIM - [Tick 34] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:09:09 [INFO] SIM - [Tick 34] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:09:09 [INFO] SIM - [Tick 34] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:09:10 [INFO] SIM - [Tick 35] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:09:15 [INFO] SIM - [Tick 36] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-06-02 19:09:15 [INFO] SIM - [Tick 36] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 89 -> 90
+2026-06-02 19:09:15 [INFO] SIM - [Tick 36] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-06-02 19:09:15 [INFO] SIM - [Tick 36] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:09:16 [INFO] SIM - [Tick 37] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:09:16 [INFO] SIM - [Tick 37] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:09:16 [INFO] BOWL - Pet #133: requested 104 g but only 89 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:09:16 [INFO] SIM - [Tick 38] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:09:16 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 19:09:16 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:09:16 [INFO] BOWL - Pet #152: requested 53 g but only 45 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:09:16 [INFO] SIM - [Tick 38] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:09:16 [WARNING] BOWL - Pet #153: daily limit 19 g reached (consumed 19 g, requested 9 g). Feeding blocked.
+2026-06-02 19:09:16 [INFO] SIM - [Tick 38] Feeding: Lily (#157) (60 -> 10, 67.7g)
+2026-06-02 19:09:16 [INFO] SHELTER - Added pet #158 (Cat Nora)
+2026-06-02 19:09:16 [INFO] DIET - Health issue registered for Nora (#158): kidney_disease
+2026-06-02 19:09:16 [INFO] DIET - Health issue registered for Nora (#158): underweight
+2026-06-02 19:09:16 [INFO] SIM - [Tick 38] Animal Arrived: Cat Nora, age 1, weight 3.5kg, diseases: kidney_disease, underweight (New intake)
+2026-06-02 19:09:17 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 19:09:17 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:09:17 [WARNING] BOWL - Pet #153: daily limit 19 g reached (consumed 19 g, requested 9 g). Feeding blocked.
+2026-06-02 19:09:17 [WARNING] BOWL - Pet #155: daily limit 26 g reached (consumed 26 g, requested 13 g). Feeding blocked.
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] Health Update: Sky (#149) (95 -> 88) - critical hunger
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] Health Update: Kesha (#151) (90 -> 83) - critical hunger
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] Health Update: Rio (#153) (95 -> 88) - critical hunger
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] Feeding: Sky (#149) (82 -> 10, 15.1g)
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] Feeding: Kesha (#151) (82 -> 10, 10.5g)
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] Feeding: Rio (#153) (82 -> 10, 9.7g)
+2026-06-02 19:09:17 [INFO] SIM - [Tick 40] Feeding: Rio (#155) (70 -> 10, 13.5g)
+2026-06-02 19:09:23 [INFO] SIM - [Tick 41] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:09:23 [INFO] SIM - [Tick 41] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:09:23 [INFO] MEDICAL - Added vaccination for pet ID: 152
+2026-06-02 19:09:23 [INFO] SIM - [Tick 41] Vaccination: Misty (#152) received Feline Distemper on 2026-06-02 (Routine vaccination)
+2026-06-02 19:09:23 [INFO] SIM - [Tick 42] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 88 -> 89
+2026-06-02 19:09:23 [INFO] SIM - [Tick 42] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 83 -> 84
+2026-06-02 19:09:23 [INFO] SIM - [Tick 42] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 88 -> 89
+2026-06-02 19:09:23 [INFO] SIM - [Tick 42] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:09:23 [INFO] SIM - [Tick 42] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:09:23 [INFO] SIM - [Tick 42] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:09:24 [INFO] SIM - [Tick 43] Feeding: Nora (#158) (60 -> 10, 58.4g)
+2026-06-02 19:09:24 [INFO] SIM - [Tick 44] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:09:24 [INFO] SIM - [Tick 44] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:09:24 [INFO] SIM - [Tick 44] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:09:24 [INFO] SIM - [Tick 44] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:09:24 [INFO] SIM - [Tick 44] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:09:25 [INFO] SIM - [Tick 45] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:09:25 [INFO] SIM - [Tick 45] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:09:30 [INFO] SIM - [Tick 46] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 89 -> 90
+2026-06-02 19:09:30 [INFO] SIM - [Tick 46] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 84 -> 85
+2026-06-02 19:09:30 [INFO] SIM - [Tick 46] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 89 -> 90
+2026-06-02 19:09:30 [INFO] SIM - [Tick 46] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:09:30 [INFO] SIM - [Tick 46] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:09:30 [INFO] SIM - [Tick 46] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:09:30 [INFO] SHELTER - Added pet #159 (Dog Buddy)
+2026-06-02 19:09:30 [INFO] SIM - [Tick 46] Animal Arrived: Dog Buddy, age 8, weight 22.0kg, diseases: none (New intake)
+2026-06-02 19:09:31 [INFO] SIM - [Tick 47] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:09:31 [INFO] BOWL - Pet #146: requested 154 g but only 132 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:09:31 [INFO] SIM - [Tick 48] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:09:31 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 19:09:31 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:09:31 [WARNING] BOWL - Pet #153: daily limit 19 g reached (consumed 19 g, requested 9 g). Feeding blocked.
+2026-06-02 19:09:31 [WARNING] BOWL - Pet #155: daily limit 26 g reached (consumed 26 g, requested 13 g). Feeding blocked.
+2026-06-02 19:09:32 [INFO] BOWL - Pet #142: requested 334 g but only 286 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:09:32 [INFO] SIM - [Tick 49] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:09:32 [WARNING] BOWL - Pet #149: daily limit 30 g reached (consumed 30 g, requested 15 g). Feeding blocked.
+2026-06-02 19:09:32 [WARNING] BOWL - Pet #151: daily limit 20 g reached (consumed 20 g, requested 10 g). Feeding blocked.
+2026-06-02 19:09:32 [WARNING] BOWL - Pet #153: daily limit 19 g reached (consumed 19 g, requested 9 g). Feeding blocked.
+2026-06-02 19:09:32 [WARNING] BOWL - Pet #155: daily limit 26 g reached (consumed 26 g, requested 13 g). Feeding blocked.
+2026-06-02 19:09:32 [WARNING] BOWL - Pet #156: daily limit 17 g reached (consumed 17 g, requested 8 g). Feeding blocked.
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Health Update: Sky (#149) (90 -> 83) - critical hunger
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Health Update: Kesha (#151) (85 -> 78) - critical hunger
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Health Update: Rio (#153) (90 -> 83) - critical hunger
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Health Update: Rio (#155) (100 -> 93) - critical hunger
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Feeding: Sky (#149) (82 -> 10, 15.1g)
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Feeding: Kesha (#151) (82 -> 10, 10.5g)
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Feeding: Rio (#153) (82 -> 10, 9.7g)
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Feeding: Rio (#155) (82 -> 10, 13.5g)
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Feeding: Sky (#156) (70 -> 10, 8.7g)
+2026-06-02 19:09:32 [INFO] SIM - [Tick 50] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:09:38 [INFO] SIM - [Tick 50] Simulation finished.
+2026-06-02 19:10:35 [INFO] SIM - [Tick 0] Simulation started.
+2026-06-02 19:10:35 [INFO] SIM - [Tick 1] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:10:35 [INFO] SIM - [Tick 1] Feeding: Buddy (#159) (60 -> 10, 231.1g)
+2026-06-02 19:10:41 [INFO] SIM - [Tick 2] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 83 -> 84
+2026-06-02 19:10:41 [INFO] SIM - [Tick 2] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 78 -> 79
+2026-06-02 19:10:41 [INFO] SIM - [Tick 2] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 83 -> 84
+2026-06-02 19:10:41 [INFO] SIM - [Tick 2] RECOVERY: Rio (#155) recovered after 2 consecutive low-hunger ticks (22%). Health: 93 -> 94
+2026-06-02 19:10:41 [INFO] SIM - [Tick 2] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:10:46 [INFO] SIM - [Tick 3] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:10:52 [INFO] SIM - [Tick 4] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:10:52 [INFO] SIM - [Tick 4] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:10:52 [INFO] SIM - [Tick 4] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:10:52 [INFO] SIM - [Tick 4] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:10:52 [INFO] SIM - [Tick 4] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:10:52 [INFO] SIM - [Tick 4] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:10:52 [INFO] SIM - [Tick 4] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:10:52 [INFO] SIM - [Tick 4] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:10:58 [INFO] SIM - [Tick 5] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:10:58 [INFO] SIM - [Tick 5] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:11:03 [INFO] SIM - [Tick 6] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 84 -> 85
+2026-06-02 19:11:03 [INFO] SIM - [Tick 6] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 79 -> 80
+2026-06-02 19:11:03 [INFO] SIM - [Tick 6] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 84 -> 85
+2026-06-02 19:11:03 [INFO] SIM - [Tick 6] RECOVERY: Rio (#155) recovered after 2 consecutive low-hunger ticks (22%). Health: 94 -> 95
+2026-06-02 19:11:03 [INFO] SIM - [Tick 6] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:11:09 [INFO] SIM - [Tick 7] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:11:14 [INFO] SIM - [Tick 8] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:11:14 [INFO] SIM - [Tick 8] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:11:14 [INFO] SIM - [Tick 8] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:11:14 [INFO] SIM - [Tick 8] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:11:14 [INFO] SIM - [Tick 8] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:11:14 [INFO] SIM - [Tick 8] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:11:14 [INFO] SIM - [Tick 8] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:11:14 [INFO] SIM - [Tick 8] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:11:20 [INFO] BOWL - Pet #158: requested 58 g but only 50 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:11:20 [INFO] SIM - [Tick 9] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:11:20 [INFO] BOWL - Pet #159: requested 231 g but only 198 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:11:20 [INFO] SIM - [Tick 9] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:11:25 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:11:25 [INFO] SIM - [Tick 10] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 85 -> 86
+2026-06-02 19:11:25 [INFO] SIM - [Tick 10] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 80 -> 81
+2026-06-02 19:11:25 [INFO] SIM - [Tick 10] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 85 -> 86
+2026-06-02 19:11:25 [INFO] SIM - [Tick 10] RECOVERY: Rio (#155) recovered after 2 consecutive low-hunger ticks (22%). Health: 95 -> 96
+2026-06-02 19:11:25 [INFO] SIM - [Tick 10] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:11:25 [INFO] SHELTER - Added pet #160 (Dog Rocky)
+2026-06-02 19:11:25 [INFO] DIET - Health issue registered for Rocky (#160): obesity
+2026-06-02 19:11:25 [INFO] DIET - Health issue registered for Rocky (#160): diabetes
+2026-06-02 19:11:25 [INFO] DIET - Health issue registered for Rocky (#160): kidney_disease
+2026-06-02 19:11:25 [INFO] DIET - Health issue registered for Rocky (#160): underweight
+2026-06-02 19:11:25 [INFO] SIM - [Tick 10] Animal Arrived: Dog Rocky, age 8, weight 8.1kg, diseases: obesity, diabetes, kidney_disease, underweight (New intake)
+2026-06-02 19:11:31 [INFO] SIM - [Tick 11] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:11:36 [INFO] MEDICAL - Added vaccination for pet ID: 160
+2026-06-02 19:11:36 [INFO] SIM - [Tick 12] Vaccination: Rocky (#160) received Rabies on 2026-06-02 (Routine vaccination)
+2026-06-02 19:11:42 [INFO] SIM - [Tick 13] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:11:42 [INFO] SIM - [Tick 13] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:11:42 [INFO] SHELTER - Added pet #161 (Exotic Zuri)
+2026-06-02 19:11:42 [INFO] DIET - Health issue registered for Zuri (#161): kidney_disease
+2026-06-02 19:11:42 [INFO] SIM - [Tick 13] Animal Arrived: Exotic Zuri, age 8, weight 11.1kg, diseases: kidney_disease (New intake)
+2026-06-02 19:11:47 [INFO] SIM - [Tick 14] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 86 -> 87
+2026-06-02 19:11:47 [INFO] SIM - [Tick 14] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 81 -> 82
+2026-06-02 19:11:47 [INFO] SIM - [Tick 14] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 86 -> 87
+2026-06-02 19:11:47 [INFO] SIM - [Tick 14] RECOVERY: Rio (#155) recovered after 2 consecutive low-hunger ticks (22%). Health: 96 -> 97
+2026-06-02 19:11:47 [INFO] SIM - [Tick 14] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:11:53 [INFO] SIM - [Tick 15] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:11:53 [INFO] SIM - [Tick 15] Feeding: Rocky (#160) (60 -> 10, 67.7g)
+2026-06-02 19:11:58 [INFO] SIM - [Tick 16] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:11:58 [INFO] SIM - [Tick 16] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:11:58 [INFO] SIM - [Tick 16] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:11:58 [INFO] SIM - [Tick 16] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:11:58 [INFO] SIM - [Tick 16] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:11:58 [INFO] SIM - [Tick 16] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:11:58 [INFO] SIM - [Tick 16] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:11:58 [INFO] SIM - [Tick 16] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:12:04 [INFO] SIM - [Tick 17] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:12:04 [INFO] SIM - [Tick 17] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:12:09 [INFO] SIM - [Tick 18] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 87 -> 88
+2026-06-02 19:12:09 [INFO] SIM - [Tick 18] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 82 -> 83
+2026-06-02 19:12:09 [INFO] SIM - [Tick 18] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 87 -> 88
+2026-06-02 19:12:09 [INFO] SIM - [Tick 18] RECOVERY: Rio (#155) recovered after 2 consecutive low-hunger ticks (22%). Health: 97 -> 98
+2026-06-02 19:12:09 [INFO] BOWL - Pet #146: requested 154 g but only 132 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:12:09 [INFO] SIM - [Tick 18] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:12:09 [INFO] SIM - [Tick 18] Feeding: Zuri (#161) (60 -> 10, 77.4g)
+2026-06-02 19:12:15 [INFO] BOWL - Pet #142: requested 334 g but only 286 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:12:15 [INFO] SIM - [Tick 19] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:12:15 [INFO] SIM - [Tick 19] Feeding: Rocky (#160) (58 -> 10, 67.7g)
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:12:20 [INFO] SIM - [Tick 20] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:12:26 [INFO] SIM - [Tick 20] Simulation finished.
+2026-06-02 19:25:48 [INFO] SIM - [Tick 0] Simulation started.
+2026-06-02 19:25:48 [INFO] SIM - [Tick 1] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:25:48 [INFO] SIM - [Tick 1] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:25:53 [INFO] SIM - [Tick 2] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 88 -> 89
+2026-06-02 19:25:53 [INFO] SIM - [Tick 2] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 83 -> 84
+2026-06-02 19:25:53 [INFO] SIM - [Tick 2] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 88 -> 89
+2026-06-02 19:25:53 [INFO] SIM - [Tick 2] RECOVERY: Rio (#155) recovered after 2 consecutive low-hunger ticks (22%). Health: 98 -> 99
+2026-06-02 19:25:53 [INFO] SIM - [Tick 2] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:25:53 [INFO] SIM - [Tick 2] Feeding: Zuri (#161) (58 -> 10, 77.4g)
+2026-06-02 19:25:59 [INFO] SIM - [Tick 3] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:25:59 [INFO] SIM - [Tick 3] Feeding: Rocky (#160) (58 -> 10, 67.7g)
+2026-06-02 19:26:04 [INFO] SIM - [Tick 4] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:26:04 [INFO] SIM - [Tick 4] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:26:04 [INFO] SIM - [Tick 4] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:26:04 [INFO] SIM - [Tick 4] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:26:04 [INFO] SIM - [Tick 4] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:26:04 [INFO] SIM - [Tick 4] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:26:04 [INFO] SIM - [Tick 4] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:26:04 [INFO] SIM - [Tick 4] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:26:10 [INFO] SIM - [Tick 5] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:26:10 [INFO] SIM - [Tick 5] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:26:15 [INFO] SIM - [Tick 6] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 89 -> 90
+2026-06-02 19:26:15 [INFO] SIM - [Tick 6] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 84 -> 85
+2026-06-02 19:26:15 [INFO] SIM - [Tick 6] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 89 -> 90
+2026-06-02 19:26:15 [INFO] SIM - [Tick 6] RECOVERY: Rio (#155) recovered after 2 consecutive low-hunger ticks (22%). Health: 99 -> 100
+2026-06-02 19:26:15 [INFO] SIM - [Tick 6] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:26:15 [INFO] SIM - [Tick 6] Feeding: Zuri (#161) (58 -> 10, 77.4g)
+2026-06-02 19:26:21 [INFO] SIM - [Tick 7] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:26:21 [INFO] SIM - [Tick 7] Feeding: Rocky (#160) (58 -> 10, 67.7g)
+2026-06-02 19:26:26 [INFO] SIM - [Tick 8] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:26:26 [INFO] SIM - [Tick 8] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:26:26 [INFO] SIM - [Tick 8] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:26:26 [INFO] SIM - [Tick 8] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:26:26 [INFO] SIM - [Tick 8] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:26:26 [INFO] SIM - [Tick 8] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:26:26 [INFO] SIM - [Tick 8] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:26:26 [INFO] SIM - [Tick 8] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:26:32 [INFO] BOWL - Pet #158: requested 58 g but only 50 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:26:32 [INFO] SIM - [Tick 9] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:26:32 [INFO] BOWL - Pet #159: requested 231 g but only 198 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:26:32 [INFO] SIM - [Tick 9] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:26:32 [INFO] VET - Vet report for Sky: health 90/100, well fed, vaccination current, stable
+2026-06-02 19:26:32 [INFO] SIM - [Tick 9] Vet Check: Sky (#149) - Scheduled health review
+2026-06-02 19:26:37 [INFO] SIM - [Tick 10] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:26:37 [INFO] SIM - [Tick 10] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 90 -> 91
+2026-06-02 19:26:37 [INFO] SIM - [Tick 10] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 85 -> 86
+2026-06-02 19:26:37 [INFO] SIM - [Tick 10] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 90 -> 91
+2026-06-02 19:26:37 [INFO] SIM - [Tick 10] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:26:37 [INFO] SIM - [Tick 10] Feeding: Zuri (#161) (58 -> 10, 77.4g)
+2026-06-02 19:26:43 [INFO] SIM - [Tick 11] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:26:43 [INFO] SIM - [Tick 11] Feeding: Rocky (#160) (58 -> 10, 67.7g)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:26:48 [INFO] SHELTER - Added pet #162 (Exotic Zuri)
+2026-06-02 19:26:48 [INFO] SIM - [Tick 12] Animal Arrived: Exotic Zuri, age 6, weight 5.8kg, diseases: none (New intake)
+2026-06-02 19:26:54 [INFO] SIM - [Tick 13] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:26:54 [INFO] SIM - [Tick 13] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:26:59 [INFO] SIM - [Tick 14] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 91 -> 92
+2026-06-02 19:26:59 [INFO] SIM - [Tick 14] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 86 -> 87
+2026-06-02 19:26:59 [INFO] SIM - [Tick 14] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 91 -> 92
+2026-06-02 19:26:59 [INFO] SIM - [Tick 14] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:26:59 [INFO] SIM - [Tick 14] Feeding: Zuri (#161) (58 -> 10, 77.4g)
+2026-06-02 19:27:05 [INFO] SIM - [Tick 15] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:27:05 [INFO] SIM - [Tick 15] Feeding: Rocky (#160) (58 -> 10, 67.7g)
+2026-06-02 19:27:11 [INFO] SIM - [Tick 16] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:27:11 [INFO] SIM - [Tick 16] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:27:11 [INFO] SIM - [Tick 16] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:27:11 [INFO] SIM - [Tick 16] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:27:11 [INFO] SIM - [Tick 16] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:27:11 [INFO] SIM - [Tick 16] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:27:11 [INFO] SIM - [Tick 16] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:27:11 [INFO] SIM - [Tick 16] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:27:16 [INFO] SIM - [Tick 17] Feeding: Nora (#158) (58 -> 10, 58.4g)
+2026-06-02 19:27:16 [INFO] SIM - [Tick 17] Feeding: Buddy (#159) (58 -> 10, 231.1g)
+2026-06-02 19:27:16 [INFO] SIM - [Tick 17] Feeding: Zuri (#162) (60 -> 10, 40.7g)
+2026-06-02 19:27:22 [INFO] SIM - [Tick 18] RECOVERY: Sky (#149) recovered after 2 consecutive low-hunger ticks (22%). Health: 92 -> 93
+2026-06-02 19:27:22 [INFO] SIM - [Tick 18] RECOVERY: Kesha (#151) recovered after 2 consecutive low-hunger ticks (22%). Health: 87 -> 88
+2026-06-02 19:27:22 [INFO] SIM - [Tick 18] RECOVERY: Rio (#153) recovered after 2 consecutive low-hunger ticks (22%). Health: 92 -> 93
+2026-06-02 19:27:22 [INFO] BOWL - Pet #146: requested 154 g but only 132 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:27:22 [INFO] SIM - [Tick 18] Feeding: Max (#146) (58 -> 10, 154.3g)
+2026-06-02 19:27:22 [INFO] BOWL - Pet #161: requested 77 g but only 66 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:27:22 [INFO] SIM - [Tick 18] Feeding: Zuri (#161) (58 -> 10, 77.4g)
+2026-06-02 19:27:27 [INFO] BOWL - Pet #142: requested 334 g but only 286 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:27:27 [INFO] SIM - [Tick 19] Feeding: Luna (#142) (58 -> 10, 334.8g)
+2026-06-02 19:27:27 [INFO] BOWL - Pet #160: requested 67 g but only 57 g remaining for today. Dispensing remaining amount.
+2026-06-02 19:27:27 [INFO] SIM - [Tick 19] Feeding: Rocky (#160) (58 -> 10, 67.7g)
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] SmartBowl: daily counters reset for all bowls.
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] Feeding: Nora (#133) (58 -> 10, 105.0g)
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] Feeding: Sky (#149) (58 -> 10, 15.1g)
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] Feeding: Kesha (#151) (58 -> 10, 10.5g)
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] Feeding: Misty (#152) (58 -> 10, 53.3g)
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] Feeding: Rio (#153) (58 -> 10, 9.7g)
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] Feeding: Rio (#155) (58 -> 10, 13.5g)
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] Feeding: Sky (#156) (58 -> 10, 8.7g)
+2026-06-02 19:27:33 [INFO] SIM - [Tick 20] Feeding: Lily (#157) (58 -> 10, 67.7g)
+2026-06-02 19:27:38 [INFO] SIM - [Tick 20] Simulation finished.
